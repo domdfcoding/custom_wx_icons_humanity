@@ -1,21 +1,21 @@
 ****************
-package_name
+custom_wx_icons
 ****************
 
-.. image:: https://travis-ci.com/domdfcoding/package_name.svg?branch=master
-    :target: https://travis-ci.com/domdfcoding/package_name
+.. image:: https://travis-ci.com/domdfcoding/custom_wx_icons.svg?branch=master
+    :target: https://travis-ci.com/domdfcoding/custom_wx_icons
     :alt: Build Status
-.. image:: https://readthedocs.org/projects/package_name/badge/?version=latest
-    :target: https://package_name.readthedocs.io/en/latest/?badge=latest
+.. image:: https://readthedocs.org/projects/custom_wx_icons/badge/?version=latest
+    :target: https://custom_wx_icons.readthedocs.io/en/latest/?badge=latest
     :alt: Documentation Status
-.. image:: https://img.shields.io/pypi/v/package_name.svg
-    :target: https://pypi.org/project/package_name/
+.. image:: https://img.shields.io/pypi/v/custom_wx_icons.svg
+    :target: https://pypi.org/project/custom_wx_icons/
     :alt: PyPI
-.. image:: https://img.shields.io/pypi/pyversions/package_name.svg
-    :target: https://pypi.org/project/package_name/
+.. image:: https://img.shields.io/pypi/pyversions/custom_wx_icons.svg
+    :target: https://pypi.org/project/custom_wx_icons/
     :alt: PyPI - Python Version
-.. image:: https://coveralls.io/repos/github/domdfcoding/package_name/badge.svg?branch=master
-    :target: https://coveralls.io/github/domdfcoding/package_name?branch=master
+.. image:: https://coveralls.io/repos/github/domdfcoding/custom_wx_icons/badge.svg?branch=master
+    :target: https://coveralls.io/github/domdfcoding/custom_wx_icons?branch=master
     :alt: Coverage
 
 

@@ -1,20 +1,20 @@
 **************************
-:mod:`package_name`
+:mod:`custom_wx_icons`
 **************************
 
 .. contents:: Table of Contents
 
-.. automodule:: package_name
+.. automodule:: custom_wx_icons
     :members:
     :private-members:
     :special-members:
 
 ===================================
-:mod:`package_name.__init__`
+:mod:`custom_wx_icons.__init__`
 ===================================
 
 
-.. automodule:: package_name.__init__
+.. automodule:: custom_wx_icons.__init__
     :members:
     :private-members:
     :special-members:

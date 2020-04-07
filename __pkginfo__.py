@@ -23,13 +23,13 @@ copyright = """
 
 VERSION = "0.1.0"
 
-modname = "package_name"
+modname = "custom_wx_icons"
 py_modules = None
 entry_points = None
 # py_modules         = [modname]
 # entry_points       = {
 #	'console_scripts': [
-#		'package_name=package_name:main',
+#		'custom_wx_icons=custom_wx_icons:main',
 #	]}
 
 license = 'GPL3'
