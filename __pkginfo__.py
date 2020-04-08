@@ -74,7 +74,7 @@ def prepare_data_files(modname, theme_name):
 	parser.read(theme_index_path)
 	
 	directories = parser.get("Icon Theme", "Directories").split(",")
-	
+
 	for directory in directories:
 		if directory:
 			base_path = theme_content_root

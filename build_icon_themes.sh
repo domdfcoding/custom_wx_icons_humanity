@@ -22,7 +22,7 @@ do
 
   # Build
   echo "Building source and wheel distributions"
-  python3 setup.py sdist bdist_wheel || exit
+  python3 setup.py sdist -q bdist_wheel || exit
 
   # Copy built files
   echo "Copying source and wheel distributions to ./dist"
