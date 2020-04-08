@@ -35,6 +35,7 @@ import sys
 import os
 
 sys.path.append(".")
+sys.path.append("..")
 sys.path.append("../hicolor")
 
 # this package

@@ -31,10 +31,11 @@ This takes around 15 minutes to run so be patient.
 
 
 # stdlib
-import sys
 import os
+import sys
 
 sys.path.append(".")
+sys.path.append("..")
 
 # this package
 from gnome_icon_builder import get_scalable_directories, main

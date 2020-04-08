@@ -29,10 +29,11 @@ Script to chop up SVGs into individual sizes
 
 
 # stdlib
-import sys
 import os
+import sys
 
 sys.path.append(".")
+sys.path.append("..")
 sys.path.append("../hicolor")
 sys.path.append("../adwaita")
 sys.path.append("../humanity")
