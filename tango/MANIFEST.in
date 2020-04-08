@@ -1,0 +1,3 @@
+include __pkginfo__.py
+include requirements.txt
+recursive-include wx_icons_tango *

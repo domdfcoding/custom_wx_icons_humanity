@@ -74,9 +74,6 @@ class IconTheme:
 	
 	@classmethod
 	def from_configparser(cls, theme_index_path):
-	# 	return cls(*cls._get_from_configparser(theme_index_path))
-	#
-	# def _get_from_configparser(self, theme_index_path):
 		parser = configparser.ConfigParser()
 		parser.read(theme_index_path)
 		
@@ -94,8 +91,10 @@ class IconTheme:
 		scaled_directories = parser.get("Icon Theme", "ScaledDirectories", fallback='').split(",")
 		while "" in scaled_directories:
 			scaled_directories.remove("")
-		scaled_directories = [Directory.from_configparser(parser[directory], theme_content_root) for directory in
-							  scaled_directories]
+		scaled_directories = [
+				Directory.from_configparser(
+						parser[directory], theme_content_root
+						) for directory in scaled_directories]
 		
 		hidden = parser.getboolean("Icon Theme", "Hidden", fallback=False)
 		example = parser.get("Icon Theme", "Example", fallback='')
@@ -163,25 +162,29 @@ class IconTheme:
 		
 		# If we get here we didn't find the icon.
 		if prefer_this_theme:
-			if size > largest_size_available:
+			if largest_size_available and size > largest_size_available:
 				return self.find_icon(icon_name, largest_size_available, scale, False)
-			elif size < smallest_size_available:
+			elif smallest_size_available and size < smallest_size_available:
 				return self.find_icon(icon_name, smallest_size_available, scale, False)
 	
 	def find_icon(self, icon_name, size, scale, prefer_this_theme=True):
 		"""
-
-		:param icon_name:
-		:type icon_name:
-		:param size:
-		:type size:
-		:param scale:
-		:type scale:
+		Searches for the icon with the given name and size.
+		
+		:param icon_name: The name of the icon to find.
+			Any `FreeDesktop Icon Theme Specification <https://specifications.freedesktop.org/icon-naming-spec/icon-naming-spec-latest.html>`_
+			name can be used.
+		:type icon_name: str
+		:param size: The desired size of the icon
+		:type size: int
+		:param scale: TODO: Currently does nothing
+		:type scale: any
 		:param prefer_this_theme: Return an icon from this theme even if it has to be resized,
 			rather than a correctly sized icon from the parent theme.
 		:type prefer_this_theme:
-		:return:
-		:rtype:
+		
+		:return: The icon if it was found, or None
+		:rtype: Icon or None
 		"""
 		
 		icon = self._do_find_icon(icon_name, size, scale, prefer_this_theme)
@@ -195,6 +198,9 @@ class IconTheme:
 class HicolorIconTheme(IconTheme):
 	@classmethod
 	def create(cls):
+		"""
+		Create an instance of the Hicolor Icon Theme
+		"""
 		
 		with importlib_resources.path(Hicolor, "index.theme") as theme_index_path:
 			theme_index_path = str(theme_index_path)

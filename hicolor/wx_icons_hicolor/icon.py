@@ -2,6 +2,7 @@
 import pathlib
 from io import BytesIO
 import warnings
+import base64
 
 # 3rd party
 import cairosvg
@@ -73,9 +74,41 @@ class Icon:
 			return False
 		return True
 	
+	def as_png(self, size=None):
+		"""
+		Returns the icon as a BytesIO object containing PNG image data
+		
+		:return:
+		:rtype:
+		"""
+		
+		if not size:
+			size = self.size
+			
+		if self.mime_type == "image/png":
+			with open(self.path, "rb") as fin:
+				data = BytesIO(fin.read())
+			return data
+		
+		elif self.mime_type == "image/svg+xml":
+			svg_img = cairosvg.svg2png(url=str(self.path), output_width=size, output_height=size)
+			return BytesIO(svg_img)
+	
+	def as_base64_png(self, size):
+		"""
+		Returns the icon as a base64-encoded BytesIO object containing PNG image data
+
+		:return:
+		:rtype:
+		"""
+		
+		base64.b64encode(self.as_png(size).getvalue()).decode("utf-8")
+	
 	def as_bitmap(self, size=None):
 		"""
 		Returns the icon as a wxPython bitmap
+		
+		:rtype: wx.Bitmap
 		"""
 		
 		if not size:
@@ -96,7 +129,6 @@ class Icon:
 			return wx.Bitmap(wx.Image(str(self.path), wx.BITMAP_TYPE_PNG))
 		elif self.mime_type == "image/svg+xml":
 			svg_img = cairosvg.svg2png(url=str(self.path), output_width=size, output_height=size)
-			BytesIO(svg_img)
 			return wx.Bitmap(wx.Image(BytesIO(svg_img), wx.BITMAP_TYPE_PNG))
 	
 	def __repr__(self):

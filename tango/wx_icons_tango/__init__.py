@@ -18,6 +18,10 @@ class TangoIconTheme(HicolorIconTheme):
 	
 	@classmethod
 	def create(cls):
+		"""
+		Create an instance of the Tango Icon Theme
+		"""
+		
 		with importlib_resources.path(Tango, "index.theme") as theme_index_path:
 			theme_index_path = str(theme_index_path)
 		

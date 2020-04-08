@@ -25,6 +25,10 @@ class HumanityIconTheme(AdwaitaIconTheme):
 	
 	@classmethod
 	def create(cls):
+		"""
+		Create an instance of the Humanity Icon Theme
+		"""
+		
 		with importlib_resources.path(Humanity, "index.theme") as theme_index_path:
 			theme_index_path = str(theme_index_path)
 		
@@ -55,10 +59,14 @@ class HumanityIconTheme(AdwaitaIconTheme):
 	
 
 class HumanityDarkIconTheme(HumanityIconTheme):
-	_humanity_theme = AdwaitaIconTheme.create()
+	_humanity_theme = HumanityIconTheme.create()
 	
 	@classmethod
 	def create(cls):
+		"""
+		Create an instance of the Humanity Dark Icon Theme
+		"""
+		
 		with importlib_resources.path(Humanity_Dark, "index.theme") as theme_index_path:
 			theme_index_path = str(theme_index_path)
 		
@@ -103,8 +111,8 @@ class wxHumanityIconTheme(wxAdwaitaIconTheme):
 			return super().CreateBitmap(id, client, size)
 
 
-class wxHumanityDarkIconTheme(wxAdwaitaIconTheme):
-	_humanity_dark_theme = HumanityIconTheme.create()
+class wxHumanityDarkIconTheme(wxHumanityIconTheme):
+	_humanity_dark_theme = HumanityDarkIconTheme.create()
 	
 	def CreateBitmap(self, id, client, size):
 		icon = self._humanity_dark_theme.find_icon(id, size.x, None)

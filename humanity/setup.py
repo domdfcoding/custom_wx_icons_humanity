@@ -23,22 +23,14 @@ custom_wx_icons Setup script
 
 # stdlib
 import pathlib
-import sys
 
 # 3rd party
 from setuptools import find_packages, setup
 
-sys.path.append(".")
-sys.path.append("..")
-sys.path.append("../hicolor")
-sys.path.append("../adwaita")
-
 # this package
-from build_tools import (
+from __pkginfo__ import (
 	author, author_email, general_trove_classifiers, get_requirements_and_readme, prepare_data_files, web,
 	)
-
-from wx_icons_humanity import theme_index_path, dark_theme_index_path
 
 
 theme_name = "Humanity"
@@ -62,7 +54,9 @@ classifiers = [
 		] + general_trove_classifiers
 
 
-data_files = prepare_data_files(theme_index_path) + prepare_data_files(dark_theme_index_path)
+data_files = prepare_data_files(modname, theme_name)
+data_files += prepare_data_files(modname, f"{theme_name}_Dark")
+
 
 setup(
 		author=author,
@@ -76,7 +70,9 @@ setup(
 		packages=find_packages(exclude=("tests",)),
 		url=web,
 		version=VERSION,
-		data_files=[
-			(theme_name, data_files),
-			]
+		package_data={modname: data_files},
+		include_package_data=True,
+		# data_files=[
+		# 	(theme_name, data_files),
+		# 	]
 		)

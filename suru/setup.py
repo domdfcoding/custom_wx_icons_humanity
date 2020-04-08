@@ -23,24 +23,14 @@ custom_wx_icons Setup script
 
 # stdlib
 import pathlib
-import sys
 
 # 3rd party
 from setuptools import find_packages, setup
 
-sys.path.append(".")
-sys.path.append("..")
-sys.path.append("../hicolor")
-sys.path.append("../adwaita")
-sys.path.append("../humanity")
-
 # this package
-from build_tools import (
+from __pkginfo__ import (
 	author, author_email, general_trove_classifiers, get_requirements_and_readme, prepare_data_files, web,
 	)
-
-from wx_icons_suru import theme_index_path
-
 
 theme_name = "Suru"
 VERSION = "20.04.4"
@@ -75,7 +65,9 @@ setup(
 		packages=find_packages(exclude=("tests",)),
 		url=web,
 		version=VERSION,
-		data_files=[
-			(theme_name, prepare_data_files(theme_index_path)),
-			]
+		package_data={modname: prepare_data_files(modname, theme_name)},
+		include_package_data=True,
+		# data_files=[
+		# 	(theme_name, prepare_data_files(modname, theme_name)),
+		# 	]
 		)
