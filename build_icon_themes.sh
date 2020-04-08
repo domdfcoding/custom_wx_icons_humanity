@@ -1,5 +1,5 @@
 #!/bin/bash
-# Script for building all themes
+# Script for building sdist and bdist_wheel for all themes
 # To build additional themes just add them to the list below
 
 rm -rf dist
