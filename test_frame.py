@@ -83,6 +83,7 @@ class TestFrame(wx.Frame):
             
 # end of class TestFrame
 
+
 class IconWallApp(wx.App):
     def OnInit(self):
         # wx.ArtProvider.Push(wxTangoIconTheme())
@@ -96,6 +97,7 @@ class IconWallApp(wx.App):
         return True
 
 # end of class IconWallApp
+
 
 if __name__ == "__main__":
     icon_wall_app = IconWallApp(0)

@@ -1,8 +1,17 @@
 #!/usr/bin/python3
 #
 """
-Shared tools for building packages
+Script to chop up SVGs into individual sizes
+
+This takes around 15 minutes to run so be patient.
 """
+#  
+#  Based on `render-icon-theme.py` from the GNOME Project's adwaita-icon-theme
+#  https://github.com/GNOME/adwaita-icon-theme
+#  http://www.gnome.org
+#
+#  Also based on `render-bitmaps.py` from Ubuntu's Suru Icon Theme
+#  https://github.com/ubuntu/yaru/blob/master/icons
 #
 #  This program is free software; you can redistribute it and/or modify
 #  it under the terms of the GNU Lesser General Public License as published by
@@ -22,33 +31,23 @@ Shared tools for building packages
 
 
 # stdlib
-import configparser
-import os
-import subprocess
 import sys
-import xml.sax
-import pathlib
+import os
+
+sys.path.append(".")
+sys.path.append("../hicolor")
+
+# this package
+from gnome_icon_builder import get_scalable_directories, main
+from wx_icons_adwaita import theme_index_path
+
+scalable_directories = get_scalable_directories(theme_index_path)
 
 
-def prepare_data_files(theme_index_path):
-	data_files = []
-	
-	theme_content_root = pathlib.Path(theme_index_path).parent
-	
-	parser = configparser.ConfigParser()
-	parser.read(theme_index_path)
-	
-	directories = parser.get("Icon Theme", "Directories").split(",")
-	
-	for directory in directories:
-		if directory:
-			base_path = theme_content_root
-			for element in directory.split("/"):
-				open(base_path / element / "__init__.py", "w").close()
-				base_path = base_path / element
-			
-			abs_dir_path = (theme_content_root / directory).relative_to(os.getcwd())
-			
-			data_files += [str(abs_dir_path / x) for x in os.listdir(abs_dir_path)]
-	
-	return data_files
+output_dir = "./wx_icons_adwaita/Adwaita"
+
+# DPI multipliers to render at
+dpis = [1]
+
+
+main(os.path.join('.', 'svg_src'), dpis, output_dir, scalable_directories)
