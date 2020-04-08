@@ -3,7 +3,7 @@
 """
 Script to chop up SVGs into individual sizes
 
-This takes around half an hour to run so be patient.
+This takes around 15 minutes to run so be patient.
 """
 #  
 #  Based on `render-icon-theme.py` from the GNOME Project's adwaita-icon-theme
@@ -30,8 +30,14 @@ This takes around half an hour to run so be patient.
 #
 
 
+# stdlib
 import os
-from gnome_icon_builder import main
+
+# this package
+from gnome_icon_builder import get_scalable_directories, main
+from wx_icons_adwaita import theme_index_path
+
+scalable_directories = get_scalable_directories(theme_index_path)
 
 
 output_dir = "./Adwaita"
@@ -40,4 +46,4 @@ output_dir = "./Adwaita"
 dpis = [1]
 
 
-main(os.path.join('.', 'svg_src'), dpis, output_dir)
+main(os.path.join('.', 'svg_src'), dpis, output_dir, scalable_directories)

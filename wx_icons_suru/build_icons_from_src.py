@@ -28,9 +28,14 @@ Script to chop up SVGs into individual sizes
 #
 
 
+# stdlib
 import os
-from gnome_icon_builder import main
 
+# this package
+from gnome_icon_builder import get_scalable_directories, main
+from wx_icons_suru import theme_index_path
+
+scalable_directories = get_scalable_directories(theme_index_path)
 
 SOURCES = ('actions', 'apps', 'categories', 'devices', 'emblems', 'legacy', 'mimetypes', 'places', 'status', 'wip')
 output_dir = "./Suru"
@@ -40,4 +45,4 @@ dpis = [1, 2]
 
 
 for source in SOURCES:
-	main(os.path.join('.', 'svg_src', source), dpis, output_dir)
+	main(os.path.join('.', 'svg_src', source), dpis, output_dir, scalable_directories)

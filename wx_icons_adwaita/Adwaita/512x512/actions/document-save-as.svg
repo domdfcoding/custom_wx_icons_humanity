@@ -1541,7 +1541,7 @@ Hylke Bons</dc:title>
        cx="123.17148"
        gradientTransform="matrix(1.0276809,0.85140926,-0.81439488,0.93644594,529.40583,-422.35181)"
        gradientUnits="userSpaceOnUse"
-       id="radialGradient1666608"
+       id="radialGradient1542583"
        xlink:href="#linearGradient9301" />
     <radialGradient
        r="72"
@@ -1551,7 +1551,7 @@ Hylke Bons</dc:title>
        cx="140.19411"
        gradientTransform="matrix(0.62658415,0.16789271,-0.06704298,0.2502078,491.44676,-267.92078)"
        gradientUnits="userSpaceOnUse"
-       id="radialGradient1666610"
+       id="radialGradient1542585"
        xlink:href="#linearGradient9243" />
     <linearGradient
        y2="188.64842"
@@ -1560,7 +1560,7 @@ Hylke Bons</dc:title>
        x1="151.2532"
        gradientTransform="matrix(0.21073636,0,0,0.20487576,549.17419,-239.1306)"
        gradientUnits="userSpaceOnUse"
-       id="linearGradient1666612"
+       id="linearGradient1542587"
        xlink:href="#linearGradient9426" />
     <radialGradient
        r="4.499805"
@@ -1570,7 +1570,7 @@ Hylke Bons</dc:title>
        cx="614.15179"
        gradientTransform="matrix(1.3840887,-0.37086545,0.34194831,1.2761684,-151.329,286.03874)"
        gradientUnits="userSpaceOnUse"
-       id="radialGradient1666614"
+       id="radialGradient1542589"
        xlink:href="#linearGradient9007" />
     <radialGradient
        r="13"
@@ -1580,7 +1580,7 @@ Hylke Bons</dc:title>
        cx="320"
        gradientTransform="matrix(1.435758,0,0,0.46575691,119.55751,-246.28107)"
        gradientUnits="userSpaceOnUse"
-       id="radialGradient1666616"
+       id="radialGradient1542591"
        xlink:href="#linearGradient4015-7-7-4" />
     <radialGradient
        r="72"
@@ -1590,7 +1590,7 @@ Hylke Bons</dc:title>
        cx="123.17148"
        gradientTransform="matrix(1.0276809,0.85140926,-0.81439488,0.93644594,529.40583,-422.35181)"
        gradientUnits="userSpaceOnUse"
-       id="radialGradient1666618"
+       id="radialGradient1542593"
        xlink:href="#linearGradient9301" />
     <radialGradient
        r="72"
@@ -1600,7 +1600,7 @@ Hylke Bons</dc:title>
        cx="140.19411"
        gradientTransform="matrix(0.59898038,0.15833352,-0.06408944,0.2359619,495.32568,-265.47703)"
        gradientUnits="userSpaceOnUse"
-       id="radialGradient1666620"
+       id="radialGradient1542595"
        xlink:href="#linearGradient9243" />
     <linearGradient
        y2="188.64842"
@@ -1609,7 +1609,7 @@ Hylke Bons</dc:title>
        x1="151.2532"
        gradientTransform="matrix(0.13779707,0,0,0.13689954,558.16996,-160.97222)"
        gradientUnits="userSpaceOnUse"
-       id="linearGradient1666622"
+       id="linearGradient1542597"
        xlink:href="#linearGradient9426" />
     <radialGradient
        r="4.499805"
@@ -1619,7 +1619,7 @@ Hylke Bons</dc:title>
        cx="614.15179"
        gradientTransform="matrix(1.3840887,-0.37086545,0.34194831,1.2761684,-151.329,286.03874)"
        gradientUnits="userSpaceOnUse"
-       id="radialGradient1666624"
+       id="radialGradient1542599"
        xlink:href="#linearGradient9007" />
     <radialGradient
        r="13"
@@ -1629,7 +1629,7 @@ Hylke Bons</dc:title>
        cx="320"
        gradientTransform="matrix(0.91879874,0,0,0.2980564,283.66522,-164.63829)"
        gradientUnits="userSpaceOnUse"
-       id="radialGradient1666626"
+       id="radialGradient1542601"
        xlink:href="#linearGradient4015-7-7-4" />
     <radialGradient
        r="72"
@@ -1639,7 +1639,7 @@ Hylke Bons</dc:title>
        cx="123.17148"
        gradientTransform="matrix(0.57195307,0.39600419,-0.45324931,0.43555611,546.52501,-192.19848)"
        gradientUnits="userSpaceOnUse"
-       id="radialGradient1666628"
+       id="radialGradient1542603"
        xlink:href="#linearGradient9301" />
     <radialGradient
        r="72"
@@ -1649,7 +1649,7 @@ Hylke Bons</dc:title>
        cx="140.19411"
        gradientTransform="matrix(0.34669889,0.08394612,-0.03709593,0.12510354,525.70001,-121.46034)"
        gradientUnits="userSpaceOnUse"
-       id="radialGradient1666630"
+       id="radialGradient1542605"
        xlink:href="#linearGradient9243" />
     <linearGradient
        y2="188.64842"
@@ -1658,7 +1658,7 @@ Hylke Bons</dc:title>
        x1="151.2532"
        gradientTransform="matrix(0.10537609,0,0,0.09582968,558.83547,-100.23055)"
        gradientUnits="userSpaceOnUse"
-       id="linearGradient1666632"
+       id="linearGradient1542607"
        xlink:href="#linearGradient9426" />
     <radialGradient
        r="13"
@@ -1668,7 +1668,7 @@ Hylke Bons</dc:title>
        cx="320"
        gradientTransform="matrix(0.68388885,0,0,0.22185212,354.82744,-103.25654)"
        gradientUnits="userSpaceOnUse"
-       id="radialGradient1666634"
+       id="radialGradient1542609"
        xlink:href="#linearGradient4015-7-7-4" />
     <radialGradient
        r="72"
@@ -1678,7 +1678,7 @@ Hylke Bons</dc:title>
        cx="123.17148"
        gradientTransform="matrix(3.5434138,3.3236375,-2.9241374,3.2608875,-20.960062,-653.8074)"
        gradientUnits="userSpaceOnUse"
-       id="radialGradient1666636"
+       id="radialGradient1542611"
        xlink:href="#linearGradient9301" />
     <radialGradient
        r="72"
@@ -1688,7 +1688,7 @@ Hylke Bons</dc:title>
        cx="140.19411"
        gradientTransform="matrix(3.6759173,1.0073562,-0.39331421,1.5012468,-358.85572,-177.52468)"
        gradientUnits="userSpaceOnUse"
-       id="radialGradient1666638"
+       id="radialGradient1542613"
        xlink:href="#linearGradient9243" />
     <linearGradient
        y2="50.5"
@@ -1696,7 +1696,7 @@ Hylke Bons</dc:title>
        y1="161.57944"
        x1="148.62389"
        gradientUnits="userSpaceOnUse"
-       id="linearGradient1666640"
+       id="linearGradient1542615"
        xlink:href="#linearGradient4150-6" />
     <radialGradient
        r="73"
@@ -1706,7 +1706,7 @@ Hylke Bons</dc:title>
        cx="144"
        gradientTransform="matrix(1,0,0,1.1246233,0,-29.864528)"
        gradientUnits="userSpaceOnUse"
-       id="radialGradient1666642"
+       id="radialGradient1542617"
        xlink:href="#linearGradient4068-5" />
     <radialGradient
        r="70"
@@ -1716,7 +1716,7 @@ Hylke Bons</dc:title>
        cx="140.56004"
        gradientTransform="matrix(3.6201996,0.94147141,-0.34667092,1.2557036,-318.37468,-179.04149)"
        gradientUnits="userSpaceOnUse"
-       id="radialGradient1666644"
+       id="radialGradient1542619"
        xlink:href="#linearGradient4204-3" />
     <linearGradient
        y2="188.64842"
@@ -1724,7 +1724,7 @@ Hylke Bons</dc:title>
        y1="108.03029"
        x1="151.2532"
        gradientUnits="userSpaceOnUse"
-       id="linearGradient1666646"
+       id="linearGradient1542621"
        xlink:href="#linearGradient9426" />
     <linearGradient
        y2="153.93678"
@@ -1732,7 +1732,7 @@ Hylke Bons</dc:title>
        y1="141.07487"
        x1="130.75"
        gradientUnits="userSpaceOnUse"
-       id="linearGradient1666648"
+       id="linearGradient1542623"
        xlink:href="#linearGradient4455-2-5" />
     <linearGradient
        y2="124.25079"
@@ -1740,7 +1740,7 @@ Hylke Bons</dc:title>
        y1="153.67357"
        x1="154.51221"
        gradientUnits="userSpaceOnUse"
-       id="linearGradient1666650"
+       id="linearGradient1542625"
        xlink:href="#linearGradient6742" />
     <linearGradient
        y2="129.33336"
@@ -1749,7 +1749,7 @@ Hylke Bons</dc:title>
        x1="144.00287"
        gradientTransform="translate(3.8089451e-7,-0.38622638)"
        gradientUnits="userSpaceOnUse"
-       id="linearGradient1666652"
+       id="linearGradient1542627"
        xlink:href="#linearGradient6039" />
     <radialGradient
        r="70"
@@ -1759,7 +1759,7 @@ Hylke Bons</dc:title>
        cx="140.56004"
        gradientTransform="matrix(3.1024072,0.39226439,-0.29708703,0.52318933,-252.24689,-16.109749)"
        gradientUnits="userSpaceOnUse"
-       id="radialGradient1666654"
+       id="radialGradient1542629"
        xlink:href="#linearGradient5929" />
     <linearGradient
        y2="-74.941025"
@@ -1768,7 +1768,7 @@ Hylke Bons</dc:title>
        x1="380"
        gradientTransform="matrix(1.1364893,0,0,1.1397622,-51.365915,11.53038)"
        gradientUnits="userSpaceOnUse"
-       id="linearGradient1666656"
+       id="linearGradient1542631"
        xlink:href="#linearGradient9224-7" />
     <linearGradient
        y2="147.90625"
@@ -1777,7 +1777,7 @@ Hylke Bons</dc:title>
        x1="367.75"
        gradientTransform="matrix(1.5497739,0,0,1.4908542,-198.23342,-138.60984)"
        gradientUnits="userSpaceOnUse"
-       id="linearGradient1666658"
+       id="linearGradient1542633"
        xlink:href="#linearGradient6779" />
     <linearGradient
        y2="146.77014"
@@ -1786,7 +1786,7 @@ Hylke Bons</dc:title>
        x1="382.00406"
        gradientTransform="matrix(1.5238095,0,0,1.4908542,-971.01193,-138.60984)"
        gradientUnits="userSpaceOnUse"
-       id="linearGradient1666660"
+       id="linearGradient1542635"
        xlink:href="#linearGradient5929" />
     <radialGradient
        r="150.22929"
@@ -1796,7 +1796,7 @@ Hylke Bons</dc:title>
        cx="1219.5164"
        gradientTransform="matrix(0.21308574,0,0,0.1262736,959.10537,-192.29189)"
        gradientUnits="userSpaceOnUse"
-       id="radialGradient1666662"
+       id="radialGradient1542637"
        xlink:href="#linearGradient9249" />
     <linearGradient
        y2="188.64842"
@@ -1805,7 +1805,7 @@ Hylke Bons</dc:title>
        x1="151.2532"
        gradientTransform="matrix(0.22694685,0,0,0.21903908,546.84145,-224.45554)"
        gradientUnits="userSpaceOnUse"
-       id="linearGradient1666664"
+       id="linearGradient1542639"
        xlink:href="#linearGradient9426" />
     <radialGradient
        r="13"
@@ -1815,7 +1815,7 @@ Hylke Bons</dc:title>
        cx="320"
        gradientTransform="matrix(1.5514393,0,0,0.50328369,82.498912,-232.43885)"
        gradientUnits="userSpaceOnUse"
-       id="radialGradient1666666"
+       id="radialGradient1542641"
        xlink:href="#linearGradient4015-7-7-4" />
     <radialGradient
        r="4.499805"
@@ -1825,7 +1825,7 @@ Hylke Bons</dc:title>
        cx="614.15179"
        gradientTransform="matrix(1.3840887,-0.37086545,0.34194831,1.2761684,-151.329,286.03874)"
        gradientUnits="userSpaceOnUse"
-       id="radialGradient1666668"
+       id="radialGradient1542643"
        xlink:href="#linearGradient9007" />
     <linearGradient
        y2="-74.941025"
@@ -1834,7 +1834,7 @@ Hylke Bons</dc:title>
        x1="380"
        gradientTransform="matrix(1.068273,0,0,1.0394747,-25.443709,3.2015788)"
        gradientUnits="userSpaceOnUse"
-       id="linearGradient1666670"
+       id="linearGradient1542645"
        xlink:href="#linearGradient9224-7" />
     <linearGradient
        y2="147.90625"
@@ -1843,7 +1843,7 @@ Hylke Bons</dc:title>
        x1="367.75"
        gradientTransform="matrix(1.4223247,0,0,1.4602204,-151.33213,-133.95351)"
        gradientUnits="userSpaceOnUse"
-       id="linearGradient1666672"
+       id="linearGradient1542647"
        xlink:href="#linearGradient6779" />
     <linearGradient
        y2="146.77014"
@@ -1852,7 +1852,7 @@ Hylke Bons</dc:title>
        x1="382.00406"
        gradientTransform="matrix(1.4223298,0,0,1.4602204,-932.24667,-133.95351)"
        gradientUnits="userSpaceOnUse"
-       id="linearGradient1666674"
+       id="linearGradient1542649"
        xlink:href="#linearGradient5929" />
     <linearGradient
        y2="188.64842"
@@ -1861,7 +1861,7 @@ Hylke Bons</dc:title>
        x1="151.2532"
        gradientTransform="matrix(0.10537609,0,0,0.09582968,558.83547,-100.23055)"
        gradientUnits="userSpaceOnUse"
-       id="linearGradient1666676"
+       id="linearGradient1542651"
        xlink:href="#linearGradient9426" />
     <radialGradient
        r="4.499805"
@@ -1871,7 +1871,7 @@ Hylke Bons</dc:title>
        cx="614.15179"
        gradientTransform="matrix(1.3840887,-0.37086545,0.34194831,1.2761684,-151.329,286.03874)"
        gradientUnits="userSpaceOnUse"
-       id="radialGradient1666678"
+       id="radialGradient1542653"
        xlink:href="#linearGradient9007" />
     <radialGradient
        r="13"
@@ -1881,7 +1881,7 @@ Hylke Bons</dc:title>
        cx="320"
        gradientTransform="matrix(0.68388885,0,0,0.22185212,354.82744,-103.25654)"
        gradientUnits="userSpaceOnUse"
-       id="radialGradient1666680"
+       id="radialGradient1542655"
        xlink:href="#linearGradient4015-7-7-4" />
     <linearGradient
        y2="-74.941025"
@@ -1890,7 +1890,7 @@ Hylke Bons</dc:title>
        x1="380"
        gradientTransform="matrix(1.1364893,0,0,1.1397622,-51.365915,11.53038)"
        gradientUnits="userSpaceOnUse"
-       id="linearGradient1666682"
+       id="linearGradient1542657"
        xlink:href="#linearGradient9224-7" />
     <linearGradient
        y2="147.90625"
@@ -1899,7 +1899,7 @@ Hylke Bons</dc:title>
        x1="367.75"
        gradientTransform="matrix(1.5497739,0,0,1.4602204,-198.23342,-133.95351)"
        gradientUnits="userSpaceOnUse"
-       id="linearGradient1666684"
+       id="linearGradient1542659"
        xlink:href="#linearGradient6779" />
     <linearGradient
        y2="146.77014"
@@ -1908,7 +1908,7 @@ Hylke Bons</dc:title>
        x1="382.00406"
        gradientTransform="matrix(1.5238095,0,0,1.4602204,-971.01193,-133.95351)"
        gradientUnits="userSpaceOnUse"
-       id="linearGradient1666686"
+       id="linearGradient1542661"
        xlink:href="#linearGradient5929" />
     <linearGradient
        y2="188.64842"
@@ -1917,7 +1917,7 @@ Hylke Bons</dc:title>
        x1="151.2532"
        gradientTransform="matrix(0.13779707,0,0,0.13689954,558.16996,-160.97222)"
        gradientUnits="userSpaceOnUse"
-       id="linearGradient1666688"
+       id="linearGradient1542663"
        xlink:href="#linearGradient9426" />
     <radialGradient
        r="4.499805"
@@ -1927,7 +1927,7 @@ Hylke Bons</dc:title>
        cx="614.15179"
        gradientTransform="matrix(1.3840887,-0.37086545,0.34194831,1.2761684,-151.329,286.03874)"
        gradientUnits="userSpaceOnUse"
-       id="radialGradient1666690"
+       id="radialGradient1542665"
        xlink:href="#linearGradient9007" />
     <radialGradient
        r="13"
@@ -1937,7 +1937,7 @@ Hylke Bons</dc:title>
        cx="320"
        gradientTransform="matrix(0.91879874,0,0,0.2980564,283.66522,-164.63829)"
        gradientUnits="userSpaceOnUse"
-       id="radialGradient1666692"
+       id="radialGradient1542667"
        xlink:href="#linearGradient4015-7-7-4" />
     <linearGradient
        y2="188.64842"
@@ -1946,7 +1946,7 @@ Hylke Bons</dc:title>
        x1="151.2532"
        gradientTransform="matrix(0.10530837,0,0,0.06748293,1195.8383,-36.612559)"
        gradientUnits="userSpaceOnUse"
-       id="linearGradient1666694"
+       id="linearGradient1542669"
        xlink:href="#linearGradient9426" />
     <linearGradient
        y2="188.64842"
@@ -1955,7 +1955,7 @@ Hylke Bons</dc:title>
        x1="151.2532"
        gradientTransform="matrix(0.08106036,0,0,0.05475982,1199.3347,-54.988885)"
        gradientUnits="userSpaceOnUse"
-       id="linearGradient1666696"
+       id="linearGradient1542671"
        xlink:href="#linearGradient9426" />
     <radialGradient
        r="13"
@@ -1965,7 +1965,7 @@ Hylke Bons</dc:title>
        cx="320"
        gradientTransform="matrix(0.56076391,0,0,0.18191065,1031.2706,-59.959898)"
        gradientUnits="userSpaceOnUse"
-       id="radialGradient1666698"
+       id="radialGradient1542673"
        xlink:href="#linearGradient4015-7-7-4" />
     <linearGradient
        y2="54.819519"
@@ -1974,7 +1974,7 @@ Hylke Bons</dc:title>
        x1="304.50583"
        gradientTransform="matrix(5.3333333,0,0,5.3333333,-1162.6666,-82)"
        gradientUnits="userSpaceOnUse"
-       id="linearGradient1666700"
+       id="linearGradient1542675"
        xlink:href="#linearGradient6627" />
     <linearGradient
        y2="189.5"
@@ -1983,7 +1983,7 @@ Hylke Bons</dc:title>
        x1="495"
        gradientTransform="translate(-1088)"
        gradientUnits="userSpaceOnUse"
-       id="linearGradient1666702"
+       id="linearGradient1542677"
        xlink:href="#linearGradient6721-9" />
     <linearGradient
        y2="189.5"
@@ -1992,7 +1992,7 @@ Hylke Bons</dc:title>
        x1="495"
        gradientTransform="translate(6.1919688e-6)"
        gradientUnits="userSpaceOnUse"
-       id="linearGradient1666704"
+       id="linearGradient1542679"
        xlink:href="#linearGradient6721" />
     <linearGradient
        y2="198.0842"
@@ -2001,7 +2001,7 @@ Hylke Bons</dc:title>
        x1="517.59399"
        gradientTransform="translate(6.1919688e-6)"
        gradientUnits="userSpaceOnUse"
-       id="linearGradient1666706"
+       id="linearGradient1542681"
        xlink:href="#linearGradient6779" />
     <radialGradient
        r="150.22929"
@@ -2011,7 +2011,7 @@ Hylke Bons</dc:title>
        cx="1219.5164"
        gradientTransform="matrix(2.4013999,0,0,1.4550971,-1844.8282,-31.626014)"
        gradientUnits="userSpaceOnUse"
-       id="radialGradient1666708"
+       id="radialGradient1542683"
        xlink:href="#linearGradient9249" />
     <linearGradient
        y2="188.64842"
@@ -2020,7 +2020,7 @@ Hylke Bons</dc:title>
        x1="151.2532"
        gradientTransform="matrix(2.4686521,0,0,2.4930783,734.22857,-139.93863)"
        gradientUnits="userSpaceOnUse"
-       id="linearGradient1666710"
+       id="linearGradient1542685"
        xlink:href="#linearGradient9426" />
     <radialGradient
        r="70"
@@ -2030,7 +2030,7 @@ Hylke Bons</dc:title>
        cx="140.56004"
        gradientTransform="matrix(3.1024071,0.39226439,-0.29708703,0.52318935,-414.27866,-16.10975)"
        gradientUnits="userSpaceOnUse"
-       id="radialGradient1666712"
+       id="radialGradient1542687"
        xlink:href="#linearGradient5929" />
     <linearGradient
        y2="153.93678"
@@ -2038,7 +2038,7 @@ Hylke Bons</dc:title>
        y1="141.07487"
        x1="130.75"
        gradientUnits="userSpaceOnUse"
-       id="linearGradient1666714"
+       id="linearGradient1542689"
        xlink:href="#linearGradient4455-2-5" />
     <linearGradient
        y2="124.25079"
@@ -2046,7 +2046,7 @@ Hylke Bons</dc:title>
        y1="153.67357"
        x1="154.51221"
        gradientUnits="userSpaceOnUse"
-       id="linearGradient1666716"
+       id="linearGradient1542691"
        xlink:href="#linearGradient6742" />
     <linearGradient
        y2="129.33336"
@@ -2055,7 +2055,7 @@ Hylke Bons</dc:title>
        x1="144.00287"
        gradientTransform="translate(3.8089451e-7,-0.38622638)"
        gradientUnits="userSpaceOnUse"
-       id="linearGradient1666718"
+       id="linearGradient1542693"
        xlink:href="#linearGradient6039" />
   </defs>
   <g
@@ -2122,7 +2122,7 @@ Hylke Bons</dc:title>
         <g
            id="g9224">
           <path
-             style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#radialGradient1666608);fill-opacity:1;fill-rule:nonzero;stroke:#3465a4;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;marker:none;enable-background:accumulate"
+             style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#radialGradient1542583);fill-opacity:1;fill-rule:nonzero;stroke:#3465a4;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;marker:none;enable-background:accumulate"
              d="m 568.07141,-229.5 -4.57144,4.56582 V -186.5 h 32.00001 v -38.43418 L 590.92854,-229.5 Z"
              id="rect2846-5-9" />
           <path
@@ -2130,7 +2130,7 @@ Hylke Bons</dc:title>
              d="m 564.3622,-224.49995 h 30.27561"
              id="rect2846-7-9-8" />
           <path
-             style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#radialGradient1666610);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.99999994;marker:none;enable-background:accumulate"
+             style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#radialGradient1542585);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.99999994;marker:none;enable-background:accumulate"
              d="m 568.29807,-229 -4.02633,4 h 30.4468 l -4.00289,-4 z"
              id="rect2846-5-2-8" />
           <path
@@ -2147,7 +2147,7 @@ Hylke Bons</dc:title>
              height="14.965408"
              width="26"
              id="rect9405-7"
-             style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:url(#linearGradient1666612);fill-opacity:1;fill-rule:nonzero;stroke:#3a70b7;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;paint-order:normal;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+             style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:url(#linearGradient1542587);fill-opacity:1;fill-rule:nonzero;stroke:#3a70b7;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;paint-order:normal;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
           <g
              transform="translate(-50,2)"
              id="g8978">
@@ -2160,14 +2160,14 @@ Hylke Bons</dc:title>
                d="m 625.56278,-214.49701 v 1.14056 h 7.99951 v -1.14056"
                id="path7904" />
             <path
-               style="fill:none;stroke:url(#radialGradient1666614);stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+               style="fill:none;stroke:url(#radialGradient1542589);stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
                d="m 625.56278,-214.49701 v 1.01556 h 7.99951 v -1.01556"
                id="path7906" />
           </g>
           <path
              id="path7910-5-8"
              d="m 567.51399,-219.50005 h 23.97889"
-             style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.225;fill:#d3d7cf;fill-opacity:1;fill-rule:nonzero;stroke:url(#radialGradient1666616);stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate" />
+             style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.225;fill:#d3d7cf;fill-opacity:1;fill-rule:nonzero;stroke:url(#radialGradient1542591);stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate" />
         </g>
       </g>
       <g
@@ -2218,11 +2218,11 @@ Hylke Bons</dc:title>
            id="g9224-8"
            transform="matrix(0.68749831,0,0,0.67452976,180.09279,1.3045797)">
           <path
-             style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#radialGradient1666618);fill-opacity:1;fill-rule:nonzero;stroke:#3465a4;stroke-width:1.46846509;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;marker:none;enable-background:accumulate"
+             style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#radialGradient1542593);fill-opacity:1;fill-rule:nonzero;stroke:#3465a4;stroke-width:1.46846509;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;marker:none;enable-background:accumulate"
              d="m 568.07141,-229.5 -4.57144,4.56582 V -186.5 h 30.54546 v -38.43418 L 589.47399,-229.5 Z"
              id="rect2846-5-9-2" />
           <path
-             style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#radialGradient1666620);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.99999994;marker:none;enable-background:accumulate"
+             style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#radialGradient1542595);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.99999994;marker:none;enable-background:accumulate"
              d="M 568.79135,-228.77225 564.94239,-225 h 27.65095 l -3.82655,-3.77225 z"
              id="rect2846-5-2-8-3" />
           <path
@@ -2243,7 +2243,7 @@ Hylke Bons</dc:title>
              height="10"
              width="17.000977"
              id="rect9405-7-0"
-             style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:url(#linearGradient1666622);fill-opacity:1;fill-rule:nonzero;stroke:#3a70b7;stroke-width:0.99999994;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;paint-order:normal;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+             style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:url(#linearGradient1542597);fill-opacity:1;fill-rule:nonzero;stroke:#3a70b7;stroke-width:0.99999994;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;paint-order:normal;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
           <g
              transform="translate(-50.00097,71)"
              id="g8978-2">
@@ -2256,14 +2256,14 @@ Hylke Bons</dc:title>
                d="m 625.56278,-214.49701 v 1.14056 h 4.99951 v -1.14056"
                id="path7904-1" />
             <path
-               style="fill:none;stroke:url(#radialGradient1666624);stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+               style="fill:none;stroke:url(#radialGradient1542599);stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
                d="m 625.56278,-214.49701 v 1.01556 h 4.99951 v -1.01556"
                id="path7906-9" />
           </g>
           <path
              id="path7910-5-8-6"
              d="m 570.33042,-147.50005 h 15.34505"
-             style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.225;fill:#d3d7cf;fill-opacity:1;fill-rule:nonzero;stroke:url(#radialGradient1666626);stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate" />
+             style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.225;fill:#d3d7cf;fill-opacity:1;fill-rule:nonzero;stroke:url(#radialGradient1542601);stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate" />
         </g>
       </g>
       <g
@@ -2312,7 +2312,7 @@ Hylke Bons</dc:title>
         <g
            id="g9580">
           <path
-             style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#radialGradient1666628);fill-opacity:1;fill-rule:nonzero;stroke:#3465a4;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;marker:none;enable-background:accumulate"
+             style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#radialGradient1542603);fill-opacity:1;fill-rule:nonzero;stroke:#3465a4;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;marker:none;enable-background:accumulate"
              d="m 568.04423,-102.5 -2.54422,2.5299 V -82.5 h 17 v -17.4701 l -2.54423,-2.5299 z"
              id="rect2846-5-9-2-0" />
           <path
@@ -2320,7 +2320,7 @@ Hylke Bons</dc:title>
              d="M 566.37369,-99.500055 H 581.6263"
              id="rect2846-7-9-8-5-1" />
           <path
-             style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#radialGradient1666630);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.99999994;marker:none;enable-background:accumulate"
+             style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#radialGradient1542605);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.99999994;marker:none;enable-background:accumulate"
              d="m 568.22305,-102 -1.96267,2 h 15.51865 l -1.9939,-2 z"
              id="rect2846-5-2-8-3-0" />
         </g>
@@ -2334,11 +2334,11 @@ Hylke Bons</dc:title>
              height="7"
              width="13.000977"
              id="rect9405-7-0-5-9-6"
-             style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:url(#linearGradient1666632);fill-opacity:1;fill-rule:nonzero;stroke:#3a70b7;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;paint-order:normal;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+             style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:url(#linearGradient1542607);fill-opacity:1;fill-rule:nonzero;stroke:#3a70b7;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;paint-order:normal;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
           <path
              id="path7910-5-8-6-6-5-7"
              d="m 568.20076,-90.50005 h 11.42177"
-             style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.225;fill:#d3d7cf;fill-opacity:1;fill-rule:nonzero;stroke:url(#radialGradient1666634);stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate" />
+             style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.225;fill:#d3d7cf;fill-opacity:1;fill-rule:nonzero;stroke:url(#radialGradient1542609);stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate" />
         </g>
         <path
            style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.15;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;marker:none;enable-background:accumulate"
@@ -2559,11 +2559,11 @@ Hylke Bons</dc:title>
              id="g4030"
              style="display:inline;enable-background:new">
             <path
-               style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#radialGradient1666636);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.99999994;marker:none;enable-background:accumulate"
+               style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#radialGradient1542611);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.99999994;marker:none;enable-background:accumulate"
                d="M 92,56 72,80 V 260 H 216 V 80 L 196,56 Z"
                id="rect2846-5" />
             <path
-               style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#radialGradient1666638);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.99999994;marker:none;enable-background:accumulate"
+               style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#radialGradient1542613);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.99999994;marker:none;enable-background:accumulate"
                d="M 92,56 72,80 H 216 L 196,56 Z"
                id="rect2846-5-2" />
             <path
@@ -2571,16 +2571,16 @@ Hylke Bons</dc:title>
                d="M 72,79.675452 H 216"
                style="display:inline;opacity:0.40500004;fill:none;stroke:#c7d9ec;stroke-width:0.8557927;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;enable-background:new" />
             <path
-               style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:url(#linearGradient1666640);stroke-width:0.42789635;stroke-miterlimit:4;stroke-dasharray:none;marker:none;filter:url(#filter9628);enable-background:accumulate"
+               style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:url(#linearGradient1542615);stroke-width:0.42789635;stroke-miterlimit:4;stroke-dasharray:none;marker:none;filter:url(#filter9628);enable-background:accumulate"
                d="M 92,56 72,80 V 260 H 216 V 80 L 196,56 Z"
                id="rect2846-5-5" />
             <path
                id="path4212-8"
                d="M 72,259.16366 H 216"
-               style="display:inline;opacity:0.078;fill:none;stroke:url(#radialGradient1666642);stroke-width:0.8557927;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;enable-background:new" />
+               style="display:inline;opacity:0.078;fill:none;stroke:url(#radialGradient1542617);stroke-width:0.8557927;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;enable-background:new" />
           </g>
           <path
-             style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.20200004;fill:#ffffff;fill-opacity:1;stroke:url(#radialGradient1666644);stroke-width:0.86090052;stroke-miterlimit:4;stroke-dasharray:none;marker:none;enable-background:accumulate"
+             style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.20200004;fill:#ffffff;fill-opacity:1;stroke:url(#radialGradient1542619);stroke-width:0.86090052;stroke-miterlimit:4;stroke-dasharray:none;marker:none;enable-background:accumulate"
              d="M 215.09301,256 V 80 M 72.90699,80 v 176"
              id="rect2846-5-7-4" />
           <g
@@ -2629,12 +2629,12 @@ Hylke Bons</dc:title>
              height="73.046257"
              width="123.3769"
              id="rect9405"
-             style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:url(#linearGradient1666646);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.44540399;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;paint-order:normal;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+             style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:url(#linearGradient1542621);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.44540399;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;paint-order:normal;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
           <path
              transform="matrix(1.1532197,0,0,1.1532197,-22.311235,-20.58423)"
              d="m 129.00977,129.48242 a 3.4688966,3.4688966 0 0 0 -3.47852,3.45508 l -0.24805,14 a 3.4688966,3.4688966 0 0 0 3.46875,3.53125 h 30 a 3.4688966,3.4688966 0 0 0 3.4668,-3.40625 l 0.25,-14 a 3.469313,3.469313 0 0 0 -6.9375,-0.125 l -0.1875,10.59375 h -23.0625 l 0.1875,-10.46875 a 3.4688966,3.4688966 0 0 0 -3.45898,-3.58008 z"
              id="path6508"
-             style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.2;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:url(#linearGradient1666648);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:6.93709946;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter4469-7-4);color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:new" />
+             style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.2;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:url(#linearGradient1542623);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:6.93709946;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter4469-7-4);color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:new" />
           <circle
              r="5.1221457"
              cy="131.55382"
@@ -2653,7 +2653,7 @@ Hylke Bons</dc:title>
              clip-path="url(#clipPath5795-4-2)"
              id="g5778">
             <path
-               style="fill:none;stroke:url(#linearGradient1666650);stroke-width:10.33580685;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               style="fill:none;stroke:url(#linearGradient1542625);stroke-width:10.33580685;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
                d="m 129,131 -1,5 h 32 l -1,-4"
                id="path5706" />
             <path
@@ -2665,12 +2665,12 @@ Hylke Bons</dc:title>
                d="m 129.125,127.9375 c -1.82405,-0.0472 -3.58707,1.31643 -4,3.09375 l -1,3 c -0.58543,2.34656 1.45652,4.96486 3.875,4.96875 h 32 c 2.41848,-0.004 4.46043,-2.62219 3.875,-4.96875 l -1,-3 c -0.4782,-1.86222 -2.45486,-3.21022 -4.36312,-2.97548 C 156.60363,128.29052 155.01261,131.0774 155,133 h -22 c 0.0332,-2.07405 -1.80169,-4.99774 -3.875,-5.0625 z"
                id="path5706-36-9" />
             <path
-               style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:'Abandoned Bitplane';-inkscape-font-specification:'Abandoned Bitplane';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:none;stroke:url(#linearGradient1666652);stroke-width:0.77245295;stroke-miterlimit:4;stroke-dasharray:none;marker:none;filter:url(#filter4129-5-7);enable-background:new"
+               style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:'Abandoned Bitplane';-inkscape-font-specification:'Abandoned Bitplane';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:none;stroke:url(#linearGradient1542627);stroke-width:0.77245295;stroke-miterlimit:4;stroke-dasharray:none;marker:none;filter:url(#filter4129-5-7);enable-background:new"
                d="m 129.125,127.55127 a 4.0004,4.0004 0 0 0 -4,3.09375 l -1,4 a 4.0004,4.0004 0 0 0 3.875,4.96875 h 32 a 4.0004,4.0004 0 0 0 3.875,-4.96875 l -1,-4 A 4.0004,4.0004 0 0 0 155,131.61377 h -22 a 4.0004,4.0004 0 0 0 -3.875,-4.0625 z"
                id="path5706-36" />
           </g>
           <path
-             style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.10100002;fill:#ffffff;fill-opacity:1;stroke:url(#radialGradient1666654);stroke-width:0.89612484;stroke-miterlimit:4;stroke-dasharray:none;marker:none;enable-background:accumulate"
+             style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.10100002;fill:#ffffff;fill-opacity:1;stroke:url(#radialGradient1542629);stroke-width:0.89612484;stroke-miterlimit:4;stroke-dasharray:none;marker:none;enable-background:accumulate"
              d="M 204.91961,165.15044 V 91.819978 m -121.849343,0 v 73.330462"
              id="rect2846-5-7-4-3" />
           <path
@@ -2904,21 +2904,21 @@ Hylke Bons</dc:title>
            transform="matrix(1.0909061,0,0,1.1669392,804.41023,-293.77276)">
           <rect
              transform="scale(1,-1)"
-             style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#linearGradient1666656);fill-opacity:1;stroke:#4c83cc;stroke-width:0.88630277;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+             style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#linearGradient1542631);fill-opacity:1;stroke:#4c83cc;stroke-width:0.88630277;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
              id="rect2846-4-5-0-7-1"
              width="23.866276"
              height="13.677146"
              x="368.56686"
              y="-89.338577" />
           <rect
-             style="display:inline;opacity:0.34210528;fill:url(#linearGradient1666658);fill-opacity:1;stroke:none;stroke-width:0.96443474;enable-background:new"
+             style="display:inline;opacity:0.34210528;fill:url(#linearGradient1542633);fill-opacity:1;stroke:none;stroke-width:0.96443474;enable-background:new"
              id="rect4765-9-0"
              width="3.0511169"
              height="11.926833"
              x="369.03223"
              y="76.073166" />
           <rect
-             style="display:inline;opacity:0.13186813;fill:url(#linearGradient1666660);fill-opacity:1;stroke:none;stroke-width:0.96443474;enable-background:new"
+             style="display:inline;opacity:0.13186813;fill:url(#linearGradient1542635);fill-opacity:1;stroke:none;stroke-width:0.96443474;enable-background:new"
              id="rect4765-1-6-3"
              width="3"
              height="11.926833"
@@ -2961,7 +2961,7 @@ Hylke Bons</dc:title>
          transform="translate(0,-21)"
          id="g3301">
         <path
-           style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:url(#radialGradient1666662);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.0134033;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+           style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:url(#radialGradient1542637);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.0134033;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
            d="M 1206,-182.00008 V -166 h 27 v -16.00008 z"
            id="path7123-7-2-4" />
         <g
@@ -2974,11 +2974,11 @@ Hylke Bons</dc:title>
              height="15.999985"
              width="28"
              id="rect9405-7-7-7"
-             style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:url(#linearGradient1666664);fill-opacity:1;fill-rule:nonzero;stroke:#3465a4;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;paint-order:normal;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+             style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:url(#linearGradient1542639);fill-opacity:1;fill-rule:nonzero;stroke:#3465a4;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;paint-order:normal;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
           <path
              id="path7910-5-7"
              d="m 566.54796,-203.50004 h 25.91091"
-             style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.225;fill:#d3d7cf;fill-opacity:1;fill-rule:nonzero;stroke:url(#radialGradient1666666);stroke-width:0.99999994;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate" />
+             style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.225;fill:#d3d7cf;fill-opacity:1;fill-rule:nonzero;stroke:url(#radialGradient1542641);stroke-width:0.99999994;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate" />
           <g
              transform="translate(-50,18.000004)"
              id="g8978-4-1"
@@ -2992,7 +2992,7 @@ Hylke Bons</dc:title>
                d="m 625.56278,-214.49701 v 1.14056 h 7.99951 v -1.14056"
                id="path7904-7-5" />
             <path
-               style="fill:none;stroke:url(#radialGradient1666668);stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+               style="fill:none;stroke:url(#radialGradient1542643);stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
                d="m 625.56278,-214.49701 v 1.01556 h 7.99951 v -1.01556"
                id="path7906-0-9" />
           </g>
@@ -3028,7 +3028,7 @@ Hylke Bons</dc:title>
              height="12.473696"
              width="22.433733"
              id="rect2846-4-5-0-7-1-0-4"
-             style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#linearGradient1666670);fill-opacity:1;stroke:none;stroke-width:1.7073158;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+             style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#linearGradient1542645);fill-opacity:1;stroke:none;stroke-width:1.7073158;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
              transform="scale(1,-1)" />
           <rect
              y="76.318237"
@@ -3036,7 +3036,7 @@ Hylke Bons</dc:title>
              height="11.681763"
              width="2.8002014"
              id="rect4765-9-0-6-9"
-             style="display:inline;opacity:0.34210528;fill:url(#linearGradient1666672);fill-opacity:1;stroke:none;stroke-width:1.85782421;enable-background:new" />
+             style="display:inline;opacity:0.34210528;fill:url(#linearGradient1542647);fill-opacity:1;stroke:none;stroke-width:1.85782421;enable-background:new" />
           <rect
              transform="scale(-1,1)"
              y="76.318237"
@@ -3044,7 +3044,7 @@ Hylke Bons</dc:title>
              height="11.681763"
              width="2.8002117"
              id="rect4765-1-6-3-1-2"
-             style="display:inline;opacity:0.13186813;fill:url(#linearGradient1666674);fill-opacity:1;stroke:none;stroke-width:1.85782421;enable-background:new" />
+             style="display:inline;opacity:0.13186813;fill:url(#linearGradient1542649);fill-opacity:1;stroke:none;stroke-width:1.85782421;enable-background:new" />
         </g>
         <rect
            style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.10700001;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
@@ -3083,7 +3083,7 @@ Hylke Bons</dc:title>
          style="display:inline;enable-background:new"
          transform="translate(640,1.999998)">
         <rect
-           style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:url(#linearGradient1666676);fill-opacity:1;fill-rule:nonzero;stroke:#3465a4;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;paint-order:normal;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+           style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:url(#linearGradient1542651);fill-opacity:1;fill-rule:nonzero;stroke:#3465a4;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;paint-order:normal;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
            id="rect9405-7-0-5-9-9"
            width="13.000977"
            height="7"
@@ -3103,10 +3103,10 @@ Hylke Bons</dc:title>
           <path
              id="path7906-9-0-4-2"
              d="m 625.56278,-214.49701 v 1.01556 h 4.99951 v -1.01556"
-             style="fill:none;stroke:url(#radialGradient1666678);stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" />
+             style="fill:none;stroke:url(#radialGradient1542653);stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" />
         </g>
         <path
-           style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.225;fill:#d3d7cf;fill-opacity:1;fill-rule:nonzero;stroke:url(#radialGradient1666680);stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.225;fill:#d3d7cf;fill-opacity:1;fill-rule:nonzero;stroke:url(#radialGradient1542655);stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
            d="m 568.20076,-90.50005 h 11.42177"
            id="path7910-5-8-6-6-5-9" />
       </g>
@@ -3136,7 +3136,7 @@ Hylke Bons</dc:title>
              height="13.677146"
              width="23.866276"
              id="rect2846-4-5-0-7-1-0"
-             style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#linearGradient1666682);fill-opacity:1;stroke:#4c83cc;stroke-width:1.32247937;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+             style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#linearGradient1542657);fill-opacity:1;stroke:#4c83cc;stroke-width:1.32247937;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
              transform="scale(1,-1)" />
           <rect
              y="76.318237"
@@ -3144,7 +3144,7 @@ Hylke Bons</dc:title>
              height="11.681763"
              width="3.0511169"
              id="rect4765-9-0-6"
-             style="display:inline;opacity:0.34210528;fill:url(#linearGradient1666684);fill-opacity:1;stroke:none;stroke-width:1.43906248;enable-background:new" />
+             style="display:inline;opacity:0.34210528;fill:url(#linearGradient1542659);fill-opacity:1;stroke:none;stroke-width:1.43906248;enable-background:new" />
           <rect
              transform="scale(-1,1)"
              y="76.318237"
@@ -3152,7 +3152,7 @@ Hylke Bons</dc:title>
              height="11.681763"
              width="3"
              id="rect4765-1-6-3-1"
-             style="display:inline;opacity:0.13186813;fill:url(#linearGradient1666686);fill-opacity:1;stroke:none;stroke-width:1.43906248;enable-background:new" />
+             style="display:inline;opacity:0.13186813;fill:url(#linearGradient1542661);fill-opacity:1;stroke:none;stroke-width:1.43906248;enable-background:new" />
         </g>
       </g>
       <g
@@ -3184,7 +3184,7 @@ Hylke Bons</dc:title>
          style="display:inline;enable-background:new"
          transform="translate(640,13.999998)">
         <rect
-           style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:url(#linearGradient1666688);fill-opacity:1;fill-rule:nonzero;stroke:#3465a4;stroke-width:0.99999994;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;paint-order:normal;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+           style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:url(#linearGradient1542663);fill-opacity:1;fill-rule:nonzero;stroke:#3465a4;stroke-width:0.99999994;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;paint-order:normal;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
            id="rect9405-7-0-5-7"
            width="17.000977"
            height="10"
@@ -3204,10 +3204,10 @@ Hylke Bons</dc:title>
           <path
              id="path7906-9-0-6"
              d="m 625.56278,-214.49701 v 1.01556 h 4.99951 v -1.01556"
-             style="fill:none;stroke:url(#radialGradient1666690);stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" />
+             style="fill:none;stroke:url(#radialGradient1542665);stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" />
         </g>
         <path
-           style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.225;fill:#d3d7cf;fill-opacity:1;fill-rule:nonzero;stroke:url(#radialGradient1666692);stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.225;fill:#d3d7cf;fill-opacity:1;fill-rule:nonzero;stroke:url(#radialGradient1542667);stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
            d="m 570.33042,-147.50005 h 15.34505"
            id="path7910-5-8-6-6-56" />
       </g>
@@ -3218,7 +3218,7 @@ Hylke Bons</dc:title>
         <rect
            ry="0.24508074"
            rx="0.39749196"
-           style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:url(#linearGradient1666694);fill-opacity:1;fill-rule:nonzero;stroke:#3465a4;stroke-width:1.08511889;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;paint-order:normal;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+           style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:url(#linearGradient1542669);fill-opacity:1;fill-rule:nonzero;stroke:#3465a4;stroke-width:1.08511889;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;paint-order:normal;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
            id="rect9405-7-0-5-9-9-0"
            width="12.992621"
            height="4.9293761"
@@ -3271,14 +3271,14 @@ Hylke Bons</dc:title>
         <rect
            ry="0"
            rx="0"
-           style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:url(#linearGradient1666696);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.99999988;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;paint-order:normal;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+           style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:url(#linearGradient1542671);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.99999988;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;paint-order:normal;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
            id="rect9405-7-0-5-9-9-0-1"
            width="10.000977"
            height="4"
            x="1205.999"
            y="-50" />
         <path
-           style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.5;fill:#d3d7cf;fill-opacity:1;fill-rule:nonzero;stroke:url(#radialGradient1666698);stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.5;fill:#d3d7cf;fill-opacity:1;fill-rule:nonzero;stroke:url(#radialGradient1542673);stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
            d="m 1206.2289,-49.500042 h 9.3654"
            id="path7910-5-8-6-6-5-9-4-0" />
         <rect
@@ -3338,14 +3338,14 @@ Hylke Bons</dc:title>
            style="display:inline;enable-background:new"
            id="g11333-9">
           <rect
-             style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#linearGradient1666700);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.06666672;marker:none;enable-background:accumulate"
+             style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#linearGradient1542675);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.06666672;marker:none;enable-background:accumulate"
              id="rect6575-1"
              width="112"
              height="71.75"
              x="487.99994"
              y="180" />
           <rect
-             style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.2;fill:url(#linearGradient1666702);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.06666672;marker:none;enable-background:accumulate"
+             style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.2;fill:url(#linearGradient1542677);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.06666672;marker:none;enable-background:accumulate"
              id="rect6575-8-0-9"
              width="8"
              height="71.75"
@@ -3353,14 +3353,14 @@ Hylke Bons</dc:title>
              y="180"
              transform="scale(-1,1)" />
           <rect
-             style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#linearGradient1666704);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.06666672;marker:none;enable-background:accumulate"
+             style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#linearGradient1542679);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.06666672;marker:none;enable-background:accumulate"
              id="rect6575-8-6"
              width="8"
              height="71.75"
              x="487.99994"
              y="180" />
           <rect
-             style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#linearGradient1666706);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.06666672;marker:none;enable-background:accumulate"
+             style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#linearGradient1542681);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.06666672;marker:none;enable-background:accumulate"
              id="rect6575-2-2"
              width="112"
              height="71.75"
@@ -3424,9 +3424,9 @@ Hylke Bons</dc:title>
             <path
                id="path7123-7-2"
                d="M 937.5854,86.97021 V 271.34502 H 1241.866 V 86.97021 Z"
-               style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:url(#radialGradient1666708);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.0134033;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+               style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:url(#radialGradient1542683);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.0134033;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
             <rect
-               style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:url(#linearGradient1666710);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.44540399;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;paint-order:normal;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+               style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:url(#linearGradient1542685);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.44540399;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;paint-order:normal;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
                id="rect6277-6"
                width="304.32465"
                height="183.86006"
@@ -3434,7 +3434,7 @@ Hylke Bons</dc:title>
                y="87.193115" />
           </g>
           <path
-             style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.10100002;fill:#ffffff;fill-opacity:1;stroke:url(#radialGradient1666712);stroke-width:0.8961249;stroke-miterlimit:4;stroke-dasharray:none;marker:none;enable-background:accumulate"
+             style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.10100002;fill:#ffffff;fill-opacity:1;stroke:url(#radialGradient1542687);stroke-width:0.8961249;stroke-miterlimit:4;stroke-dasharray:none;marker:none;enable-background:accumulate"
              d="M 42.887855,165.15044 V 91.819976 m -121.849341,0 v 73.330464"
              id="path6295-4" />
           <path
@@ -3449,7 +3449,7 @@ Hylke Bons</dc:title>
              transform="matrix(1.1532197,0,0,1.1532197,-22.311235,-20.58423)"
              d="m 129.00977,129.48242 a 3.4688966,3.4688966 0 0 0 -3.47852,3.45508 l -0.24805,14 a 3.4688966,3.4688966 0 0 0 3.46875,3.53125 h 30 a 3.4688966,3.4688966 0 0 0 3.4668,-3.40625 l 0.25,-14 a 3.469313,3.469313 0 0 0 -6.9375,-0.125 l -0.1875,10.59375 h -23.0625 l 0.1875,-10.46875 a 3.4688966,3.4688966 0 0 0 -3.45898,-3.58008 z"
              id="path6279"
-             style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.2;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:url(#linearGradient1666714);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:6.93709946;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter4469-7-4-4);color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:new" />
+             style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.2;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:url(#linearGradient1542689);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:6.93709946;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter4469-7-4-4);color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:new" />
           <circle
              r="5.1221457"
              cy="131.55382"
@@ -3468,7 +3468,7 @@ Hylke Bons</dc:title>
              clip-path="url(#clipPath5795-4-2-59)"
              id="g6285">
             <path
-               style="fill:none;stroke:url(#linearGradient1666716);stroke-width:10.33580685;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               style="fill:none;stroke:url(#linearGradient1542691);stroke-width:10.33580685;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
                d="m 129,131 -1,5 h 32 l -1,-4"
                id="path6287" />
             <path
@@ -3480,7 +3480,7 @@ Hylke Bons</dc:title>
                d="m 129.125,127.9375 c -1.82405,-0.0472 -3.58707,1.31643 -4,3.09375 l -1,3 c -0.58543,2.34656 1.45652,4.96486 3.875,4.96875 h 32 c 2.41848,-0.004 4.46043,-2.62219 3.875,-4.96875 l -1,-3 c -0.4782,-1.86222 -2.45486,-3.21022 -4.36312,-2.97548 C 156.60363,128.29052 155.01261,131.0774 155,133 h -22 c 0.0332,-2.07405 -1.80169,-4.99774 -3.875,-5.0625 z"
                id="path6291" />
             <path
-               style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:'Abandoned Bitplane';-inkscape-font-specification:'Abandoned Bitplane';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:none;stroke:url(#linearGradient1666718);stroke-width:0.77245295;stroke-miterlimit:4;stroke-dasharray:none;marker:none;filter:url(#filter4129-5-7-5);enable-background:new"
+               style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:'Abandoned Bitplane';-inkscape-font-specification:'Abandoned Bitplane';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:none;stroke:url(#linearGradient1542693);stroke-width:0.77245295;stroke-miterlimit:4;stroke-dasharray:none;marker:none;filter:url(#filter4129-5-7-5);enable-background:new"
                d="m 129.125,127.55127 a 4.0004,4.0004 0 0 0 -4,3.09375 l -1,4 a 4.0004,4.0004 0 0 0 3.875,4.96875 h 32 a 4.0004,4.0004 0 0 0 3.875,-4.96875 l -1,-4 A 4.0004,4.0004 0 0 0 155,131.61377 h -22 a 4.0004,4.0004 0 0 0 -3.875,-4.0625 z"
                id="path6293" />
           </g>

@@ -573,7 +573,7 @@
        cx="74.743645"
        gradientTransform="matrix(0.89376014,-0.20432974,0.08980013,0.39279544,-0.51372488,172.16642)"
        gradientUnits="userSpaceOnUse"
-       id="radialGradient468803"
+       id="radialGradient423558"
        xlink:href="#linearGradient6276" />
   </defs>
   <metadata
@@ -933,7 +933,7 @@
         <path
            id="path5888-3"
            d="m 132.66872,204.00792 c -11.04688,-3.74269 -38.308719,-3.09558 -55.125912,0.3671 -29.237539,6.02004 -50.187886,22.14461 -46.98072,35.86475 3.207177,13.72014 29.488356,20.07231 58.725906,14.05227 27.628966,-5.68883 51.572236,-20.38831 51.025306,-33.55766 z"
-           style="display:block;visibility:visible;opacity:0.69100001;fill:url(#radialGradient468803);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;enable-background:new" />
+           style="display:block;visibility:visible;opacity:0.69100001;fill:url(#radialGradient423558);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;enable-background:new" />
         <use
            style="display:inline;opacity:1;enable-background:new"
            x="0"

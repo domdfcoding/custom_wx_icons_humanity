@@ -2157,7 +2157,7 @@
        cx="172.5"
        gradientTransform="matrix(0.3529412,0,0,0.4666667,111.61764,58.145828)"
        gradientUnits="userSpaceOnUse"
-       id="radialGradient1102172"
+       id="radialGradient1024773"
        xlink:href="#linearGradient6037" />
     <radialGradient
        r="5.625"
@@ -2167,7 +2167,7 @@
        cx="175.625"
        gradientTransform="matrix(2.4905049,0,0,2.9334853,-261.76992,-251.79771)"
        gradientUnits="userSpaceOnUse"
-       id="radialGradient1102174"
+       id="radialGradient1024775"
        xlink:href="#linearGradient5910" />
   </defs>
   <g
@@ -2559,11 +2559,11 @@
              cx="172.5"
              transform="matrix(1,0,0,1.1764706,3,-20.294117)"
              id="path12471-1"
-             style="display:inline;overflow:visible;visibility:visible;opacity:0.84236456;fill:url(#radialGradient1102172);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;enable-background:accumulate" />
+             style="display:inline;overflow:visible;visibility:visible;opacity:0.84236456;fill:url(#radialGradient1024773);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;enable-background:accumulate" />
           <path
              id="path12485-7"
              d="m 170,119.75 c 0,0 0.97644,13.11621 5.25,13.25 4.2253,0.13228 6,-12.75 6,-12.75 -3.02555,4.18003 -4.52118,17.53959 -11.25,-0.5 z"
-             style="opacity:0.30541873;fill:url(#radialGradient1102174);fill-opacity:1;fill-rule:evenodd;stroke:none;filter:url(#filter12535)"
+             style="opacity:0.30541873;fill:url(#radialGradient1024775);fill-opacity:1;fill-rule:evenodd;stroke:none;filter:url(#filter12535)"
              transform="matrix(1.1333333,0,0,1,-23.416667,0)" />
         </g>
         <use

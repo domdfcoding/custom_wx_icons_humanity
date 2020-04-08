@@ -9,6 +9,7 @@ from wx_icons_hicolor.test import freedesktop_naming_spec_list
 from wx_icons_humanity import wxHumanityIconTheme, wxHumanityDarkIconTheme
 from wx_icons_suru import wxSuruIconTheme
 from wx_icons_tango import wxTangoIconTheme
+from wx_icons_adwaita import wxAdwaitaIconTheme
 
 # begin wxGlade: dependencies
 # end wxGlade
@@ -84,10 +85,11 @@ class TestFrame(wx.Frame):
 
 class IconWallApp(wx.App):
     def OnInit(self):
-        wx.ArtProvider.Push(wxTangoIconTheme())
+        # wx.ArtProvider.Push(wxTangoIconTheme())
         # wx.ArtProvider.Push(wxSuruIconTheme())
         # wx.ArtProvider.Push(wxHumanityIconTheme())
         # wx.ArtProvider.Push(wxHumanityDarkIconTheme())
+        wx.ArtProvider.Push(wxAdwaitaIconTheme())
         self.frame = TestFrame(None, wx.ID_ANY, "")
         self.SetTopWindow(self.frame)
         self.frame.Show()

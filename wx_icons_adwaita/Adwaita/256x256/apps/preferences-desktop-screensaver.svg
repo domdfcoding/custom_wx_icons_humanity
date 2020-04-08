@@ -6771,7 +6771,7 @@
        x1="320.28125"
        gradientTransform="matrix(1.2915983,0,0,0.7041466,-93.158919,27.958141)"
        gradientUnits="userSpaceOnUse"
-       id="linearGradient409335"
+       id="linearGradient366982"
        xlink:href="#linearGradient10826" />
     <linearGradient
        y2="93.876022"
@@ -6780,7 +6780,7 @@
        x1="325.8125"
        gradientTransform="matrix(1.2915983,0,0,0.7041466,-93.158919,27.958141)"
        gradientUnits="userSpaceOnUse"
-       id="linearGradient409337"
+       id="linearGradient366984"
        xlink:href="#linearGradient2712-5" />
     <radialGradient
        r="8.4375"
@@ -6790,7 +6790,7 @@
        cx="320.03125"
        gradientTransform="matrix(2.3925374,1.1189841e-8,0,0.1578689,-445.49383,77.06124)"
        gradientUnits="userSpaceOnUse"
-       id="radialGradient409339"
+       id="radialGradient366986"
        xlink:href="#linearGradient4713-1" />
     <linearGradient
        y2="93.5"
@@ -6799,7 +6799,7 @@
        x1="311.625"
        gradientTransform="matrix(1.3163827,0,0,0.9564971,-101.08987,4.045763)"
        gradientUnits="userSpaceOnUse"
-       id="linearGradient409341"
+       id="linearGradient366988"
        xlink:href="#linearGradient2715-8" />
     <radialGradient
        r="23"
@@ -6809,7 +6809,7 @@
        cx="314.30969"
        gradientTransform="matrix(1.1263461,4.2035788,-1.0745854,0.2879343,23.033648,-1278.1206)"
        gradientUnits="userSpaceOnUse"
-       id="radialGradient409343"
+       id="radialGradient366990"
        xlink:href="#linearGradient4654" />
     <linearGradient
        y2="54.01783"
@@ -6818,7 +6818,7 @@
        x1="333.25"
        gradientTransform="translate(0,1)"
        gradientUnits="userSpaceOnUse"
-       id="linearGradient409345"
+       id="linearGradient366992"
        xlink:href="#linearGradient5538" />
     <radialGradient
        r="22.000002"
@@ -6828,7 +6828,7 @@
        cx="314.36905"
        gradientTransform="matrix(-3.0899695,-1.0606601,0.214115,-0.6237708,1278.6302,446.66487)"
        gradientUnits="userSpaceOnUse"
-       id="radialGradient409347"
+       id="radialGradient366994"
        xlink:href="#linearGradient4646" />
     <radialGradient
        r="19.00016"
@@ -6838,7 +6838,7 @@
        cx="36.382885"
        gradientTransform="matrix(1.9195439,0,0,0.83743172,249.11695,0.07115105)"
        gradientUnits="userSpaceOnUse"
-       id="radialGradient409349"
+       id="radialGradient366996"
        xlink:href="#linearGradient12756-9-0" />
     <linearGradient
        y2="202.5"
@@ -6847,7 +6847,7 @@
        x1="88"
        gradientTransform="matrix(0.1923079,0,0,0.1854838,291.53839,45.645162)"
        gradientUnits="userSpaceOnUse"
-       id="linearGradient409351"
+       id="linearGradient366998"
        xlink:href="#linearGradient5687" />
     <radialGradient
        r="12.5"
@@ -6857,7 +6857,7 @@
        cx="327.5"
        gradientTransform="matrix(6.4215263,5.8880003e-8,-1.5792387e-8,1.4577864,-1775.5499,-25.551629)"
        gradientUnits="userSpaceOnUse"
-       id="radialGradient409353"
+       id="radialGradient367000"
        xlink:href="#linearGradient4788" />
     <radialGradient
        r="12.5"
@@ -6867,7 +6867,7 @@
        cx="326.0206"
        gradientTransform="matrix(-2.3452637,1.0305331e-6,0.1678059,-1.6711651,1062.4349,156.14514)"
        gradientUnits="userSpaceOnUse"
-       id="radialGradient409355"
+       id="radialGradient367002"
        xlink:href="#linearGradient4788-7" />
     <linearGradient
        y2="88.849144"
@@ -6875,7 +6875,7 @@
        y1="93.75"
        x1="327.91971"
        gradientUnits="userSpaceOnUse"
-       id="linearGradient409357"
+       id="linearGradient367004"
        xlink:href="#linearGradient4772" />
     <linearGradient
        y2="93.069283"
@@ -6884,7 +6884,7 @@
        x1="320.28125"
        gradientTransform="matrix(0.6875,0,0,0.7041466,99.03125,88.958141)"
        gradientUnits="userSpaceOnUse"
-       id="linearGradient409359"
+       id="linearGradient367006"
        xlink:href="#linearGradient4693" />
     <linearGradient
        y2="93.876022"
@@ -6893,7 +6893,7 @@
        x1="325.8125"
        gradientTransform="matrix(0.6875,0,0,0.7041466,99.03125,88.958141)"
        gradientUnits="userSpaceOnUse"
-       id="linearGradient409361"
+       id="linearGradient367008"
        xlink:href="#linearGradient2712" />
     <radialGradient
        r="8.4375"
@@ -6903,7 +6903,7 @@
        cx="320.03125"
        gradientTransform="matrix(1.2735147,1.1189841e-8,0,0.1578689,-88.511772,138.06124)"
        gradientUnits="userSpaceOnUse"
-       id="radialGradient409363"
+       id="radialGradient367010"
        xlink:href="#linearGradient4713" />
     <linearGradient
        y2="93.5"
@@ -6912,7 +6912,7 @@
        x1="311.625"
        gradientTransform="matrix(0.6701389,0,0,0.9564971,104.58681,65.045763)"
        gradientUnits="userSpaceOnUse"
-       id="linearGradient409365"
+       id="linearGradient367012"
        xlink:href="#linearGradient2715" />
     <radialGradient
        r="23"
@@ -6922,7 +6922,7 @@
        cx="314.30969"
        gradientTransform="matrix(0.7759273,2.944255,-0.74027,0.2016738,114.42318,-805.60206)"
        gradientUnits="userSpaceOnUse"
-       id="radialGradient409367"
+       id="radialGradient367014"
        xlink:href="#linearGradient4654" />
     <linearGradient
        y2="54.01783"
@@ -6931,7 +6931,7 @@
        x1="333.25"
        gradientTransform="matrix(0.6888889,0,0,0.7004163,98.555556,90.314823)"
        gradientUnits="userSpaceOnUse"
-       id="linearGradient409369"
+       id="linearGradient367016"
        xlink:href="#linearGradient5538" />
     <radialGradient
        r="22.000002"
@@ -6941,7 +6941,7 @@
        cx="314.36905"
        gradientTransform="matrix(-2.0839328,-0.7169098,0.1444031,-0.4216123,965.51798,393.21598)"
        gradientUnits="userSpaceOnUse"
-       id="radialGradient409371"
+       id="radialGradient367018"
        xlink:href="#linearGradient4646" />
     <radialGradient
        r="19.00016"
@@ -6951,7 +6951,7 @@
        cx="35.861927"
        gradientTransform="matrix(1.3932325,0,0,0.60781998,267.99149,-42.259131)"
        gradientUnits="userSpaceOnUse"
-       id="radialGradient409373"
+       id="radialGradient367020"
        xlink:href="#linearGradient12756-9-0-9" />
     <linearGradient
        y2="202.5"
@@ -6960,7 +6960,7 @@
        x1="88"
        gradientTransform="matrix(0.1250002,0,0,0.1129032,260.49993,123.87097)"
        gradientUnits="userSpaceOnUse"
-       id="linearGradient409375"
+       id="linearGradient367022"
        xlink:href="#linearGradient5687" />
     <radialGradient
        r="12.5"
@@ -6970,7 +6970,7 @@
        cx="327.5"
        gradientTransform="matrix(3.653637,3.5088616e-8,0,0.8687451,-911.67825,81.612783)"
        gradientUnits="userSpaceOnUse"
-       id="radialGradient409377"
+       id="radialGradient367024"
        xlink:href="#linearGradient4788" />
     <radialGradient
        r="12.5"
@@ -6980,7 +6980,7 @@
        cx="326.0206"
        gradientTransform="matrix(-1.4890564,6.543068e-7,0.06292703,-1.0610574,753.03204,193.51979)"
        gradientUnits="userSpaceOnUse"
-       id="radialGradient409379"
+       id="radialGradient367026"
        xlink:href="#linearGradient4788-7" />
     <linearGradient
        y2="88.849144"
@@ -6988,7 +6988,7 @@
        y1="93.75"
        x1="327.91971"
        gradientUnits="userSpaceOnUse"
-       id="linearGradient409381"
+       id="linearGradient367028"
        xlink:href="#linearGradient4772" />
     <linearGradient
        y2="196.26506"
@@ -6997,7 +6997,7 @@
        x1="333.5625"
        gradientTransform="translate(-20,-1)"
        gradientUnits="userSpaceOnUse"
-       id="linearGradient409383"
+       id="linearGradient367030"
        xlink:href="#linearGradient4693" />
     <linearGradient
        y2="196.99327"
@@ -7006,7 +7006,7 @@
        x1="336.5625"
        gradientTransform="translate(-20,-1)"
        gradientUnits="userSpaceOnUse"
-       id="linearGradient409385"
+       id="linearGradient367032"
        xlink:href="#linearGradient3380" />
     <radialGradient
        r="23"
@@ -7016,7 +7016,7 @@
        cx="314.30969"
        gradientTransform="matrix(0.525761,1.962839,-0.5015999,0.1344494,175.37799,-445.23546)"
        gradientUnits="userSpaceOnUse"
-       id="radialGradient409387"
+       id="radialGradient367034"
        xlink:href="#linearGradient4654" />
     <linearGradient
        y2="45.183807"
@@ -7025,7 +7025,7 @@
        x1="315.04031"
        gradientTransform="matrix(0.4667846,0,0,0.4669448,164.62624,152.04321)"
        gradientUnits="userSpaceOnUse"
-       id="linearGradient409389"
+       id="linearGradient367036"
        xlink:href="#linearGradient5538" />
     <radialGradient
        r="19.00016"
@@ -7035,7 +7035,7 @@
        cx="32.273148"
        gradientTransform="matrix(0.71097846,0,0,0.31017574,290.00998,-76.564567)"
        gradientUnits="userSpaceOnUse"
-       id="radialGradient409391"
+       id="radialGradient367038"
        xlink:href="#linearGradient12756-9-0-9-0" />
     <linearGradient
        y2="202.5"
@@ -7044,7 +7044,7 @@
        x1="88"
        gradientTransform="matrix(0.07692331,0,0,0.07258063,312.61531,174.77419)"
        gradientUnits="userSpaceOnUse"
-       id="linearGradient409393"
+       id="linearGradient367040"
        xlink:href="#linearGradient5687" />
     <radialGradient
        r="12.5"
@@ -7054,7 +7054,7 @@
        cx="327.5"
        gradientTransform="matrix(2.9199174,2.560001e-8,0,0.6338204,-629.95678,143.23841)"
        gradientUnits="userSpaceOnUse"
-       id="radialGradient409395"
+       id="radialGradient367042"
        xlink:href="#linearGradient4788" />
     <radialGradient
        r="12.5"
@@ -7064,7 +7064,7 @@
        cx="326.0206"
        gradientTransform="matrix(-0.8608208,3.7825356e-7,0.04195139,-0.6133953,596.48445,215.55548)"
        gradientUnits="userSpaceOnUse"
-       id="radialGradient409397"
+       id="radialGradient367044"
        xlink:href="#linearGradient4788-7" />
     <radialGradient
        r="5"
@@ -7074,7 +7074,7 @@
        cx="308.50568"
        gradientTransform="matrix(2.5313598,6.322989e-6,-1.0787642e-6,0.4318749,-472.50113,131.0587)"
        gradientUnits="userSpaceOnUse"
-       id="radialGradient409399"
+       id="radialGradient367046"
        xlink:href="#linearGradient3522" />
     <linearGradient
        y2="232.49922"
@@ -7082,7 +7082,7 @@
        y1="233.125"
        x1="306.59375"
        gradientUnits="userSpaceOnUse"
-       id="linearGradient409401"
+       id="linearGradient367048"
        xlink:href="#linearGradient2732" />
     <linearGradient
        y2="230.34544"
@@ -7090,7 +7090,7 @@
        y1="231.625"
        x1="309.375"
        gradientUnits="userSpaceOnUse"
-       id="linearGradient409403"
+       id="linearGradient367050"
        xlink:href="#linearGradient3846" />
     <radialGradient
        r="23"
@@ -7100,7 +7100,7 @@
        cx="314.21341"
        gradientTransform="matrix(0.3084776,1.0273957,-0.3405166,0.09124115,231.8898,-107.29036)"
        gradientUnits="userSpaceOnUse"
-       id="radialGradient409405"
+       id="radialGradient367052"
        xlink:href="#linearGradient4654" />
     <linearGradient
        y2="-18.469349"
@@ -7109,7 +7109,7 @@
        x1="317.92371"
        gradientTransform="matrix(0.3333333,0,0,0.3335316,204.3333,201.3166)"
        gradientUnits="userSpaceOnUse"
-       id="linearGradient409407"
+       id="linearGradient367054"
        xlink:href="#linearGradient5538" />
     <radialGradient
        r="19.00016"
@@ -7119,7 +7119,7 @@
        cx="30.0354"
        gradientTransform="matrix(0.71097846,0,0,0.31017574,290.00998,-76.564567)"
        gradientUnits="userSpaceOnUse"
-       id="radialGradient409409"
+       id="radialGradient367056"
        xlink:href="#linearGradient12756-9-0-9-0-1" />
     <linearGradient
        y2="202.5"
@@ -7128,7 +7128,7 @@
        x1="88"
        gradientTransform="matrix(0.04807689,0,0,0.04032257,303.88461,219.09677)"
        gradientUnits="userSpaceOnUse"
-       id="linearGradient409411"
+       id="linearGradient367058"
        xlink:href="#linearGradient5687" />
     <radialGradient
        r="12.5"
@@ -7138,7 +7138,7 @@
        cx="327.5"
        gradientTransform="matrix(2.0309539,1.5551012e-8,0,0.3850212,-353.09081,199.66878)"
        gradientUnits="userSpaceOnUse"
-       id="radialGradient409413"
+       id="radialGradient367060"
        xlink:href="#linearGradient4788" />
     <radialGradient
        r="12.5"
@@ -7148,7 +7148,7 @@
        cx="326.0206"
        gradientTransform="matrix(-0.52411,2.3029937e-7,0.02554207,-0.3734652,476.07755,243.74315)"
        gradientUnits="userSpaceOnUse"
-       id="radialGradient409415"
+       id="radialGradient367062"
        xlink:href="#linearGradient4788-7" />
     <linearGradient
        y2="201.40486"
@@ -7157,7 +7157,7 @@
        x1="141.5"
        gradientTransform="translate(0,2)"
        gradientUnits="userSpaceOnUse"
-       id="linearGradient409417"
+       id="linearGradient367064"
        xlink:href="#linearGradient5513-5" />
     <radialGradient
        r="48"
@@ -7167,7 +7167,7 @@
        cx="111.15084"
        gradientTransform="matrix(2.4968982,2.1470449e-7,0,0.6915626,-172.0323,81.837652)"
        gradientUnits="userSpaceOnUse"
-       id="radialGradient409419"
+       id="radialGradient367066"
        xlink:href="#linearGradient5567-5" />
     <linearGradient
        y2="224.5"
@@ -7176,7 +7176,7 @@
        x1="142.25"
        gradientTransform="translate(0,2)"
        gradientUnits="userSpaceOnUse"
-       id="linearGradient409421"
+       id="linearGradient367068"
        xlink:href="#linearGradient5615-2" />
     <linearGradient
        y2="373.22336"
@@ -7184,7 +7184,7 @@
        y1="357.41705"
        x1="176.42314"
        gradientUnits="userSpaceOnUse"
-       id="linearGradient409423"
+       id="linearGradient367070"
        xlink:href="#linearGradient5316-7" />
     <radialGradient
        r="111.99998"
@@ -7194,7 +7194,7 @@
        cx="160.52614"
        gradientTransform="matrix(1.6171681,-0.5392047,1.2857148,3.95459,-266.96147,-316.16685)"
        gradientUnits="userSpaceOnUse"
-       id="radialGradient409425"
+       id="radialGradient367072"
        xlink:href="#linearGradient10629-2-3" />
     <linearGradient
        y2="207.5"
@@ -7202,7 +7202,7 @@
        y1="71.25"
        x1="44"
        gradientUnits="userSpaceOnUse"
-       id="linearGradient409427"
+       id="linearGradient367074"
        xlink:href="#linearGradient3288-3" />
     <linearGradient
        y2="-453.5"
@@ -7210,7 +7210,7 @@
        y1="-121.5"
        x1="77.5"
        gradientUnits="userSpaceOnUse"
-       id="linearGradient409429"
+       id="linearGradient367076"
        xlink:href="#linearGradient5316-7" />
     <radialGradient
        r="111.8125"
@@ -7220,7 +7220,7 @@
        cx="131.57802"
        gradientTransform="matrix(2.5457893,1.0381408,-0.6065791,1.5008819,-170.84476,-182.75944)"
        gradientUnits="userSpaceOnUse"
-       id="radialGradient409431"
+       id="radialGradient367078"
        xlink:href="#linearGradient5351-1" />
     <radialGradient
        r="105.00002"
@@ -7230,7 +7230,7 @@
        cx="158.95222"
        gradientTransform="matrix(1.8204877,-1.8204879,0.4646038,0.4646038,-42.803369,223.07843)"
        gradientUnits="userSpaceOnUse"
-       id="radialGradient409433"
+       id="radialGradient367080"
        xlink:href="#linearGradient5361-7" />
     <radialGradient
        r="0.49997711"
@@ -7240,7 +7240,7 @@
        cx="-253.64368"
        gradientTransform="matrix(92.400251,-92.400251,282.89336,282.89332,-14731.971,-61202.946)"
        gradientUnits="userSpaceOnUse"
-       id="radialGradient409435"
+       id="radialGradient367082"
        xlink:href="#linearGradient5371-0" />
     <linearGradient
        y2="251.5"
@@ -7249,7 +7249,7 @@
        x1="99.998619"
        gradientTransform="translate(0,2)"
        gradientUnits="userSpaceOnUse"
-       id="linearGradient409437"
+       id="linearGradient367084"
        xlink:href="#linearGradient5496-3" />
     <linearGradient
        y2="251.5"
@@ -7258,7 +7258,7 @@
        x1="99.998619"
        gradientTransform="matrix(1,0,0,0.6235294,0,95.376471)"
        gradientUnits="userSpaceOnUse"
-       id="linearGradient409439"
+       id="linearGradient367086"
        xlink:href="#linearGradient5496-3" />
     <radialGradient
        r="48"
@@ -7268,7 +7268,7 @@
        cx="130.45143"
        gradientTransform="matrix(3.0284258,0.899444,-0.1799224,0.605798,-215.38188,-17.893398)"
        gradientUnits="userSpaceOnUse"
-       id="radialGradient409441"
+       id="radialGradient367088"
        xlink:href="#linearGradient5544-6" />
     <radialGradient
        r="1.5"
@@ -7277,7 +7277,7 @@
        cy="250"
        cx="103.875"
        gradientUnits="userSpaceOnUse"
-       id="radialGradient409443"
+       id="radialGradient367090"
        xlink:href="#linearGradient4070-8" />
     <radialGradient
        r="1"
@@ -7287,7 +7287,7 @@
        cx="36.777901"
        gradientTransform="matrix(24.673911,184.16858,-78.65515,42.151165,9708.585,-12332.21)"
        gradientUnits="userSpaceOnUse"
-       id="radialGradient409445"
+       id="radialGradient367092"
        xlink:href="#linearGradient5701-7" />
     <radialGradient
        r="1"
@@ -7297,7 +7297,7 @@
        cx="36.80687"
        gradientTransform="matrix(24.673911,184.16858,-78.65515,42.151165,9927.585,-12332.21)"
        gradientUnits="userSpaceOnUse"
-       id="radialGradient409447"
+       id="radialGradient367094"
        xlink:href="#linearGradient5701-7" />
     <radialGradient
        r="1.5"
@@ -7306,7 +7306,7 @@
        cy="250"
        cx="103.875"
        gradientUnits="userSpaceOnUse"
-       id="radialGradient409449"
+       id="radialGradient367096"
        xlink:href="#linearGradient5555-0" />
     <linearGradient
        y2="224.40372"
@@ -7314,7 +7314,7 @@
        y1="284.59628"
        x1="148.00003"
        gradientUnits="userSpaceOnUse"
-       id="linearGradient409451"
+       id="linearGradient367098"
        xlink:href="#linearGradient7234" />
     <radialGradient
        r="105.00002"
@@ -7324,7 +7324,7 @@
        cx="176.81648"
        gradientTransform="matrix(1.9032413,-1.8204879,0.4857232,0.4646038,-51.476691,215.18781)"
        gradientUnits="userSpaceOnUse"
-       id="radialGradient409453"
+       id="radialGradient367100"
        xlink:href="#linearGradient5361-7" />
     <linearGradient
        y2="206.97127"
@@ -7332,7 +7332,7 @@
        y1="204"
        x1="241.38858"
        gradientUnits="userSpaceOnUse"
-       id="linearGradient409455"
+       id="linearGradient367102"
        xlink:href="#linearGradient4090-3" />
     <linearGradient
        y2="207.75003"
@@ -7340,7 +7340,7 @@
        y1="206.01898"
        x1="242.00729"
        gradientUnits="userSpaceOnUse"
-       id="linearGradient409457"
+       id="linearGradient367104"
        xlink:href="#linearGradient4134-1" />
     <radialGradient
        r="5"
@@ -7350,7 +7350,7 @@
        cx="238.9375"
        gradientTransform="matrix(1.6126938,0,0,0.95,-146.39552,11.1625)"
        gradientUnits="userSpaceOnUse"
-       id="radialGradient409459"
+       id="radialGradient367106"
        xlink:href="#linearGradient4249-8" />
     <linearGradient
        y2="207"
@@ -7358,7 +7358,7 @@
        y1="205"
        x1="241.47696"
        gradientUnits="userSpaceOnUse"
-       id="linearGradient409461"
+       id="linearGradient367108"
        xlink:href="#linearGradient4453-7" />
     <linearGradient
        y2="220.51111"
@@ -7366,7 +7366,7 @@
        y1="212.5311"
        x1="236.60001"
        gradientUnits="userSpaceOnUse"
-       id="linearGradient409463"
+       id="linearGradient367110"
        xlink:href="#linearGradient4383-7" />
     <radialGradient
        r="19.00016"
@@ -7376,7 +7376,7 @@
        cx="23.219471"
        gradientTransform="matrix(9.0709039,0.0780678,-0.05263114,6.1153502,-69.201852,-41.969399)"
        gradientUnits="userSpaceOnUse"
-       id="radialGradient409465"
+       id="radialGradient367112"
        xlink:href="#linearGradient12756" />
     <linearGradient
        y2="202.5"
@@ -7384,7 +7384,7 @@
        y1="44.5"
        x1="88"
        gradientUnits="userSpaceOnUse"
-       id="linearGradient409467"
+       id="linearGradient367114"
        xlink:href="#linearGradient5687-7" />
     <radialGradient
        r="12.5"
@@ -7394,7 +7394,7 @@
        cx="326.0206"
        gradientTransform="matrix(-10.479519,4.604809e-6,-3.28125e-6,-7.4673937,3556.5388,507.10733)"
        gradientUnits="userSpaceOnUse"
-       id="radialGradient409469"
+       id="radialGradient367116"
        xlink:href="#linearGradient4788-5" />
     <radialGradient
        r="12.5"
@@ -7404,7 +7404,7 @@
        cx="326.0206"
        gradientTransform="matrix(-10.479519,4.604809e-6,-3.28125e-6,-7.4673937,3513.5388,507.10733)"
        gradientUnits="userSpaceOnUse"
-       id="radialGradient409471"
+       id="radialGradient367118"
        xlink:href="#linearGradient4788-5" />
   </defs>
   <metadata
@@ -7557,15 +7557,15 @@ K. Vishnoo Charan Reddy</dc:title>
              ry="1.8139008" />
         </g>
         <path
-           style="display:inline;fill:url(#linearGradient409335);fill-opacity:1;stroke:url(#linearGradient409337);stroke-width:0.99999994;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0.5;stroke-opacity:1;enable-background:new"
+           style="display:inline;fill:url(#linearGradient366982);fill-opacity:1;stroke:url(#linearGradient366984);stroke-width:0.99999994;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0.5;stroke-opacity:1;enable-background:new"
            d="m 313.57714,86.05024 c 0,0 0,4.92902 0,4.92902 -0.0286,1.26886 -4.61672,1.54994 -4.61672,1.54994 -2.07922,-0.06782 -1.75634,2.054866 0.125,1.97079 h 21.96499 c 2.16857,0.135304 1.98793,-2.035219 0,-1.97079 0,0 -4.3306,-0.28108 -4.35914,-1.54994 0,0 0,-4.92902 0,-4.92902 z"
            id="path2682-8" />
         <path
-           style="display:inline;fill:none;stroke:url(#radialGradient409339);stroke-width:0.99999994;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dashoffset:0.5;stroke-opacity:1;enable-background:new"
+           style="display:inline;fill:none;stroke:url(#radialGradient366986);stroke-width:0.99999994;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dashoffset:0.5;stroke-opacity:1;enable-background:new"
            d="m 315.47785,86.78071 c 0,1.0511 0,4.08203 0,4.08203 0,0.85731 -1.34888,2.7133 -5.537,2.70704 h 20.50413 c -4.22207,0 -5.65442,-1.84706 -5.65442,-2.70704 0,0 0,-3.03093 0,-4.08203 z"
            id="path2692-7" />
         <rect
-           style="display:inline;fill:url(#linearGradient409341);fill-opacity:1;stroke:none;enable-background:new"
+           style="display:inline;fill:url(#linearGradient366988);fill-opacity:1;stroke:none;enable-background:new"
            id="rect2694-8"
            width="23.694887"
            height="0.95649737"
@@ -7574,7 +7574,7 @@ K. Vishnoo Charan Reddy</dc:title>
            rx="0.47824869"
            ry="0.47824869" />
         <rect
-           style="fill:url(#radialGradient409343);fill-opacity:1;stroke:url(#linearGradient409345);stroke-width:1.00000012;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0.5;stroke-opacity:1"
+           style="fill:url(#radialGradient366990);fill-opacity:1;stroke:url(#linearGradient366992);stroke-width:1.00000012;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0.5;stroke-opacity:1"
            id="rect2722"
            width="45"
            height="29.98217"
@@ -7583,7 +7583,7 @@ K. Vishnoo Charan Reddy</dc:title>
            rx="1.0625"
            ry="1.0625" />
         <rect
-           style="display:inline;fill:none;stroke:url(#radialGradient409347);stroke-width:1.00000012;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0.5;stroke-opacity:1;enable-background:new"
+           style="display:inline;fill:none;stroke:url(#radialGradient366994);stroke-width:1.00000012;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0.5;stroke-opacity:1;enable-background:new"
            id="rect4642"
            width="43.000004"
            height="28.017832"
@@ -7606,7 +7606,7 @@ K. Vishnoo Charan Reddy</dc:title>
            id="rect5045" />
       </g>
       <rect
-         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#radialGradient409349);fill-opacity:1;fill-rule:evenodd;stroke:#092c5a;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:new"
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#radialGradient366996);fill-opacity:1;fill-rule:evenodd;stroke:#092c5a;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:new"
          id="rect2716"
          width="41"
          height="24"
@@ -7617,18 +7617,18 @@ K. Vishnoo Charan Reddy</dc:title>
          id="g8393"
          style="display:inline;enable-background:new">
         <rect
-           style="display:inline;opacity:0.15;fill:url(#linearGradient409351);fill-opacity:1;fill-rule:evenodd;stroke:none;enable-background:new"
+           style="display:inline;opacity:0.15;fill:url(#linearGradient366998);fill-opacity:1;fill-rule:evenodd;stroke:none;enable-background:new"
            id="rect3466"
            width="40.000061"
            height="23"
            x="299.99994"
            y="59" />
         <path
-           style="opacity:0.24497992;fill:url(#radialGradient409353);fill-opacity:1;stroke:none"
+           style="opacity:0.24497992;fill:url(#radialGradient367000);fill-opacity:1;stroke:none"
            d="m 330,59 h 10 v 23 h -22 z"
            id="rect4785" />
         <path
-           style="display:inline;opacity:0.24497992;fill:url(#radialGradient409355);fill-opacity:1;stroke:none;enable-background:new"
+           style="display:inline;opacity:0.24497992;fill:url(#radialGradient367002);fill-opacity:1;stroke:none;enable-background:new"
            d="m 317.0849,59.217901 h 7.71076 l -9.16144,19.917752 -3.78204,-0.223795 5.23272,-19.693957 z"
            id="path10688-3" />
       </g>
@@ -7647,20 +7647,20 @@ K. Vishnoo Charan Reddy</dc:title>
            id="rect2678"
            style="display:inline;overflow:visible;visibility:visible;opacity:0.06024098;fill:#2e3436;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;filter:url(#filter6655);enable-background:accumulate" />
         <path
-           style="opacity:0.52610438;fill:url(#linearGradient409357);fill-opacity:1;stroke:none;filter:url(#filter4768)"
+           style="opacity:0.52610438;fill:url(#linearGradient367004);fill-opacity:1;stroke:none;filter:url(#filter4768)"
            d="m 316.05693,91 h 7.7756 l 5.38434,4 h -18.59232 z"
            id="path2680"
            transform="matrix(0.8943975,0,0,0.859375,32.830532,74.003369)" />
         <path
-           style="display:inline;fill:url(#linearGradient409359);fill-opacity:1;stroke:url(#linearGradient409361);stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0.5;stroke-opacity:1;enable-background:new"
+           style="display:inline;fill:url(#linearGradient367006);fill-opacity:1;stroke:url(#linearGradient367008);stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0.5;stroke-opacity:1;enable-background:new"
            d="m 315.53125,147.05024 c 0,0 0,4.92902 0,4.92902 -0.0152,1.26886 -2.25781,2.11244 -2.25781,2.11244 -0.51656,0.0623 -0.77344,0.31406 -0.77344,0.70415 0,0.3901 0.34776,0.70414 0.77344,0.70414 h 11.55859 c 0.42568,0 0.77344,-0.31404 0.77344,-0.70414 0,-0.39009 -0.25688,-0.64188 -0.77344,-0.70415 0,0 -2.30512,-0.84358 -2.32031,-2.11244 0,0 0,-4.92902 0,-4.92902 z"
            id="path2682" />
         <path
-           style="display:inline;fill:none;stroke:url(#radialGradient409363);stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dashoffset:0.5;stroke-opacity:1;enable-background:new"
+           style="display:inline;fill:none;stroke:url(#radialGradient367010);stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dashoffset:0.5;stroke-opacity:1;enable-background:new"
            d="m 316.54297,147.78071 c 0,1.0511 0,4.08203 0,4.08203 0,0.85731 -0.71799,2.7133 -2.94727,2.70704 h 10.91407 c -2.24735,0 -3.00977,-1.84706 -3.00977,-2.70704 0,0 0,-3.03093 0,-4.08203 z"
            id="path2692" />
         <rect
-           style="display:inline;fill:url(#linearGradient409365);fill-opacity:1;stroke:none;enable-background:new"
+           style="display:inline;fill:url(#linearGradient367012);fill-opacity:1;stroke:none;enable-background:new"
            id="rect2694"
            width="12.0625"
            height="0.95649737"
@@ -7678,7 +7678,7 @@ K. Vishnoo Charan Reddy</dc:title>
              height="21"
              width="31"
              id="rect2686"
-             style="fill:url(#radialGradient409367);fill-opacity:1;stroke:url(#linearGradient409369);stroke-width:1.00000012;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0.5;stroke-opacity:1" />
+             style="fill:url(#radialGradient367014);fill-opacity:1;stroke:url(#linearGradient367016);stroke-width:1.00000012;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0.5;stroke-opacity:1" />
           <rect
              ry="0"
              rx="0"
@@ -7687,7 +7687,7 @@ K. Vishnoo Charan Reddy</dc:title>
              height="18.937506"
              width="29"
              id="rect2690"
-             style="display:inline;fill:none;stroke:url(#radialGradient409371);stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0.5;stroke-opacity:1;enable-background:new" />
+             style="display:inline;fill:none;stroke:url(#radialGradient367018);stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0.5;stroke-opacity:1;enable-background:new" />
           <rect
              ry="0"
              rx="0"
@@ -7704,7 +7704,7 @@ K. Vishnoo Charan Reddy</dc:title>
            id="path2700" />
       </g>
       <rect
-         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#radialGradient409373);fill-opacity:1;fill-rule:evenodd;stroke:#092c5a;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:new"
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#radialGradient367020);fill-opacity:1;fill-rule:evenodd;stroke:#092c5a;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:new"
          id="rect2688"
          width="27"
          height="14.999999"
@@ -7715,27 +7715,27 @@ K. Vishnoo Charan Reddy</dc:title>
          id="g8440"
          style="display:inline;enable-background:new">
         <rect
-           style="display:inline;opacity:0.15;fill:url(#linearGradient409375);fill-opacity:1;fill-rule:evenodd;stroke:none;enable-background:new"
+           style="display:inline;opacity:0.15;fill:url(#linearGradient367022);fill-opacity:1;fill-rule:evenodd;stroke:none;enable-background:new"
            id="rect3470"
            width="26.000061"
            height="14"
            x="265.99994"
            y="132" />
         <path
-           style="opacity:0.24497992;fill:url(#radialGradient409377);fill-opacity:1;stroke:none"
+           style="opacity:0.24497992;fill:url(#radialGradient367024);fill-opacity:1;stroke:none"
            d="M 285.06033,132 H 292 v 13.70649 h -13.76728 z"
            id="path2696" />
         <path
            id="path10735"
            d="m 277.26416,131.97868 h 4.89572 l -5.29695,12.64619 -2.40714,-0.14209 z"
-           style="display:inline;opacity:0.24497992;fill:url(#radialGradient409379);fill-opacity:1;stroke:none;enable-background:new" />
+           style="display:inline;opacity:0.24497992;fill:url(#radialGradient367026);fill-opacity:1;stroke:none;enable-background:new" />
       </g>
       <g
          transform="translate(0,-299.99999)"
          id="g8497"
          style="display:inline;enable-background:new">
         <path
-           style="display:inline;opacity:0.52610438;fill:url(#linearGradient409381);fill-opacity:1;stroke:none;filter:url(#filter4768);enable-background:new"
+           style="display:inline;opacity:0.52610438;fill:url(#linearGradient367028);fill-opacity:1;stroke:none;filter:url(#filter4768);enable-background:new"
            d="m 316.05693,91 h 7.7756 l 5.38434,4 h -18.59232 z"
            id="path3416"
            transform="matrix(0.666447,0,0,0.741913,100.76278,126.5244)" />
@@ -7750,7 +7750,7 @@ K. Vishnoo Charan Reddy</dc:title>
            id="rect3414"
            style="display:inline;overflow:visible;visibility:visible;opacity:0.06024098;fill:#2e3436;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;filter:url(#filter6655);enable-background:accumulate" />
         <path
-           style="fill:url(#linearGradient409383);fill-opacity:1;stroke:url(#linearGradient409385);stroke-width:1.00000012;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1"
+           style="fill:url(#linearGradient367030);fill-opacity:1;stroke:url(#linearGradient367032);stroke-width:1.00000012;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1"
            d="m 311.90625,189.5 c -0.25079,0.0876 -0.4154,0.32824 -0.40625,0.59375 v 3.8125 c -2.7e-4,0.0104 -2.7e-4,0.0208 0,0.0313 l -1.15625,0.71875 c -0.22403,0.10894 -0.42065,0.1757 -0.59375,0.3437 -0.0333,0.0323 -0.11213,0.0953 -0.1875,0.25 -0.0754,0.15465 -0.0625,0.30668 -0.0625,0.40625 0,0 0,0.875 0,0.875 h 9 c 0,0 0,-0.875 0,-0.875 0,-0.0996 0.0129,-0.2516 -0.0625,-0.40625 -0.0754,-0.15465 -0.15422,-0.2177 -0.1875,-0.25 -0.1731,-0.168 -0.36972,-0.23476 -0.59375,-0.34375 L 316.5,193.9375 v -3.84375 c -0.007,-0.325 -0.26875,-0.58682 -0.59375,-0.59375 h -3.8125 c -0.0621,-0.01 -0.12538,-0.01 -0.1875,0 z"
            id="path3576" />
         <path
@@ -7784,7 +7784,7 @@ K. Vishnoo Charan Reddy</dc:title>
            id="path3761"
            transform="matrix(1.2446752,0,0,1.1450853,-69.064424,-28.367455)" />
         <rect
-           style="display:inline;fill:url(#radialGradient409387);fill-opacity:1;stroke:url(#linearGradient409389);stroke-width:1.00000024;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0.5;stroke-opacity:1;enable-background:new"
+           style="display:inline;fill:url(#radialGradient367034);fill-opacity:1;stroke:url(#linearGradient367036);stroke-width:1.00000024;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0.5;stroke-opacity:1;enable-background:new"
            id="rect3420"
            width="21.005308"
            height="14.000017"
@@ -7803,7 +7803,7 @@ K. Vishnoo Charan Reddy</dc:title>
            ry="0" />
       </g>
       <rect
-         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#radialGradient409391);fill-opacity:1;fill-rule:evenodd;stroke:#092c5a;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:new"
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#radialGradient367038);fill-opacity:1;fill-rule:evenodd;stroke:#092c5a;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:new"
          id="rect3422"
          width="17.041948"
          height="10"
@@ -7814,18 +7814,18 @@ K. Vishnoo Charan Reddy</dc:title>
          id="g8492"
          style="display:inline;enable-background:new">
         <rect
-           style="display:inline;opacity:0.15;fill:url(#linearGradient409393);fill-opacity:1;fill-rule:evenodd;stroke:none;enable-background:new"
+           style="display:inline;opacity:0.15;fill:url(#linearGradient367040);fill-opacity:1;fill-rule:evenodd;stroke:none;enable-background:new"
            id="rect3474"
            width="16.000061"
            height="9"
            x="315.99994"
            y="180" />
         <path
-           style="display:inline;opacity:0.35616437;fill:url(#radialGradient409395);fill-opacity:1;stroke:none;enable-background:new"
+           style="display:inline;opacity:0.35616437;fill:url(#radialGradient367042);fill-opacity:1;stroke:none;enable-background:new"
            d="M 327.45292,180 H 332 v 10 h -10.00357 z"
            id="path3430" />
         <path
-           style="display:inline;opacity:0.38942321;fill:url(#radialGradient409397);fill-opacity:1;stroke:none;enable-background:new"
+           style="display:inline;opacity:0.38942321;fill:url(#radialGradient367044);fill-opacity:1;stroke:none;enable-background:new"
            d="m 321.76717,179.97868 h 2.83021 l -3.12858,7.31074 -1.39082,-0.0821 1.68919,-7.2286 z"
            id="path10739" />
       </g>
@@ -7838,7 +7838,7 @@ K. Vishnoo Charan Reddy</dc:title>
           <path
              id="rect3813"
              d="m 308.5,226.5 v 5 l -1,0.15625 c -0.55883,0 -1,0.446 -1,1 0,0 0.25,0.84375 0.25,0.84375 h 8.5625 c 0,0 0.1875,-0.84375 0.1875,-0.84375 0,-0.554 -0.44116,-1 -1,-1 l -1,-0.15625 v -5 z"
-             style="fill:url(#radialGradient409399);fill-opacity:1;stroke:url(#linearGradient409401);stroke-width:1;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+             style="fill:url(#radialGradient367046);fill-opacity:1;stroke:url(#linearGradient367048);stroke-width:1;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
           <rect
              ry="0.74473828"
              rx="0.75146472"
@@ -7852,7 +7852,7 @@ K. Vishnoo Charan Reddy</dc:title>
              transform="translate(0,1)"
              d="M 309.4375,226.4375 V 230.5 a 0.93759375,0.93759375 0 0 1 -0.9375,0.9375 h -1 c -0.06,0 -0.0625,0.006 -0.0625,0.0625 0,0.0563 0.002,0.0625 0.0625,0.0625 h 7 c 0.06,0 0.0625,-0.006 0.0625,-0.0625 0,-0.0563 -0.002,-0.0625 -0.0625,-0.0625 h -1 A 0.93759375,0.93759375 0 0 1 312.5625,230.5 v -4.0625 z"
              id="path3831"
-             style="display:inline;opacity:0.63470321;fill:none;stroke:url(#linearGradient409403);stroke-width:1;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;enable-background:new" />
+             style="display:inline;opacity:0.63470321;fill:none;stroke:url(#linearGradient367050);stroke-width:1;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;enable-background:new" />
           <g
              transform="translate(-13,47)"
              id="g3781">
@@ -7875,7 +7875,7 @@ K. Vishnoo Charan Reddy</dc:title>
           </g>
         </g>
         <rect
-           style="display:inline;fill:url(#radialGradient409405);fill-opacity:1;stroke:url(#linearGradient409407);stroke-width:1.00000012;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0.5;stroke-opacity:1;enable-background:new"
+           style="display:inline;fill:url(#radialGradient367052);fill-opacity:1;stroke:url(#linearGradient367054);stroke-width:1.00000012;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0.5;stroke-opacity:1;enable-background:new"
            id="rect3653"
            width="15"
            height="10"
@@ -7892,7 +7892,7 @@ K. Vishnoo Charan Reddy</dc:title>
          height="6"
          width="11.029055"
          id="rect3655"
-         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#radialGradient409409);fill-opacity:1;fill-rule:evenodd;stroke:#092c5a;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:new" />
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#radialGradient367056);fill-opacity:1;fill-rule:evenodd;stroke:#092c5a;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:new" />
       <g
          transform="translate(0,-300)"
          id="g8517"
@@ -7903,15 +7903,15 @@ K. Vishnoo Charan Reddy</dc:title>
            height="5"
            width="10"
            id="rect3478"
-           style="display:inline;opacity:0.15;fill:url(#linearGradient409411);fill-opacity:1;fill-rule:evenodd;stroke:none;enable-background:new" />
+           style="display:inline;opacity:0.15;fill:url(#linearGradient367058);fill-opacity:1;fill-rule:evenodd;stroke:none;enable-background:new" />
         <path
-           style="display:inline;opacity:0.36986299;fill:url(#radialGradient409413);fill-opacity:1;stroke:none;enable-background:new"
+           style="display:inline;opacity:0.36986299;fill:url(#radialGradient367060);fill-opacity:1;stroke:none;enable-background:new"
            d="M 312.83726,222 H 316 v 6.07462 h -6.958 z"
            id="path3659" />
         <path
            id="path10743"
            d="m 308.81616,222.08224 h 1.72317 l -1.90483,4.45114 -0.8468,-0.05 1.02846,-4.40113 z"
-           style="display:inline;opacity:0.38942321;fill:url(#radialGradient409415);fill-opacity:1;stroke:none;enable-background:new" />
+           style="display:inline;opacity:0.38942321;fill:url(#radialGradient367062);fill-opacity:1;stroke:none;enable-background:new" />
       </g>
       <g
          id="g4520"
@@ -7997,24 +7997,24 @@ K. Vishnoo Charan Reddy</dc:title>
         <path
            id="path5383"
            d="m 119.00002,206 1,20.55814 c 0.65135,13.3905 -8,16.93023 -18,21.76744 -1.02876,0.49763 -2,1.0787 -2,2.41861 v 3.62791 c 0,3.6279 8,3.6279 15,3.6279 h 66 c 7,0 15,0 15,-3.6279 v -3.62791 c 0,-1.33991 -0.97125,-1.92098 -2,-2.41861 -10,-4.83721 -18.65135,-8.37694 -18,-21.76744 l 1,-20.55814 z"
-           style="display:inline;fill:url(#linearGradient409417);fill-opacity:1;fill-rule:evenodd;stroke:none;enable-background:new" />
+           style="display:inline;fill:url(#linearGradient367064);fill-opacity:1;fill-rule:evenodd;stroke:none;enable-background:new" />
         <path
            transform="translate(0,2)"
-           style="display:inline;opacity:0.50700001;fill:url(#radialGradient409419);fill-opacity:1;fill-rule:evenodd;stroke:none;filter:url(#filter4465-8);enable-background:new"
+           style="display:inline;opacity:0.50700001;fill:url(#radialGradient367066);fill-opacity:1;fill-rule:evenodd;stroke:none;filter:url(#filter4465-8);enable-background:new"
            id="path4469"
            d="m 119.48438,204.46094 0.97656,20.08008 c 0.33058,6.79614 -1.73679,11.20248 -5.15039,14.43945 -3.41361,3.23697 -8.11681,5.33108 -13.10938,7.74609 -0.5002,0.24196 -0.95339,0.49935 -1.25781,0.81055 -0.30442,0.3112 -0.48242,0.65432 -0.48242,1.21289 v 3.625 c 0,0.73754 0.36065,1.24302 1.13281,1.70117 0.77216,0.45816 1.94648,0.79404 3.35352,1.01563 2.81407,0.44316 6.55267,0.44726 10.05273,0.44726 h 66 c 3.50006,0 7.23866,-0.004 10.05273,-0.44726 1.40704,-0.22159 2.58136,-0.55747 3.35352,-1.01563 0.77216,-0.45815 1.13281,-0.96363 1.13281,-1.70117 v -3.625 c 0,-0.55857 -0.178,-0.90169 -0.48242,-1.21289 -0.30442,-0.3112 -0.75762,-0.56859 -1.25781,-0.81055 -4.99257,-2.41501 -9.69577,-4.50912 -13.10938,-7.74609 -3.4136,-3.23697 -5.48097,-7.64331 -5.15039,-14.43945 l 0.97656,-20.08008 C 176.51562,204.46094 0,0 0,0 Z" />
         <path
-           style="display:inline;opacity:0.35;fill:url(#linearGradient409421);fill-opacity:1;fill-rule:evenodd;stroke:none;enable-background:new"
+           style="display:inline;opacity:0.35;fill:url(#linearGradient367068);fill-opacity:1;fill-rule:evenodd;stroke:none;enable-background:new"
            d="m 119,206 1,20.5 h 56 l 1,-20.5 z"
            id="path5598" />
         <path
            id="path5580"
            d="m 119.00002,314 1,20.55814 c 0.65135,13.3905 -8,16.93023 -18,21.76744 -1.02876,0.49763 -2,1.0787 -2,2.41861 v 3.62791 c 0,3.6279 8,3.6279 15,3.6279 h 66 c 7,0 15,0 15,-3.6279 v -3.62791 c 0,-1.33991 -0.97125,-1.92098 -2,-2.41861 -10,-4.83721 -18.65135,-8.37694 -18,-21.76744 l 1,-20.55814 z"
-           style="display:inline;fill:none;stroke:url(#linearGradient409423);stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0.69999993;stroke-opacity:1;filter:url(#filter5592-9);enable-background:new"
+           style="display:inline;fill:none;stroke:url(#linearGradient367070);stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0.69999993;stroke-opacity:1;filter:url(#filter5592-9);enable-background:new"
            clip-path="url(#clipPath5584-2)"
            transform="translate(0,-108)" />
         <rect
-           style="display:inline;fill:url(#radialGradient409425);fill-opacity:1;fill-rule:evenodd;stroke:none;enable-background:new"
+           style="display:inline;fill:url(#radialGradient367072);fill-opacity:1;fill-rule:evenodd;stroke:none;enable-background:new"
            id="rect4022"
            width="223.99995"
            height="149.87852"
@@ -8023,7 +8023,7 @@ K. Vishnoo Charan Reddy</dc:title>
            rx="2.125"
            ry="2.1519718" />
         <rect
-           style="display:inline;opacity:0.3;fill:url(#linearGradient409427);fill-opacity:1;fill-rule:evenodd;stroke:none;enable-background:new"
+           style="display:inline;opacity:0.3;fill:url(#linearGradient367074);fill-opacity:1;fill-rule:evenodd;stroke:none;enable-background:new"
            id="rect5233"
            width="210.00005"
            height="126"
@@ -8031,16 +8031,16 @@ K. Vishnoo Charan Reddy</dc:title>
            y="71" />
         <path
            transform="matrix(1,0,0,1.0128125,0,331.5759)"
-           style="display:inline;opacity:0.7;fill:none;stroke:url(#linearGradient409429);stroke-width:1.98730922;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter5681-5);enable-background:new"
+           style="display:inline;opacity:0.7;fill:none;stroke:url(#linearGradient367076);stroke-width:1.98730922;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter5681-5);enable-background:new"
            clip-path="url(#clipPath5266-9)"
            d="M 38.125046,-270 H 257.875 c 1.17725,0 2.125,0.94775 2.125,2.125 v 143.75 c 0,1.17725 -0.94775,2.125 -2.125,2.125 H 38.125046 c -1.17725,0 -2.125,-0.94775 -2.125,-2.125 v -143.75 c 0,-1.17725 0.94775,-2.125 2.125,-2.125 z"
            id="rect5262" />
         <path
-           style="display:inline;fill:url(#radialGradient409431);fill-opacity:1;fill-rule:evenodd;stroke:none;enable-background:new"
+           style="display:inline;fill:url(#radialGradient367078);fill-opacity:1;fill-rule:evenodd;stroke:none;enable-background:new"
            d="m 37.107558,60.78125 c -0.153306,0.164413 -0.309193,0.323949 -0.404433,0.53125 0.250587,0.467664 0.732751,0.78125 1.306631,0.78125 H 258.0215 c 0.57388,0 1.05605,-0.313586 1.30663,-0.78125 -0.0952,-0.207301 -0.25112,-0.366837 -0.40443,-0.53125 -0.2479,0.19308 -0.55526,0.3125 -0.9022,0.3125 H 38.009756 c -0.346937,0 -0.6543,-0.11942 -0.902198,-0.3125 z"
            id="rect5338" />
         <rect
-           style="display:inline;fill:url(#radialGradient409433);fill-opacity:1;fill-rule:evenodd;stroke:none;enable-background:new"
+           style="display:inline;fill:url(#radialGradient367080);fill-opacity:1;fill-rule:evenodd;stroke:none;enable-background:new"
            id="rect5359"
            width="210.00005"
            height="1"
@@ -8048,7 +8048,7 @@ K. Vishnoo Charan Reddy</dc:title>
            y="-198.10938"
            transform="scale(1,-1)" />
         <rect
-           style="display:inline;fill:url(#radialGradient409435);fill-opacity:1;fill-rule:evenodd;stroke:none;enable-background:new"
+           style="display:inline;fill:url(#radialGradient367082);fill-opacity:1;fill-rule:evenodd;stroke:none;enable-background:new"
            id="rect5369"
            width="0.99995422"
            height="126"
@@ -8056,15 +8056,15 @@ K. Vishnoo Charan Reddy</dc:title>
            y="71"
            transform="scale(-1,1)" />
         <path
-           style="display:inline;fill:url(#linearGradient409437);fill-opacity:1;fill-rule:evenodd;stroke:none;enable-background:new"
+           style="display:inline;fill:url(#linearGradient367084);fill-opacity:1;fill-rule:evenodd;stroke:none;enable-background:new"
            d="M 100.09375,250.03125 C 100.02291,250.24448 100,250.48111 100,250.75 v 3.625 c -3e-6,3.6279 8,3.625 15,3.625 h 66 c 7,0 15,0.003 15,-3.625 v -3.625 c 0,-0.26889 -0.0229,-0.50552 -0.0937,-0.71875 C 194.96427,252.9929 187.54221,253 181,253 h -66 c -6.5422,0 -13.96427,-0.007 -14.90625,-2.96875 z"
            id="path5491" />
         <path
-           style="display:inline;fill:url(#linearGradient409439);fill-opacity:1;fill-rule:evenodd;stroke:none;enable-background:new"
+           style="display:inline;fill:url(#linearGradient367086);fill-opacity:1;fill-rule:evenodd;stroke:none;enable-background:new"
            d="m 100.09375,250.03125 c -0.0708,0.13296 -0.0937,0.2805 -0.0937,0.44816 v 2.2603 c 0,2.2621 8,2.26029 15,2.26029 h 66 c 7,0 15,0.002 15,-2.26029 v -2.2603 c 0,-0.16766 -0.0229,-0.3152 -0.0937,-0.44816 -0.94198,1.84668 -8.36404,1.8511 -14.90625,1.8511 h -66 c -6.5422,0 -13.96427,-0.004 -14.90625,-1.8511 z"
            id="path5525" />
         <path
-           style="display:inline;opacity:0.75;fill:url(#radialGradient409441);fill-opacity:1;fill-rule:evenodd;stroke:none;enable-background:new"
+           style="display:inline;opacity:0.75;fill:url(#radialGradient367088);fill-opacity:1;fill-rule:evenodd;stroke:none;enable-background:new"
            d="M 100.09375,250.03125 C 101.03573,252.9929 108.4578,253 115,253 h 66 c 6.54221,0 13.96427,-0.007 14.90625,-2.96875 -0.94198,1.84668 -8.36404,1.84375 -14.90625,1.84375 h -66 c -6.5422,0 -13.96427,0.003 -14.90625,-1.84375 z m 0,0 c -0.0553,0.10371 -0.0537,0.21967 -0.0625,0.34375 0.0146,-0.11942 0.0271,-0.23713 0.0625,-0.34375 z m -0.0625,0.34375 c -0.002,0.035 -0.0313,0.0569 -0.0313,0.0937 v 0.28125 c 0,-0.13445 0.0167,-0.25558 0.0313,-0.375 z m 95.875,-0.34375 c 0.0354,0.10662 0.0479,0.22433 0.0625,0.34375 -0.009,-0.12407 -0.007,-0.24004 -0.0625,-0.34375 z m 0.0625,0.34375 c 0.0146,0.11942 0.0313,0.24055 0.0313,0.375 v -0.28125 c 0,-0.0369 -0.0288,-0.0588 -0.0313,-0.0937 z"
            id="path5531" />
         <path
@@ -8075,11 +8075,11 @@ K. Vishnoo Charan Reddy</dc:title>
            r="1.5"
            cy="250"
            cx="103.875"
-           style="display:inline;fill:url(#radialGradient409443);fill-opacity:1;stroke:none;enable-background:new"
+           style="display:inline;fill:url(#radialGradient367090);fill-opacity:1;stroke:none;enable-background:new"
            id="path5553"
            transform="matrix(1.75,0,0,1.75,-77.90625,-185.5)" />
         <rect
-           style="display:inline;fill:url(#radialGradient409445);fill-opacity:1;stroke:none;filter:url(#filter5713-2);enable-background:new"
+           style="display:inline;fill:url(#radialGradient367092);fill-opacity:1;stroke:none;filter:url(#filter5713-2);enable-background:new"
            id="rect5695"
            width="1"
            height="143"
@@ -8089,7 +8089,7 @@ K. Vishnoo Charan Reddy</dc:title>
            ry="1"
            transform="matrix(1,0,0,1.0074172,0,-0.9976139)" />
         <rect
-           style="display:inline;opacity:0.38356162;fill:url(#radialGradient409447);fill-opacity:1;stroke:none;filter:url(#filter5713-2);enable-background:new"
+           style="display:inline;opacity:0.38356162;fill:url(#radialGradient367094);fill-opacity:1;stroke:none;filter:url(#filter5713-2);enable-background:new"
            id="rect5717"
            width="1"
            height="143"
@@ -8102,7 +8102,7 @@ K. Vishnoo Charan Reddy</dc:title>
            r="1.5"
            cy="250"
            cx="103.875"
-           style="display:inline;fill:url(#radialGradient409449);fill-opacity:1;stroke:none;enable-background:new"
+           style="display:inline;fill:url(#radialGradient367096);fill-opacity:1;stroke:none;enable-background:new"
            id="path4066"
            transform="matrix(1.0428932,0,0,1.0428932,83.428349,-8.90008)" />
         <rect
@@ -8114,9 +8114,9 @@ K. Vishnoo Charan Reddy</dc:title>
            height="15"
            width="223.99995"
            id="rect5721"
-           style="display:inline;opacity:0.08161807;fill:url(#linearGradient409451);fill-opacity:1;fill-rule:evenodd;stroke:none;filter:url(#filter7326);enable-background:new" />
+           style="display:inline;opacity:0.08161807;fill:url(#linearGradient367098);fill-opacity:1;fill-rule:evenodd;stroke:none;filter:url(#filter7326);enable-background:new" />
         <rect
-           style="display:inline;opacity:0.36529679;fill:url(#radialGradient409453);fill-opacity:1;fill-rule:evenodd;stroke:none;enable-background:new"
+           style="display:inline;opacity:0.36529679;fill:url(#radialGradient367100);fill-opacity:1;fill-rule:evenodd;stroke:none;enable-background:new"
            id="rect4473"
            width="219.54599"
            height="1"
@@ -8128,26 +8128,26 @@ K. Vishnoo Charan Reddy</dc:title>
           <path
              id="path4088"
              d="m 240,200 c -2.19965,0 -4,1.80035 -4,4 v 4 h 12 v -4 c 0,-2.19965 -1.80035,-4 -4,-4 z"
-             style="display:inline;opacity:0.18264842;fill:url(#linearGradient409455);fill-opacity:1;stroke:none;enable-background:new" />
+             style="display:inline;opacity:0.18264842;fill:url(#linearGradient367102);fill-opacity:1;stroke:none;enable-background:new" />
           <path
              id="rect4080"
              d="m 240,201 c -1.66165,0 -3,1.33835 -3,3 v 4 h 10 v -4 c 0,-1.66165 -1.33835,-3 -3,-3 z"
-             style="display:inline;fill:url(#linearGradient409457);fill-opacity:1;stroke:none;enable-background:new" />
+             style="display:inline;fill:url(#linearGradient367104);fill-opacity:1;stroke:none;enable-background:new" />
           <path
              id="path4247"
              d="m 240,201 c -1.66165,0 -3,1.33835 -3,3 v 4 h 10 v -4 c 0,-1.66165 -1.33835,-3 -3,-3 z"
-             style="display:inline;opacity:0.55707762;fill:url(#radialGradient409459);fill-opacity:1;stroke:none;enable-background:new" />
+             style="display:inline;opacity:0.55707762;fill:url(#radialGradient367106);fill-opacity:1;stroke:none;enable-background:new" />
           <path
              transform="matrix(1,0,0,0.75,0,51.75)"
              id="path4148"
              d="m 240,203 c -0.58774,0 -1,0.41226 -1,1 v 3 h 6 v -3 c 0,-0.58774 -0.41226,-1 -1,-1 z"
-             style="display:inline;fill:url(#linearGradient409461);fill-opacity:1;stroke:none;enable-background:new" />
+             style="display:inline;fill:url(#linearGradient367108);fill-opacity:1;stroke:none;enable-background:new" />
           <path
              transform="translate(0,-10)"
              clip-path="url(#clipPath4367-5)"
              id="path4361"
              d="m 240,211.32322 c -1.66165,0 -3,1.33835 -3,3 V 221 h 10 v -6.67678 c 0,-1.66165 -1.33835,-3 -3,-3 z"
-             style="display:inline;opacity:0.65;fill:none;stroke:url(#linearGradient409463);stroke-width:0.80000001;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter4461-3);enable-background:new" />
+             style="display:inline;opacity:0.65;fill:none;stroke:url(#linearGradient367110);stroke-width:0.80000001;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter4461-3);enable-background:new" />
         </g>
       </g>
       <rect
@@ -8156,7 +8156,7 @@ K. Vishnoo Charan Reddy</dc:title>
          height="124"
          width="208.00005"
          id="rect3248"
-         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#radialGradient409465);fill-opacity:1;fill-rule:evenodd;stroke:none;marker:none;enable-background:new" />
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#radialGradient367112);fill-opacity:1;fill-rule:evenodd;stroke:none;marker:none;enable-background:new" />
       <g
          transform="translate(230,-299.99998)"
          id="g8317"
@@ -8179,15 +8179,15 @@ K. Vishnoo Charan Reddy</dc:title>
              height="124"
              width="208.00005"
              id="rect5685"
-             style="display:inline;opacity:0.19178084;fill:url(#linearGradient409467);fill-opacity:1;fill-rule:evenodd;stroke:none;enable-background:new" />
+             style="display:inline;opacity:0.19178084;fill:url(#linearGradient367114);fill-opacity:1;fill-rule:evenodd;stroke:none;enable-background:new" />
           <path
-             style="display:inline;opacity:0.24497992;fill:url(#radialGradient409469);fill-opacity:1;stroke:none;enable-background:new"
+             style="display:inline;opacity:0.24497992;fill:url(#radialGradient367116);fill-opacity:1;stroke:none;enable-background:new"
              d="M 200.54546,74 H 251 V 196 H 140 Z"
              id="path5379" />
           <path
              id="path10688"
              d="M 139.54546,74 H 174 l -32,89 -17,-1 z"
-             style="display:inline;opacity:0.24497992;fill:url(#radialGradient409471);fill-opacity:1;stroke:none;enable-background:new" />
+             style="display:inline;opacity:0.24497992;fill:url(#radialGradient367118);fill-opacity:1;stroke:none;enable-background:new" />
         </g>
       </g>
     </g>

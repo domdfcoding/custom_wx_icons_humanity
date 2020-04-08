@@ -7,7 +7,8 @@ Don't call this directly. Instead, use it in your build script.
 
 e.g.
 >>> import os
->>> from gnome_icon_builder import main
+>>> from gnome_icon_builder import main, get_scalable_directories
+>>> from wx_icons_suru import theme_index_path
 >>>
 >>> SOURCES = ('actions', 'apps', 'categories')
 >>> output_dir = "./Suru"
@@ -15,8 +16,10 @@ e.g.
 >>> # DPI multipliers to render at
 >>> dpis = [1, 2]
 >>>
+>>> scalable_directories = get_scalable_directories(theme_index_path)
+>>>
 >>> for source in SOURCES:
-... 	main(os.path.join('.', 'svg_src', source), dpis, output_dir)
+... 	main(os.path.join('.', 'svg_src', source), dpis, output_dir, scalable_directories)
 >>>
 """
 #
@@ -45,49 +48,93 @@ e.g.
 
 
 # stdlib
+import configparser
 import os
 import subprocess
 import sys
 import xml.sax
 
 
+OPTIPNG = '/usr/bin/optipng'
 inkscape_process = None
 
 
-def main(source_dir, dpis, output_dir):
-	def wait_for_prompt(process, command=None):
-		if command is not None:
-			process.stdin.write((command + '\n').encode('utf-8'))
-		
-		# This is kinda ugly ...
-		# Wait for just a '>', or '\n>' if some other char appearead first
-		output = process.stdout.read(1)
-		if output == b'>':
-			return
-		
+def get_scalable_directories(theme_index_path):
+	parser = configparser.ConfigParser()
+	parser.read(theme_index_path)
+	
+	directories = parser.get("Icon Theme", "Directories").split(",")
+	
+	scalable_directories = []
+	
+	for directory in directories:
+		if directory:
+			if parser.get(directory, "Type") == "Scalable":
+				scalable_directories.append(directory)
+	
+	return scalable_directories
+
+
+def optimize_png(png_file):
+	if os.path.exists(OPTIPNG):
+		process = subprocess.Popen([OPTIPNG, '-quiet', '-o7', png_file])
+		process.wait()
+	
+	
+def wait_for_prompt(process, command=None):
+	if command is not None:
+		process.stdin.write((command + '\n').encode('utf-8'))
+	
+	# This is kinda ugly ...
+	# Wait for just a '>', or '\n>' if some other char appearead first
+	output = process.stdout.read(1)
+	if output == b'>':
+		return
+	
+	output += process.stdout.read(1)
+	while output != b'\n>':
 		output += process.stdout.read(1)
-		while output != b'\n>':
-			output += process.stdout.read(1)
-			output = output[1:]
+		output = output[1:]
+
+
+def start_inkscape():
+	process = subprocess.Popen(['inkscape', '--shell'], bufsize=0, stdin=subprocess.PIPE, stdout=subprocess.PIPE)
+	wait_for_prompt(process)
+	return process
 	
-	def start_inkscape():
-		process = subprocess.Popen(['inkscape', '--shell'], bufsize=0, stdin=subprocess.PIPE, stdout=subprocess.PIPE)
-		wait_for_prompt(process)
-		return process
 	
-	def inkscape_export_svg(icon_file, rect, dpi, output_file):
-		global inkscape_process
-		if inkscape_process is None:
-			inkscape_process = start_inkscape()
-		
-		cmd = [
-				icon_file,
-				'--export-dpi', str(dpi),
-				'-i', rect,
-				'-l', output_file,
-				]
-		
-		wait_for_prompt(inkscape_process, ' '.join(cmd))
+def inkscape_render_rect(icon_file, rect, dpi, output_file):
+	global inkscape_process
+	if inkscape_process is None:
+		inkscape_process = start_inkscape()
+	
+	cmd = [
+			icon_file,
+			'--export-dpi', str(dpi),
+			'-i', rect,
+			'-e', output_file,
+			]
+	
+	wait_for_prompt(inkscape_process, ' '.join(cmd))
+	optimize_png(output_file)
+
+
+def inkscape_export_svg(icon_file, rect, dpi, output_file):
+	global inkscape_process
+	if inkscape_process is None:
+		inkscape_process = start_inkscape()
+	
+	cmd = [
+			icon_file,
+			'--export-dpi', str(dpi),
+			'-i', rect,
+			'-l', output_file,
+			]
+	
+	wait_for_prompt(inkscape_process, ' '.join(cmd))
+
+
+def main(source_dir, dpis, output_dir, scalable_directories):
 	
 	class ContentHandler(xml.sax.ContentHandler):
 		ROOT = 0
@@ -164,6 +211,9 @@ def main(source_dir, dpis, output_dir):
 					return
 				
 				print(self.context, self.icon_name)
+				
+				# TODO: Check that all sizes are available, and if not use the largest size available for the missing sizes
+				
 				for rect in self.rects:
 					for dpi_factor in dpis:
 						width = int(float(rect['width']))
@@ -176,22 +226,42 @@ def main(source_dir, dpis, output_dir):
 							size_str += "@%sx" % dpi_factor
 						
 						dir = os.path.join(output_dir, size_str, self.context)
-						outfile = os.path.join(dir, self.icon_name + '.svg')
-						png_oldfile = os.path.join(dir, self.icon_name + '.png')
+						
+						if f"{size_str}/{self.context}" in scalable_directories:
+							scalable = True
+						else:
+							scalable = False
+							
+						svg_file = os.path.join(dir, self.icon_name + '.svg')
+						png_file = os.path.join(dir, self.icon_name + '.png')
 						
 						if not os.path.exists(dir):
 							os.makedirs(dir)
-						if os.path.isfile(png_oldfile):
-							os.unlink(png_oldfile)
+						
+						if scalable:
+							if os.path.isfile(png_file):
+								os.unlink(png_file)
+							outfile = svg_file
+						else:
+							if os.path.isfile(svg_file):
+								os.unlink(svg_file)
+							outfile = png_file
+							
 						# Do a time based check!
 						if self.force or not os.path.exists(outfile):
-							inkscape_export_svg(self.path, id, dpi, outfile)
+							if scalable:
+								inkscape_export_svg(self.path, id, dpi, outfile)
+							else:
+								inkscape_render_rect(self.path, id, dpi, outfile)
 							sys.stdout.write('.')
 						else:
 							stat_in = os.stat(self.path)
 							stat_out = os.stat(outfile)
 							if stat_in.st_mtime > stat_out.st_mtime:
-								inkscape_export_svg(self.path, id, dpi, outfile)
+								if scalable:
+									inkscape_export_svg(self.path, id, dpi, outfile)
+								else:
+									inkscape_render_rect(self.path, id, dpi, outfile)
 								sys.stdout.write('.')
 							else:
 								sys.stdout.write('-')
