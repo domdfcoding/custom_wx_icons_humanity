@@ -79,6 +79,9 @@ def prepare_data_files(modname, theme_name):
 		if directory:
 			base_path = theme_content_root
 			for element in directory.split("/"):
+				if not (base_path / element).is_dir():
+					(base_path / element).mkdir()
+					
 				open(base_path / element / "__init__.py", "w").close()
 				base_path = base_path / element
 			
