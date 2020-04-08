@@ -7,10 +7,10 @@ python:
 - '3.8'
 
 before_install:
-  - chmod +x build_icon_themes.sh
+  - chmod +x ./build_icon_themes.sh
   - chmod +x .ci/travis_deploy.sh
 
 script:
   - echo "skipping tests"
-  - build_icon_themes.sh
+  - ./build_icon_themes.sh
   - .ci/travis_deploy.sh
