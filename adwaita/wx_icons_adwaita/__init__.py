@@ -10,7 +10,7 @@ from wx_icons_adwaita import Adwaita
 from wx_icons_hicolor import HicolorIconTheme, wxHicolorIconTheme, test_random_icons
 
 
-__version__ = "0.0.0"
+__version__ = "0.1.0"
 
 
 def version():
