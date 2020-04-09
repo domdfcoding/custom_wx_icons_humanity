@@ -20,7 +20,7 @@ with importlib_resources.path(Humanity_Dark, "index.theme") as dark_theme_index_
 	dark_theme_index_path = str(dark_theme_index_path)
 
 
-__version__ = "0.0.0"
+__version__ = "0.1.0"
 
 
 def version():
