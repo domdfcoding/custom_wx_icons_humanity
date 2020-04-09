@@ -18,7 +18,7 @@ from wx_icons_hicolor.icon import Icon
 from wx_icons_hicolor.directory import Directory
 
 
-__version__ = "0.0.0"
+__version__ = "0.1.0"
 
 
 def version():
