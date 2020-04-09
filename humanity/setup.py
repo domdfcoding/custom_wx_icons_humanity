@@ -34,7 +34,7 @@ from __pkginfo__ import (
 
 
 theme_name = "Humanity"
-VERSION = "0.6.15"
+VERSION = "0.0.0"
 modname = f"wx_icons_{theme_name.lower()}"
 license = 'GPLv2'
 short_desc = 'description goes here'

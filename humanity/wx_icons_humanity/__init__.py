@@ -20,6 +20,16 @@ with importlib_resources.path(Humanity_Dark, "index.theme") as dark_theme_index_
 	dark_theme_index_path = str(dark_theme_index_path)
 
 
+__version__ = "0.0.0"
+
+
+def version():
+	return f"""wx_icons_humanity
+Version {__version__}
+Humanity Icon Theme Version 0.6.15
+"""
+
+
 class HumanityIconTheme(AdwaitaIconTheme):
 	_adwaita_theme = AdwaitaIconTheme.create()
 	

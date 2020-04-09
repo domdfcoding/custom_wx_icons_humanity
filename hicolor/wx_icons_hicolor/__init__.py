@@ -18,6 +18,16 @@ from wx_icons_hicolor.icon import Icon
 from wx_icons_hicolor.directory import Directory
 
 
+__version__ = "0.0.0"
+
+
+def version():
+	return f"""wx_icons_hicolor
+Version {__version__}
+Gnome Icon Theme Version 3.12.0
+"""
+
+
 class wxHicolorIconTheme(wx.ArtProvider):
 	_hicolor_theme = HicolorIconTheme.create()
 	

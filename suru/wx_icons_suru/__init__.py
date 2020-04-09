@@ -15,6 +15,16 @@ with importlib_resources.path(Suru, "index.theme") as theme_index_path:
 	theme_index_path = str(theme_index_path)
 
 
+__version__ = "0.0.0"
+
+
+def version():
+	return f"""wx_icons_hicolor
+Version {__version__}
+Gnome Icon Theme Version 20.04.4
+"""
+
+
 class SuruIconTheme(HumanityIconTheme):
 	_humanity_theme = HumanityIconTheme.create()
 

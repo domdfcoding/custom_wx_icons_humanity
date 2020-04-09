@@ -12,6 +12,15 @@ from wx_icons_tango import Tango
 with importlib_resources.path(Tango, "index.theme") as theme_index_path:
 	theme_index_path = str(theme_index_path)
 
+__version__ = "0.0.0"
+
+
+def version():
+	return f"""wx_icons_tango
+Version {__version__}
+Tango Icon Theme Version 0.8.90
+"""
+
 
 class TangoIconTheme(HicolorIconTheme):
 	_hicolor_theme = HicolorIconTheme.create()

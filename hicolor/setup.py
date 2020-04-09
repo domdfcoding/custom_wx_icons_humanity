@@ -33,7 +33,7 @@ from __pkginfo__ import (
 
 
 theme_name = "Hicolor"
-VERSION = "3.12.0"
+VERSION = "0.0.0"
 modname = f"wx_icons_{theme_name.lower()}"
 license = 'LGPLv3'
 short_desc = 'description goes here'

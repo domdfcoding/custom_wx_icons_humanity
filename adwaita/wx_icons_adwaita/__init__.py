@@ -10,6 +10,16 @@ from wx_icons_adwaita import Adwaita
 from wx_icons_hicolor import HicolorIconTheme, wxHicolorIconTheme, test_random_icons
 
 
+__version__ = "0.0.0"
+
+
+def version():
+	return f"""wx_icons_adwaita
+Version {__version__}
+Adwaita Icon Theme Version 3.28.0
+"""
+
+
 with importlib_resources.path(Adwaita, "index.theme") as theme_index_path:
 	theme_index_path = str(theme_index_path)
 
