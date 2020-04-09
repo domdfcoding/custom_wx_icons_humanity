@@ -1,6 +1,6 @@
-********************************
+**************************************
 Hicolor/Gnome Icon Theme for wxPython
-********************************
+**************************************
 
 This package provides a wxPython wxArtProvider class with icons from the Hicolor/Gnome Icon Theme.
 
