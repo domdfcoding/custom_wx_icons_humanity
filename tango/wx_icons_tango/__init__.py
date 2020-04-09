@@ -12,7 +12,7 @@ from wx_icons_tango import Tango
 with importlib_resources.path(Tango, "index.theme") as theme_index_path:
 	theme_index_path = str(theme_index_path)
 
-__version__ = "0.0.0"
+__version__ = "0.1.0"
 
 
 def version():
