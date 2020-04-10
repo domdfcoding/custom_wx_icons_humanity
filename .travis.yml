@@ -10,6 +10,8 @@ before_install:
   - chmod +x ./build_icon_themes.sh
   - chmod +x .ci/travis_deploy.sh
 
+install: skip
+
 script:
   - echo "skipping tests"
   - ./build_icon_themes.sh
