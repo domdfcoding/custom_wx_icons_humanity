@@ -48,7 +48,7 @@ classifiers = [
 		# "Development Status :: 6 - Mature",
 		# "Development Status :: 7 - Inactive",
 		
-		"License :: OSI Approved :: GNU General Public License 3 or later (GPLv3)",
+		"License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
 		] + general_trove_classifiers
 
 
