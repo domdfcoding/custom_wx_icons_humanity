@@ -2,7 +2,7 @@
 """
 custom_wx_icons Setup script
 """
-
+#
 #  Copyright (C) 2019-2020 Dominic Davis-Foster <dominic@davis-foster.co.uk>
 #
 #  This program is free software: you can redistribute it and/or modify

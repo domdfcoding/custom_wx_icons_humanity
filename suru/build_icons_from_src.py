@@ -4,17 +4,11 @@
 Script to chop up SVGs into individual sizes
 """
 #  
-#  Based on `render-icon-theme.py` from the GNOME Project's adwaita-icon-theme
-#  https://github.com/GNOME/adwaita-icon-theme
-#  http://www.gnome.org
-#
-#  Also based on `render-bitmaps.py` from Ubuntu's Suru Icon Theme
-#  https://github.com/ubuntu/yaru/blob/master/icons
+#  Copyright (C) 2020 Dominic Davis-Foster <dominic@davis-foster.co.uk>
 #
 #  This program is free software; you can redistribute it and/or modify
-#  it under the terms of the GNU Lesser General Public License as published by
-#  the Free Software Foundation; either version 3 of the License, or
-#  (at your option) any later version.
+#  it under the terms of the GNU General Public License version 3 as
+#  published by the Free Software Foundation.
 #
 #  This program is distributed in the hope that it will be useful,
 #  but WITHOUT ANY WARRANTY; without even the implied warranty of

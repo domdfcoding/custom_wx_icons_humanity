@@ -1,5 +1,26 @@
-# Humanity
-# https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/humanity-icon-theme/0.6.15/humanity-icon-theme_0.6.15.tar.xz
+#!/usr/bin/python3
+#
+#  __init__.py
+#
+#  Copyright (C) 2020 Dominic Davis-Foster <dominic@davis-foster.co.uk>
+#
+#  Includes icons from the Humanity and Humanity_Dark Icon Themes
+#  https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/humanity-icon-theme/0.6.15/humanity-icon-theme_0.6.15.tar.xz
+#
+#  This program is free software; you can redistribute it and/or modify
+#  it under the terms of the GNU General Public License version 2 as
+#  published by the Free Software Foundation.
+#
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU General Public License for more details.
+#
+#  You should have received a copy of the GNU General Public License
+#  along with this program; if not, write to the Free Software
+#  Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+#  MA 02110-1301, USA.
+#
 
 # Humanity Colours
 # https://drive.google.com/u/0/uc?id=0B7iDWdwgu9QAcDhUVXVvMVlLbEE&export=download

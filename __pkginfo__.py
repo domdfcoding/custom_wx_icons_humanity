@@ -4,20 +4,14 @@
 Shared tools for building packages
 """
 #
-#  This program is free software; you can redistribute it and/or modify
-#  it under the terms of the GNU Lesser General Public License as published by
-#  the Free Software Foundation; either version 3 of the License, or
-#  (at your option) any later version.
+#  Copyright (C) 2020 Dominic Davis-Foster <dominic@davis-foster.co.uk>
 #
-#  This program is distributed in the hope that it will be useful,
+#  This file is distributed under the same license terms as the program it came with.
+#  There will probably be a file called LICEN[S/C]E in the same directory as this file.
+#
+#  In any case, this program is distributed in the hope that it will be useful,
 #  but WITHOUT ANY WARRANTY; without even the implied warranty of
-#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-#  GNU Lesser General Public License for more details.
-#
-#  You should have received a copy of the GNU Lesser General Public License
-#  along with this program; if not, write to the Free Software
-#  Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
-#  MA 02110-1301, USA.
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 #
 
 

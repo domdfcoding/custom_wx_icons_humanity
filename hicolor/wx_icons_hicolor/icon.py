@@ -1,3 +1,25 @@
+#!/usr/bin/python3
+#
+#  icon.py
+#
+#  Copyright (C) 2020 Dominic Davis-Foster <dominic@davis-foster.co.uk>
+#
+#  This program is free software; you can redistribute it and/or modify
+#  it under the terms of the GNU Lesser General Public License as published by
+#  the Free Software Foundation; either version 3 of the License, or
+#  (at your option) any later version.
+#
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU Lesser General Public License for more details.
+#
+#  You should have received a copy of the GNU Lesser General Public License
+#  along with this program; if not, write to the Free Software
+#  Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+#  MA 02110-1301, USA.
+#
+
 # stdlib
 import pathlib
 from io import BytesIO
@@ -13,7 +35,7 @@ from .constants import mime
 
 
 class Icon:
-	def __init__(self, name, path, size, type='Threshold', max_size=None, min_size=None, ):
+	def __init__(self, name, path, size, type='Threshold', max_size=None, min_size=None, theme=''):
 		"""
 
 		:param name: The name of the icon
@@ -31,6 +53,8 @@ class Icon:
 		:type max_size: int
 		:param min_size: Specifies the minimum (unscaled) size that the icon can be scaled to. Defaults to the value of Size if not present.
 		:type min_size: int
+		:param theme: The name of the theme this icon came from
+		:type theme: str
 		"""
 		
 		if not isinstance(path, pathlib.Path):
@@ -41,6 +65,7 @@ class Icon:
 			raise TypeError("The specified file is not a valid icon")
 		
 		self.name = name
+		self.theme = theme
 		
 		if not isinstance(size, int):
 			raise TypeError("'size' must be a integer.")
@@ -63,6 +88,33 @@ class Icon:
 			self.min_size = min_size
 		else:
 			self.min_size = size
+	
+	def __iter__(self):
+		for key, value in self.__dict__().items():
+			yield key, value
+	
+	def __getstate__(self):
+		return self.__dict__()
+	
+	def __setstate__(self, state):
+		self.__init__(**state)
+	
+	def __dict__(self):
+		return dict(
+				name=self.name,
+				path=self.path,
+				size=self.size,
+				type=self.type,
+				max_size=self.max_size,
+				min_size=self.min_size,
+				theme=self.theme,
+				)
+	
+	def __copy__(self):
+		return self.__class__(**self.__dict__())
+	
+	def __deepcopy__(self, memodict={}):
+		return self.__copy__()
 	
 	@property
 	def mime_type(self):

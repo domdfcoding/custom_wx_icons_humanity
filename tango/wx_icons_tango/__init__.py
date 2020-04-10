@@ -1,5 +1,28 @@
-# tango-icon-theme
-# https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/tango-icon-theme/0.8.90-5ubuntu1/tango-icon-theme_0.8.90.orig.tar.gz
+#!/usr/bin/python3
+#
+#  __init__.py
+#
+#  Copyright (C) 2020 Dominic Davis-Foster <dominic@davis-foster.co.uk>
+#
+#  Includes Public Domain icons from the Tango Project
+#  https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/tango-icon-theme/0.8.90-5ubuntu1/tango-icon-theme_0.8.90.orig.tar.gz
+#
+#  This program is free software; you can redistribute it and/or modify
+#  it under the terms of the GNU Lesser General Public License as published by
+#  the Free Software Foundation; either version 3 of the License, or
+#  (at your option) any later version.
+#
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU Lesser General Public License for more details.
+#
+#  You should have received a copy of the GNU Lesser General Public License
+#  along with this program; if not, write to the Free Software
+#  Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+#  MA 02110-1301, USA.
+#
+
 
 # 3rd party
 import importlib_resources

@@ -23,6 +23,8 @@ e.g.
 >>>
 """
 #
+#  Copyright 2020 Dominic Davis-Foster <dominic@davis-foster.co.uk>
+#
 #  Based on `render-icon-theme.py` from the GNOME Project's adwaita-icon-theme
 #  https://github.com/GNOME/adwaita-icon-theme
 #  http://www.gnome.org

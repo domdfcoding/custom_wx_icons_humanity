@@ -1,20 +1,36 @@
+#!/usr/bin/python3
+#
+#  icon_theme.py
+#
+#  Copyright (C) 2020 Dominic Davis-Foster <dominic@davis-foster.co.uk>
+#
+#  This program is free software; you can redistribute it and/or modify
+#  it under the terms of the GNU Lesser General Public License as published by
+#  the Free Software Foundation; either version 3 of the License, or
+#  (at your option) any later version.
+#
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU Lesser General Public License for more details.
+#
+#  You should have received a copy of the GNU Lesser General Public License
+#  along with this program; if not, write to the Free Software
+#  Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+#  MA 02110-1301, USA.
+#
+
 # stdlib
 import configparser
-import pathlib
-
-# this package
-from .directory import Directory
-from wx_icons_hicolor.constants import mime, theme_index_path
-# stdlib
+import copy
 import pathlib
 
 # 3rd party
 import importlib_resources
-import magic
-import magic
 
 # this package
 from wx_icons_hicolor import Hicolor
+from .directory import Directory
 
 
 class IconTheme:
@@ -51,8 +67,9 @@ class IconTheme:
 		self.comment = comment
 		
 		if not isinstance(directories, list) or not isinstance(directories[0], Directory):
+			print(type(directories, type(directories[0])))
 			raise TypeError("'directories' must be a list of Directory objects")
-		self.directories = directories
+		self.directories = copy.deepcopy(directories)
 		self.directories.sort(key=lambda directory: directory.size, reverse=True)
 		
 		if inherits:
@@ -72,6 +89,44 @@ class IconTheme:
 		self.hidden = hidden
 		self.example = example
 	
+	def __iter__(self):
+		for key, value in self.__dict__().items():
+			yield key, value
+	
+	def __getstate__(self):
+		return self.__dict__()
+	
+	def __setstate__(self, state):
+		self.__init__(**state)
+	
+	def __dict__(self):
+		return dict(
+				name=self.name,
+				comment=self.comment,
+				directories=self.directories,
+				inherits=self.inherits,
+				scaled_directories=self.scaled_directories,
+				hidden=self.hidden,
+				example=self.example,
+				)
+	
+	def __copy__(self):
+		return self.__class__(**self.__dict__())
+	
+	def __deepcopy__(self, memodict={}):
+		class_dict = self.__dict__()
+		
+		class_dict["directories"] = [copy.copy(directory) for directory in class_dict["directories"]]
+		class_dict["scaled_directories"] = [copy.copy(directory) for directory in class_dict["scaled_directories"]]
+		
+		return self.__class__(**self.__dict__())
+	
+	def __repr__(self):
+		return f"{self.name} Icon Theme object at {id(self)})"
+	
+	def __str__(self):
+		return f"{self.name} Icon Theme"
+	
 	@classmethod
 	def from_configparser(cls, theme_index_path):
 		parser = configparser.ConfigParser()
@@ -86,15 +141,24 @@ class IconTheme:
 		directories = parser.get("Icon Theme", "Directories").split(",")
 		while "" in directories:
 			directories.remove("")
-		directories = [Directory.from_configparser(parser[directory], theme_content_root) for directory in directories]
 		
+		directories_new = []
+		
+		for directory in directories:
+			icon_dir = Directory.from_configparser(parser[directory], theme_content_root)
+			icon_dir.theme = name
+			directories_new.append(icon_dir)
+			
 		scaled_directories = parser.get("Icon Theme", "ScaledDirectories", fallback='').split(",")
 		while "" in scaled_directories:
 			scaled_directories.remove("")
-		scaled_directories = [
-				Directory.from_configparser(
-						parser[directory], theme_content_root
-						) for directory in scaled_directories]
+		
+		scaled_directories_new = []
+		
+		for directory in scaled_directories:
+			icon_dir = Directory.from_configparser(parser[directory], theme_content_root)
+			icon_dir.theme = name
+			scaled_directories_new.append(icon_dir)
 		
 		hidden = parser.getboolean("Icon Theme", "Hidden", fallback=False)
 		example = parser.get("Icon Theme", "Example", fallback='')
@@ -107,7 +171,7 @@ class IconTheme:
 		# print(hidden)
 		# print(example)
 		
-		return cls(name, comment, directories, inherits, scaled_directories, hidden, example)
+		return cls(name, comment, directories_new, inherits, scaled_directories_new, hidden, example)
 	
 	def _do_find_icon(self, icon_name, size, scale, prefer_this_theme=True):
 		"""

@@ -1,13 +1,37 @@
+#!/usr/bin/python3
+#
+#  __init__.py
+#
+#  Copyright (C) 2020 Dominic Davis-Foster <dominic@davis-foster.co.uk>
+#
+#  Includes icons from the gnome-icon-theme
+#  https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/gnome-icon-theme/3.12.0-3/gnome-icon-theme_3.12.0.orig.tar.xz
+#
+#  This program is free software; you can redistribute it and/or modify
+#  it under the terms of the GNU Lesser General Public License as published by
+#  the Free Software Foundation; either version 3 of the License, or
+#  (at your option) any later version.
+#
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU Lesser General Public License for more details.
+#
+#  You should have received a copy of the GNU Lesser General Public License
+#  along with this program; if not, write to the Free Software
+#  Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+#  MA 02110-1301, USA.
+#
+
 # Hicolor
 # https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/hicolor-icon-theme/0.17-2/hicolor-icon-theme_0.17.orig.tar.xz
 
-# gnome-icon-theme
-# https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/gnome-icon-theme/3.12.0-3/gnome-icon-theme_3.12.0.orig.tar.xz
-
-import wx
+# stdlib
 import sys
-
 sys.path.append("..")
+
+# 3rd party
+import wx
 
 # this package
 from wx_icons_hicolor import Hicolor
@@ -66,6 +90,6 @@ if __name__ == '__main__':
 	# for directory in theme.directories:
 	# 	print(directory.icons)
 	
-	test_random_icons(theme)
+	# test_random_icons(theme)
 	
-	# test_icon_theme(theme)
+	test_icon_theme(theme, show_success=False)

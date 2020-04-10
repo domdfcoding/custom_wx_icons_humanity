@@ -1,3 +1,26 @@
+#!/usr/bin/python3
+#
+#  test.py
+#
+#  Copyright (C) 2020 Dominic Davis-Foster <dominic@davis-foster.co.uk>
+#
+#  This program is free software; you can redistribute it and/or modify
+#  it under the terms of the GNU Lesser General Public License as published by
+#  the Free Software Foundation; either version 3 of the License, or
+#  (at your option) any later version.
+#
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU Lesser General Public License for more details.
+#
+#  You should have received a copy of the GNU Lesser General Public License
+#  along with this program; if not, write to the Free Software
+#  Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+#  MA 02110-1301, USA.
+#
+
+
 freedesktop_naming_spec_list = [
 			'address-book-new',  # The icon used for the action to create a new address book.
 			'application-exit',
@@ -347,15 +370,45 @@ freedesktop_naming_spec_list = [
 			'weather-storm',  # The icon used while storms are occurring in a region.
 			]
 
-def test_icon_theme(theme):
+
+def test_icon_theme(theme, show_success=True, show_warning=True):
+	import colorama
+	colorama.init()
+	from colorama import Fore
+	
+	successes = 0
+	warnings = 0
+	failures = 0
+	
 	for icon_name in freedesktop_naming_spec_list:
 		
 		for size in [16, 22, 24, 32, 48, 64, 128, 192, 256]:
 			icon = theme.find_icon(icon_name, size, None)
 			if icon is None:
-				print(icon_name, size)
+				print(
+						f"{Fore.RED}Failure: {icon_name} at size {size} "
+						f"not found in {theme.name} Icon Theme or dependencies.{Fore.RESET}")
+				failures += 1
 			else:
-				print(icon.path)
+				if icon.theme != theme.name:
+					if show_warning:
+						print(
+								f"{Fore.YELLOW}Warning: {icon_name} at size {size} "
+								f"not found in {theme.name} Icon Theme, "
+								f"but found in dependency {icon.theme}.{Fore.RESET}")
+					warnings += 1
+				else:
+					if show_success:
+						print(
+								f"{Fore.GREEN}Success: {icon_name} at size {size} "
+								f"found in {theme.name} Icon Theme.{Fore.RESET}")
+					successes += 1
+	
+	print(f"Test completed for {theme.name} Icon Theme.")
+	print(
+			f"{Fore.GREEN}{successes} Successes{Fore.RESET}, "
+			f"{Fore.YELLOW}{warnings} Warnings{Fore.RESET}, "
+			f"{Fore.RED}{failures} Failures{Fore.RESET}.")
 
 
 def test_random_icons(theme):

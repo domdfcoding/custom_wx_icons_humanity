@@ -5,13 +5,8 @@ Script to chop up SVGs into individual sizes
 
 This takes around 15 minutes to run so be patient.
 """
-#  
-#  Based on `render-icon-theme.py` from the GNOME Project's adwaita-icon-theme
-#  https://github.com/GNOME/adwaita-icon-theme
-#  http://www.gnome.org
 #
-#  Also based on `render-bitmaps.py` from Ubuntu's Suru Icon Theme
-#  https://github.com/ubuntu/yaru/blob/master/icons
+#  Copyright (C) 2020 Dominic Davis-Foster <dominic@davis-foster.co.uk>
 #
 #  This program is free software; you can redistribute it and/or modify
 #  it under the terms of the GNU Lesser General Public License as published by
@@ -42,12 +37,9 @@ from gnome_icon_builder import get_scalable_directories, main
 from wx_icons_hicolor import theme_index_path
 
 scalable_directories = get_scalable_directories(theme_index_path)
-
-
 output_dir = "./wx_icons_hicolor/Hicolor"
 
 # DPI multipliers to render at
 dpis = [1]
-
 
 main(os.path.join('.', 'svg_src'), dpis, output_dir, scalable_directories)
