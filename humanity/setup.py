@@ -49,7 +49,7 @@ classifiers = [
 		# "Development Status :: 6 - Mature",
 		# "Development Status :: 7 - Inactive",
 		
-		"License :: OSI Approved :: GNU General Public License 2 or later (GPLv2)",
+		"License :: OSI Approved :: GNU General Public License v2 (GPLv2)",
 		] + general_trove_classifiers
 
 
