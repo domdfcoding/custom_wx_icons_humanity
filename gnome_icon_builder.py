@@ -50,9 +50,15 @@ e.g.
 # stdlib
 import configparser
 import os
+import pathlib
 import subprocess
 import sys
+import tempfile
 import xml.sax
+
+# 3rd party
+from lxml import etree
+from scour import scour
 
 OPTIPNG = '/usr/bin/optipng'
 inkscape_process = None
@@ -89,11 +95,15 @@ def wait_for_prompt(process, command=None):
 	output = process.stdout.read(1)
 	if output == b'>':
 		return
+	elif output == b"Emergency save activated!":
+		raise IOError("Something went wrong")
 	
 	output += process.stdout.read(1)
 	while output != b'\n>':
 		output += process.stdout.read(1)
 		output = output[1:]
+		if output == b"Emergency save activated!":
+			raise IOError("Something went wrong")
 
 
 def start_inkscape():
@@ -122,15 +132,177 @@ def inkscape_export_svg(icon_file, rect, dpi, output_file):
 	global inkscape_process
 	if inkscape_process is None:
 		inkscape_process = start_inkscape()
+	print(rect, icon_file)
 	
 	cmd = [
-			icon_file,
-			'--export-dpi', str(dpi),
+			str(icon_file),
+			# '--export-dpi', str(dpi),
 			'-i', rect,
-			'-l', output_file,
+			'-l', str(output_file),
 			]
 	
 	wait_for_prompt(inkscape_process, ' '.join(cmd))
+
+
+class ScourOptions:
+	strip_xml_prolog = False
+	remove_titles = True
+	remove_descriptions = True
+	remove_metadata = True
+	strip_comments = True
+	embed_rasters = True
+	enable_viewboxing = True
+	indent_type = "none"
+	indent_depth = 1
+	newlines = False
+	strip_ids = True
+	shorten_ids = True
+	
+
+INKSCAPE = "http://www.inkscape.org/namespaces/inkscape"
+SVG = "http://www.w3.org/2000/svg"
+
+
+def get_layer_ids_by_name(input_file, layer_name):
+	tree = etree.parse(str(input_file))
+	
+	# Find all layers
+	all_layers = tree.findall(
+			".//svg:g[@inkscape:groupmode=\"layer\"]",
+			namespaces={"svg": SVG, "inkscape": INKSCAPE}
+			)
+	
+	layer_ids = []
+	
+	for layer in all_layers:
+		layer_label = layer.get(f"{{{INKSCAPE}}}label")
+		if layer_label:
+			if layer_label.startswith(layer_name):
+				layer_id = layer.get("id")
+				if layer_id:
+					layer_ids.append(layer_id)
+					
+	return layer_ids
+
+
+def check_id_in_svg(input_file, id):
+	tree = etree.parse(str(input_file))
+	results = tree.findall(f".//svg:g[@id=\"{id}\"]", namespaces={"svg": SVG})
+	return bool(len(results))
+
+
+def select_layer(input_file, tmp_file, icon_name):
+	global inkscape_process
+	if inkscape_process is None:
+		inkscape_process = start_inkscape()
+		
+	# Read SVG file
+	icon_layer_ids = get_layer_ids_by_name(input_file, icon_name)
+	
+	print(icon_layer_ids)
+	
+	# Double check that there isn't an exact match for the layer:
+	tree = etree.parse(str(input_file))
+	
+	for layer_id in icon_layer_ids:
+		layer = tree.findall(f".//svg:g[@id=\"{layer_id}\"]", namespaces={"svg": SVG})[0]
+		if layer.get(f"{{{INKSCAPE}}}label") == icon_name:
+			icon_layer_ids = [layer_id]
+			break
+	
+	print(icon_layer_ids)
+	print("\n")
+	
+	# Get layer ids for hires layers, as we'll need them later
+	hires_layer_ids = get_layer_ids_by_name(input_file, "hires")
+	
+	if icon_layer_ids:
+		if icon_layer_ids[0]:
+			
+			cmd = [
+					str(input_file),
+					# '--export-dpi', str(dpi), # TODO
+					'--export-id', icon_layer_ids[0],
+					'--export-plain-svg', str(tmp_file),
+					"--export-id-only",
+					]
+			
+			wait_for_prompt(inkscape_process, ' '.join(cmd))
+	#
+	# elif len(hires_layer_ids) == 1:
+	#
+	# 	cmd = [
+	# 			str(input_file),
+	# 			# '--export-dpi', str(dpi), # TODO
+	# 			'--export-id', hires_layer_ids[0],
+	# 			'--export-plain-svg', str(tmp_file),
+	# 			"--export-id-only"
+	# 			]
+	#
+	# 	wait_for_prompt(inkscape_process, ' '.join(cmd))
+	
+	return hires_layer_ids
+	
+
+def select_only_hires(input_file, tmp_file, hires_layer_ids):
+	for layer_id in hires_layer_ids:
+		if check_id_in_svg(input_file, layer_id):
+	
+			global inkscape_process
+			if inkscape_process is None:
+				inkscape_process = start_inkscape()
+			
+			cmd = [
+					str(input_file),
+					# '--export-dpi', str(dpi), # TODO
+					'--export-id', layer_id,
+					'--export-plain-svg', str(tmp_file),
+					"--export-id-only",
+					"--export-area-page",
+					]
+			
+			wait_for_prompt(inkscape_process, ' '.join(cmd))
+			
+			return 1
+	
+	return 0
+
+
+def minify_svg(input_file, output_file):
+	# Read SVG file
+	svg_string = pathlib.Path(input_file).read_text()
+
+	# use scour to remove redundant stuff and then write to file
+	svg_string = scour.scourString(svg_string, ScourOptions())
+	
+	with open(output_file, "w") as fp:
+		fp.write(svg_string)
+	
+
+def make_svg_from_source(input_file, output_file, icon_name, dpi, id):
+	with tempfile.TemporaryDirectory() as tmp_dir:
+		tmp_dir = pathlib.Path(tmp_dir)
+		
+		tmp_svg = tmp_dir / f"{icon_name}.svg"
+	
+		hires_layer_ids = select_layer(input_file, tmp_svg, icon_name)
+		if not tmp_svg.exists():
+			# Wasn't a multi-image svg
+			inkscape_export_svg(input_file, id, dpi, tmp_svg)
+		else:
+			inkscape_export_svg(tmp_svg, id, dpi, tmp_svg)
+		print(253, tmp_svg)
+		select_only_hires(tmp_svg, tmp_svg, hires_layer_ids)
+		print(255, tmp_svg)
+		minify_svg(tmp_svg, output_file)
+	
+
+def render_icon(infile, outfile, icon_name, dpi, id, scalable):
+	if scalable:
+		make_svg_from_source(infile, outfile, icon_name, dpi, id)
+	else:
+		inkscape_render_rect(infile, id, dpi, outfile)
+	sys.stdout.write('.')
 
 
 def main(source_dir, dpis, output_dir, scalable_directories):
@@ -247,20 +419,17 @@ def main(source_dir, dpis, output_dir, scalable_directories):
 						
 						# Do a time based check!
 						if self.force or not os.path.exists(outfile):
-							if scalable:
-								inkscape_export_svg(self.path, id, dpi, outfile)
-							else:
-								inkscape_render_rect(self.path, id, dpi, outfile)
-							sys.stdout.write('.')
+						
+							try:
+								render_icon(self.path, outfile, self.icon_name, dpi, id, scalable)
+							except IOError:
+								print(f"Unable to process {self.path}.")
+								continue
 						else:
 							stat_in = os.stat(self.path)
 							stat_out = os.stat(outfile)
 							if stat_in.st_mtime > stat_out.st_mtime:
-								if scalable:
-									inkscape_export_svg(self.path, id, dpi, outfile)
-								else:
-									inkscape_render_rect(self.path, id, dpi, outfile)
-								sys.stdout.write('.')
+								render_icon(self.path, outfile, self.icon_name, dpi, id, scalable)
 							else:
 								sys.stdout.write('-')
 						sys.stdout.flush()

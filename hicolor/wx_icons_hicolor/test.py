@@ -351,8 +351,11 @@ def test_icon_theme(theme):
 	for icon_name in freedesktop_naming_spec_list:
 		
 		for size in [16, 22, 24, 32, 48, 64, 128, 192, 256]:
-			if theme.find_icon(icon_name, size, None) is None:
+			icon = theme.find_icon(icon_name, size, None)
+			if icon is None:
 				print(icon_name, size)
+			else:
+				print(icon.path)
 
 
 def test_random_icons(theme):
