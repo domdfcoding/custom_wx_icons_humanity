@@ -37,6 +37,7 @@ from wx_icons_humanity import Humanity, Humanity_Dark
 with importlib_resources.path(Humanity, "index.theme") as theme_index_path:
 	theme_index_path = str(theme_index_path)
 	
+	
 with importlib_resources.path(Humanity_Dark, "index.theme") as dark_theme_index_path:
 	dark_theme_index_path = str(dark_theme_index_path)
 
@@ -158,10 +159,15 @@ class wxHumanityDarkIconTheme(wxHumanityIconTheme):
 
 
 if __name__ == '__main__':
+	
 	theme = HumanityIconTheme.create()
 	
 	# for directory in theme.directories:
 	# 	print(directory.icons)
 	
-	icon = theme.find_icon("appointment-new", 48, None)
-	print(icon, icon.path)
+	# icon = theme.find_icon("appointment-new", 48, None)
+	# print(icon, icon.path)
+	
+	from wx_icons_hicolor import test_random_icons, test
+	# test_random_icons(theme)
+	test.test_icon_theme(theme, show_success=False)

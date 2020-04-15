@@ -28,7 +28,7 @@
 import importlib_resources
 
 # this package
-from wx_icons_hicolor import HicolorIconTheme, wxHicolorIconTheme, test_random_icons
+from wx_icons_hicolor import HicolorIconTheme, wxHicolorIconTheme
 from wx_icons_tango import Tango
 
 
@@ -105,6 +105,6 @@ if __name__ == '__main__':
 	# for directory in theme.directories:
 	# 	print(directory.icons)
 	
-	test_random_icons(theme)
-	
-	# test_icon_theme(theme)
+	from wx_icons_hicolor import test_random_icons, test
+	# test_random_icons(theme)
+	test.test_icon_theme(theme, show_success=False)

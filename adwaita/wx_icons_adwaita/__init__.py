@@ -29,7 +29,7 @@ import importlib_resources
 
 # this package
 from wx_icons_adwaita import Adwaita
-from wx_icons_hicolor import HicolorIconTheme, wxHicolorIconTheme, test_random_icons, test
+from wx_icons_hicolor import HicolorIconTheme, wxHicolorIconTheme
 
 
 __version__ = "0.1.0"
@@ -106,5 +106,6 @@ if __name__ == '__main__':
 	# for directory in theme.directories:
 	# 	print(directory.icons)
 	
+	from wx_icons_hicolor import test_random_icons, test
 	# test_random_icons(theme)
-	test.test_icon_theme(theme)
+	test.test_icon_theme(theme, show_success=False)

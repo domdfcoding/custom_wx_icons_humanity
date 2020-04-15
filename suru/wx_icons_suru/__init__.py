@@ -29,7 +29,6 @@ import importlib_resources
 # this package
 from wx_icons_suru import Suru
 from wx_icons_humanity import HumanityIconTheme, wxHumanityIconTheme
-from wx_icons_hicolor import test_random_icons
 
 
 with importlib_resources.path(Suru, "index.theme") as theme_index_path:
@@ -106,4 +105,6 @@ if __name__ == '__main__':
 	# for directory in theme.directories:
 	# 	print(directory.icons)
 	
-	test_random_icons(theme)
+	from wx_icons_hicolor import test_random_icons, test
+	# test_random_icons(theme)
+	test.test_icon_theme(theme, show_success=False)

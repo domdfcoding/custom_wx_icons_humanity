@@ -386,22 +386,22 @@ def test_icon_theme(theme, show_success=True, show_warning=True):
 			icon = theme.find_icon(icon_name, size, None)
 			if icon is None:
 				print(
-						f"{Fore.RED}Failure: {icon_name} at size {size} "
-						f"not found in {theme.name} Icon Theme or dependencies.{Fore.RESET}")
+						f"{Fore.RED}Failure: '{icon_name}' at size {size} "
+						f"not found in '{theme.name}' Icon Theme or dependencies.{Fore.RESET}")
 				failures += 1
 			else:
 				if icon.theme != theme.name:
 					if show_warning:
 						print(
-								f"{Fore.YELLOW}Warning: {icon_name} at size {size} "
-								f"not found in {theme.name} Icon Theme, "
-								f"but found in dependency {icon.theme}.{Fore.RESET}")
+								f"{Fore.YELLOW}Warning: '{icon_name}' at size {size} "
+								f"not found in '{theme.name}' Icon Theme, "
+								f"but found in dependency '{icon.theme}'.{Fore.RESET}")
 					warnings += 1
 				else:
 					if show_success:
 						print(
-								f"{Fore.GREEN}Success: {icon_name} at size {size} "
-								f"found in {theme.name} Icon Theme.{Fore.RESET}")
+								f"{Fore.GREEN}Success: '{icon_name}' at size {size} "
+								f"found in '{theme.name}' Icon Theme.{Fore.RESET}")
 					successes += 1
 	
 	print(f"Test completed for {theme.name} Icon Theme.")
@@ -409,6 +409,12 @@ def test_icon_theme(theme, show_success=True, show_warning=True):
 			f"{Fore.GREEN}{successes} Successes{Fore.RESET}, "
 			f"{Fore.YELLOW}{warnings} Warnings{Fore.RESET}, "
 			f"{Fore.RED}{failures} Failures{Fore.RESET}.")
+	
+	return dict(
+			successes=successes,
+			warnings=warnings,
+			failures=failures,
+			)
 
 
 def test_random_icons(theme):
