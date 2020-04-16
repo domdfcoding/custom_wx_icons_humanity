@@ -32,7 +32,7 @@ from wx_icons_adwaita import Adwaita
 from wx_icons_hicolor import HicolorIconTheme, wxHicolorIconTheme
 
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 
 
 def version():
