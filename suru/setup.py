@@ -32,7 +32,7 @@ from __pkginfo__ import (
 	)
 
 theme_name = "Suru"
-VERSION = "0.1.0"
+VERSION = "0.1.1"
 modname = f"wx_icons_{theme_name.lower()}"
 license = 'GPLv3'
 short_desc = 'description goes here'
