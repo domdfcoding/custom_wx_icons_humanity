@@ -34,7 +34,7 @@ from __pkginfo__ import (
 
 
 theme_name = "Tango"
-VERSION = "0.1.0"
+VERSION = "0.1.1"
 modname = f"wx_icons_{theme_name.lower()}"
 license = 'LGPLv3'
 short_desc = 'description goes here'
