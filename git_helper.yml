@@ -16,13 +16,8 @@ exclude_files:
   - manifest
   - setup
   - pkginfo
-#  - conf
   - travis
   - tox
-  - test_requirements
-  - dependabot
-  - travis_deploy_conda
-  - make_conda_recipe
   - bumpversion
   - issue_templates
 

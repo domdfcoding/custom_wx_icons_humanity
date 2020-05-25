@@ -29,6 +29,7 @@ slug = re.sub(r'\W+', '-', project.lower())
 release = version = __version__
 copyright = "2020 Dominic Davis-Foster"
 language = 'en'
+package_root = "custom_wx_icons"
 
 extensions = [
 		'sphinx.ext.intersphinx',
