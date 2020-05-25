@@ -12,18 +12,13 @@ enable_conda: False
 
 exclude_files:
   - copy_pypi_2_github
-#  - lint_roller
-#  - stale_bot
-#  - auto_assign
   - readme
-#  - doc_requirements
-#  - pylintrc
   - manifest
   - setup
   - pkginfo
   - conf
-  - gitignore
-  - rtfd
+#  - gitignore
+#  - rtfd
   - travis
   - tox
   - test_requirements
@@ -34,6 +29,15 @@ exclude_files:
   - issue_templates
 
 python_deploy_version: 3.6
+
+additional_ignore:
+  # __init__.py files generated during build process
+  - adwaita/wx_icons_adwaita/Adwaita/**/__init__.py
+  - humanity/wx_icons_humanity/Humanity/**/__init__.py
+  - humanity/wx_icons_humanity/Humanity_Dark/**/__init__.py
+  - tango/wx_icons_tango/Tango/**/__init__.py
+  - hicolor/wx_icons_hicolor/Hicolor/**/__init__.py
+  - suru/wx_icons_suru/Suru/**/__init__.py
 
 # Versions to run tests for
 python_versions:
