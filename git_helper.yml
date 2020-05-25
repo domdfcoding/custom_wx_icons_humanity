@@ -7,7 +7,7 @@ username: "domdfcoding"
 license: 'LGPLv3+'
 short_desc: 'Update multiple configuration files, build scripts etc. from a single location'
 
-#enable_tests: False
+enable_tests: False
 enable_conda: False
 
 exclude_files:
@@ -16,9 +16,7 @@ exclude_files:
   - manifest
   - setup
   - pkginfo
-  - conf
-#  - gitignore
-#  - rtfd
+#  - conf
   - travis
   - tox
   - test_requirements
