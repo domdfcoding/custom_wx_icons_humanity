@@ -12,12 +12,12 @@ enable_conda: False
 
 exclude_files:
   - copy_pypi_2_github
-  - lint_roller
-  - stale_bot
-  - auto_assign
+#  - lint_roller
+#  - stale_bot
+#  - auto_assign
   - readme
-  - doc_requirements
-  - pylintrc
+#  - doc_requirements
+#  - pylintrc
   - manifest
   - setup
   - pkginfo
