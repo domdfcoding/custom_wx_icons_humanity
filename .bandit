@@ -1,2 +1,2 @@
 [bandit]
-skips: B320
+skip: B320
