@@ -397,18 +397,15 @@ def main(source_dir, dpis, output_dir, scalable_directories):
 						if dpi_factor != 1:
 							size_str += "@%sx" % dpi_factor
 						
-						dir = os.path.join(output_dir, size_str, self.context)
+						directory = os.path.join(output_dir, size_str, self.context)
 						
-						if f"{size_str}/{self.context}" in scalable_directories:
-							scalable = True
-						else:
-							scalable = False
+						scalable = bool(f"{size_str}/{self.context}" in scalable_directories)
 						
-						svg_file = os.path.join(dir, self.icon_name + '.svg')
-						png_file = os.path.join(dir, self.icon_name + '.png')
+						svg_file = os.path.join(directory, self.icon_name + '.svg')
+						png_file = os.path.join(directory, self.icon_name + '.png')
 						
-						if not os.path.exists(dir):
-							os.makedirs(dir)
+						if not os.path.exists(directory):
+							os.makedirs(directory)
 						
 						if scalable:
 							if os.path.isfile(png_file):
