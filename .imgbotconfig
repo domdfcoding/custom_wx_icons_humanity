@@ -1,4 +1,12 @@
 {
     "schedule": "weekly",
-    "ignoredFiles": ["*.svg"]
+    "ignoredFiles": [
+        "*.svg",
+        "adwaita/wx_icons_adwaita/*",
+        "hicolor/wx_icons_hicolor/*",
+        "humanity/wx_icons_humanity/*",
+        "suru/wx_icons_suru/*",
+        "suru/wx_icons_suru/*",
+        "tango/wx_icons_tango/*"
+    ]
 }
