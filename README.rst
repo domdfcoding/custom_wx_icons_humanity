@@ -8,6 +8,8 @@ Humanity and Humanity_Dark Icon Themes for wxPython
 
 .. end short_desc
 
+This package provides a wxPython wxArtProvider class with icons from the Humanity Icon Theme.
+
 .. start shields 
 
 .. list-table::
@@ -75,9 +77,25 @@ Humanity and Humanity_Dark Icon Themes for wxPython
 
 .. end shields
 
-This package provides a wxPython wxArtProvider class with icons from the Humanity Icon Theme.
+Installation
+===============
 
-To use it in your application:
+.. start installation
+
+``wx_icons_humanity`` can be installed from PyPI.
+
+To install with ``pip``:
+
+.. code-block:: bash
+
+	$ python -m pip install wx_icons_humanity
+
+.. end installation
+
+Usage
+============
+
+To use ``wx_icons_humanity`` in your application:
 
 .. code-block:: python
 
@@ -100,15 +118,3 @@ And then the icons can be accessed through wx.ArtProvider:
 Any `FreeDesktop Icon Theme Specification <https://specifications.freedesktop.org/icon-naming-spec/icon-naming-spec-latest.html>`_ name can be used.
 
 Currently the `Client ID` is not used, so just pass `wx.ART_OTHER`.
-
-.. start installation
-
-``wx_icons_humanity`` can be installed from PyPI.
-
-To install with ``pip``:
-
-.. code-block:: bash
-
-	$ python -m pip install wx_icons_humanity
-
-.. end installation
