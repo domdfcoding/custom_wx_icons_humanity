@@ -4,7 +4,8 @@ import pathlib
 
 def make_importable(import_name, theme_name):
 
-	theme_index_path = pathlib.Path(f"{import_name}/{theme_name}/index.theme").absolute()
+	theme_index_path = pathlib.Path(__file__).parent.absolute() / import_name / theme_name / "index.theme"
+	print(theme_index_path)
 	theme_content_root = theme_index_path.parent.absolute()
 
 	parser = configparser.ConfigParser()
