@@ -1,56 +1,65 @@
-modname: custom_wx_icons
+modname: wx_icons_humanity
+repo_name: custom_wx_icons_humanity
 copyright_years: "2020"
 author: "Dominic Davis-Foster"
 email: "dominic@davis-foster.co.uk"
-version: "0.0.1"
+version: "0.1.1"
 username: "domdfcoding"
-license: 'LGPLv3+'
-short_desc: 'Update multiple configuration files, build scripts etc. from a single location'
+license: 'GPLv2'
+short_desc: 'Humanity icon theme for wxPython'
 
 enable_tests: False
 enable_conda: False
-
-exclude_files:
-  - copy_pypi_2_github
-  - readme
-  - manifest
-  - setup
-  - pkginfo
-  - travis
-  - tox
-  - bumpversion
-  - issue_templates
 
 python_deploy_version: 3.6
 
 additional_ignore:
   # __init__.py files generated during build process
-  - adwaita/wx_icons_adwaita/Adwaita/**/__init__.py
   - humanity/wx_icons_humanity/Humanity/**/__init__.py
   - humanity/wx_icons_humanity/Humanity_Dark/**/__init__.py
-  - tango/wx_icons_tango/Tango/**/__init__.py
-  - hicolor/wx_icons_hicolor/Hicolor/**/__init__.py
-  - suru/wx_icons_suru/Suru/**/__init__.py
 
 # Versions to run tests for
 python_versions:
   - '3.6'
   - '3.7'
   - '3.8'
-#
-## travis secure password for PyPI
-##travis_pypi_secure:
-#
-## additional lines for MANIFEST.in
-#manifest_additional:
-#  - "recursive-include git_helper/templates *"
-#  - "recursive-include git_helper/init_repo_files *"
-#
-#classifiers:
+
+# travis secure password for PyPI
+#travis_pypi_secure:
+
+# additional lines for MANIFEST.in
+manifest_additional:
+  - "recursive-include wx_icons_humanity *"
+  - "include make_importable.py"
+
+
+classifiers:
+  # "Environment :: MacOS X"
+  # "Operating System :: MacOS :: MacOS X"
+
+  # "Environment :: Win32 (MS Windows)"
+  # "Operating System :: Microsoft :: Windows"
+  # "Operating System :: Microsoft :: Windows :: Windows 10"
+  # "Operating System :: Microsoft :: Windows :: Windows 7"
+  # "Operating System :: Microsoft :: Windows :: Windows 8.1"
+
+  - "Operating System :: POSIX :: Linux"
+  - "Topic :: Desktop Environment :: Gnome"
+  - "Environment :: X11 Applications :: GTK"
+
+  # "Operating System :: OS Independent"
+
+  - "Intended Audience :: Developers"
+
+  - "Development Status :: 3 - Alpha"
 #  - 'Development Status :: 4 - Beta'
-##  - "Development Status :: 5 - Production/Stable"
-##  - "Development Status :: 6 - Mature"
-##  - "Development Status :: 7 - Inactive"
-#  - 'Intended Audience :: Developers'
-#  - 'Operating System :: OS Independent'
-#  - 'Topic :: Utilities'
+#  - "Development Status :: 5 - Production/Stable"
+#  - "Development Status :: 6 - Mature"
+#  - "Development Status :: 7 - Inactive"
+  - "Topic :: Software Development :: Libraries :: Python Modules"
+  - "Topic :: Software Development :: User Interfaces"
+
+pkginfo_extra:
+  - "import make_importable"
+  - "make_importable.make_importable(import_name, 'Humanity')"
+  - "make_importable.make_importable(import_name, 'Humanity_Dark')"

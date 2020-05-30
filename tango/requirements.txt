@@ -1,2 +1,0 @@
-wx_icons_hicolor
-importlib_resources>=1.0.2

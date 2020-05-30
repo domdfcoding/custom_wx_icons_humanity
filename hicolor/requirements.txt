@@ -1,5 +1,0 @@
-memoized_property>=1.0.3
-importlib_resources>=1.0.2
-CairoSVG>=2.4.2
-python_magic>=0.4.15
-colorama>=0.4.1

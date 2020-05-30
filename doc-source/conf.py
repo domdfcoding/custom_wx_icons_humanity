@@ -15,21 +15,21 @@ from sphinx.locale import _
 from __pkginfo__ import __version__
 
 
-github_url = f"https://github.com/domdfcoding/custom_wx_icons"
+github_url = f"https://github.com/domdfcoding/custom_wx_icons_humanity"
 
-rst_prolog = f""".. |pkgname| replace:: custom_wx_icons
-.. |pkgname2| replace:: ``custom_wx_icons``
+rst_prolog = f""".. |pkgname| replace:: wx_icons_humanity
+.. |pkgname2| replace:: ``wx_icons_humanity``
 .. |browse_github| replace:: `Browse the GitHub Repository <{github_url}>`__
 .. |ghurl| replace:: {github_url}
 """
 
 author = "Dominic Davis-Foster"
-project = "custom_wx_icons"
+project = "wx_icons_humanity"
 slug = re.sub(r'\W+', '-', project.lower())
 release = version = __version__
 copyright = "2020 Dominic Davis-Foster"
 language = 'en'
-package_root = "custom_wx_icons"
+package_root = "wx_icons_humanity"
 
 extensions = [
 		'sphinx.ext.intersphinx',
@@ -40,7 +40,9 @@ extensions = [
 		"sphinxcontrib.extras_require",
 		"sphinx.ext.todo",
 		"sphinxemoji.sphinxemoji",
-		"sphinx_autodoc_typehints",
+		"notfound.extension",
+		"sphinx_tabs.tabs",
+		"sphinx-prompt",
 		]
 
 sphinxemoji_style = 'twemoji'
@@ -80,7 +82,7 @@ html_show_sourcelink = False  # True will show link to source
 html_context = {
 		'display_github': True,
 		'github_user': 'domdfcoding',
-		'github_repo': 'custom_wx_icons',
+		'github_repo': 'custom_wx_icons_humanity',
 		'github_version': 'master',
 		'conf_py_path': '/',
 		}
