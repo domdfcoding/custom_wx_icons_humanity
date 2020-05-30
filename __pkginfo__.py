@@ -53,7 +53,7 @@ entry_points = {
 
 __license__ = "GNU General Public License v2 (GPLv2)"
 
-short_desc = "Humanity icon theme for wxPython"
+short_desc = "Humanity and Humanity Dark icon themes for wxPython"
 
 __author__ = author = "Dominic Davis-Foster"
 author_email = "dominic@davis-foster.co.uk"

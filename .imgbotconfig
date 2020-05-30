@@ -2,6 +2,6 @@
     "schedule": "weekly",
     "ignoredFiles": [
         "*.svg",
-        "humanity/wx_icons_humanity/*"
+        "wx_icons_humanity/*"
     ]
 }

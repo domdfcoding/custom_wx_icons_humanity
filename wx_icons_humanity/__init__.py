@@ -64,7 +64,7 @@ class HumanityIconTheme(AdwaitaIconTheme):
 
 	def find_icon(self, icon_name, size, scale, prefer_this_theme=True):
 		"""
-		
+
 		:param icon_name:
 		:type icon_name:
 		:param size:
@@ -102,7 +102,7 @@ class HumanityDarkIconTheme(HumanityIconTheme):
 
 	def find_icon(self, icon_name, size, scale, prefer_this_theme=True):
 		"""
-		
+
 		:param icon_name:
 		:type icon_name:
 		:param size:
@@ -133,7 +133,7 @@ class wxHumanityIconTheme(wxAdwaitaIconTheme):
 			print(icon, icon.path)
 			return self.icon2bitmap(icon, size.x)
 		else:
-			#return self._humanity_theme.find_icon("image-missing", size.x, None).as_bitmap()
+			# return self._humanity_theme.find_icon("image-missing", size.x, None).as_bitmap()
 			print("Icon not found in Humanity theme")
 			print(id)
 			return super().CreateBitmap(id, client, size)
@@ -148,7 +148,7 @@ class wxHumanityDarkIconTheme(wxHumanityIconTheme):
 			print(icon, icon.path)
 			return self.icon2bitmap(icon, size.x)
 		else:
-			#return self._humanity_dark_theme.find_icon("image-missing", size.x, None).as_bitmap()
+			# return self._humanity_dark_theme.find_icon("image-missing", size.x, None).as_bitmap()
 			print("Icon not found in Humanity Dark theme")
 			print(id)
 			return super().CreateBitmap(id, client, size)

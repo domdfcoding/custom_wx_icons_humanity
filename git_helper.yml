@@ -6,7 +6,7 @@ email: "dominic@davis-foster.co.uk"
 version: "0.1.1"
 username: "domdfcoding"
 license: 'GPLv2'
-short_desc: 'Humanity icon theme for wxPython'
+short_desc: 'Humanity and Humanity Dark icon themes for wxPython'
 
 enable_tests: False
 enable_conda: False
@@ -15,8 +15,8 @@ python_deploy_version: 3.6
 
 additional_ignore:
   # __init__.py files generated during build process
-  - humanity/wx_icons_humanity/Humanity/**/__init__.py
-  - humanity/wx_icons_humanity/Humanity_Dark/**/__init__.py
+  - wx_icons_humanity/Humanity/**/__init__.py
+  - wx_icons_humanity/Humanity_Dark/**/__init__.py
 
 # Versions to run tests for
 python_versions:

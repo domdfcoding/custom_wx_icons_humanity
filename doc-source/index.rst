@@ -4,9 +4,12 @@ wx_icons_humanity
 
 .. start short_desc
 
-**Humanity icon theme for wxPython**
+**Humanity and Humanity Dark icon themes for wxPython**
 
 .. end short_desc
+
+This package provides wxPython wxArtProvider classes with icons from the Humanity and Humanity Dark Icon Themes.
+
 .. start shields 
 
 .. list-table::
@@ -75,7 +78,7 @@ wx_icons_humanity
 .. end shields
 
 Installation
-----------------
+===============
 
 .. start installation
 
@@ -100,6 +103,7 @@ Installation
 	:maxdepth: 3
 	:caption: Documentation
 
+	usage
 	docs
 	Source
 	Building
