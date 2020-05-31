@@ -27,7 +27,7 @@ author = "Dominic Davis-Foster"
 project = "wx_icons_humanity"
 slug = re.sub(r'\W+', '-', project.lower())
 release = version = __version__
-copyright = "2020 Dominic Davis-Foster"  # noqa
+copyright = "2020 Dominic Davis-Foster"  # pylint: disable=redefined-builtin
 language = 'en'
 package_root = "wx_icons_humanity"
 
