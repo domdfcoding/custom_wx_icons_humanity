@@ -78,5 +78,3 @@ build
 *.egg-info
 **/__pycache__
 **/conda
-wx_icons_humanity/Humanity/**/__init__.py
-wx_icons_humanity/Humanity_Dark/**/__init__.py

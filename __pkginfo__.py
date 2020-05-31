@@ -92,7 +92,3 @@ classifiers = [
 		]
 
 keywords = ""
-
-import make_importable
-make_importable.make_importable(import_name, 'Humanity')
-make_importable.make_importable(import_name, 'Humanity_Dark')

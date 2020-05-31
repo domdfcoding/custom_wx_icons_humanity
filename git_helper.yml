@@ -11,12 +11,11 @@ short_desc: 'Humanity and Humanity Dark icon themes for wxPython'
 enable_tests: False
 enable_conda: False
 
-python_deploy_version: 3.6
+exclude_files:
+  - travis
+  - tox
 
-additional_ignore:
-  # __init__.py files generated during build process
-  - wx_icons_humanity/Humanity/**/__init__.py
-  - wx_icons_humanity/Humanity_Dark/**/__init__.py
+python_deploy_version: 3.6
 
 # Versions to run tests for
 python_versions:
@@ -58,8 +57,3 @@ classifiers:
 #  - "Development Status :: 7 - Inactive"
   - "Topic :: Software Development :: Libraries :: Python Modules"
   - "Topic :: Software Development :: User Interfaces"
-
-pkginfo_extra:
-  - "import make_importable"
-  - "make_importable.make_importable(import_name, 'Humanity')"
-  - "make_importable.make_importable(import_name, 'Humanity_Dark')"
