@@ -4,7 +4,7 @@ wx_icons_humanity
 
 .. start short_desc
 
-**Humanity and Humanity Dark icon themes for wxPython**
+**Humanity and Humanity Dark icon themes for wxPython.**
 
 .. end short_desc
 

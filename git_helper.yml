@@ -6,14 +6,13 @@ email: "dominic@davis-foster.co.uk"
 version: "0.1.1"
 username: "domdfcoding"
 license: 'GPLv2'
-short_desc: 'Humanity and Humanity Dark icon themes for wxPython'
+short_desc: 'Humanity and Humanity Dark icon themes for wxPython.'
 
 enable_tests: False
 enable_conda: False
 
 exclude_files:
   - travis
-  - tox
 
 python_deploy_version: 3.6
 
@@ -29,7 +28,6 @@ python_versions:
 # additional lines for MANIFEST.in
 manifest_additional:
   - "recursive-include wx_icons_humanity *"
-  - "include make_importable.py"
 
 
 classifiers:

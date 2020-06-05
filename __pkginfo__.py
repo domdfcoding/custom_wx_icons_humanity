@@ -11,6 +11,7 @@
 # This script based on https://github.com/rocky/python-uncompyle6/blob/master/__pkginfo__.py
 #
 
+# stdlib
 import pathlib
 
 __all__ = [
@@ -53,7 +54,7 @@ entry_points = {
 
 __license__ = "GNU General Public License v2 (GPLv2)"
 
-short_desc = "Humanity and Humanity Dark icon themes for wxPython"
+short_desc = "Humanity and Humanity Dark icon themes for wxPython."
 
 __author__ = author = "Dominic Davis-Foster"
 author_email = "dominic@davis-foster.co.uk"

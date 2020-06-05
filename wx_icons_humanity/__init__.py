@@ -26,10 +26,10 @@
 # https://drive.google.com/u/0/uc?id=0B7iDWdwgu9QAcDhUVXVvMVlLbEE&export=download
 
 # 3rd party
-import importlib_resources
+import importlib_resources  # type: ignore
+from wx_icons_adwaita import AdwaitaIconTheme, wxAdwaitaIconTheme  # type: ignore
 
 # this package
-from wx_icons_adwaita import AdwaitaIconTheme, wxAdwaitaIconTheme
 from wx_icons_humanity import Humanity, Humanity_Dark
 
 with importlib_resources.path(Humanity, "index.theme") as theme_index_path:
@@ -164,6 +164,6 @@ if __name__ == '__main__':
 	# icon = theme.find_icon("appointment-new", 48, None)
 	# print(icon, icon.path)
 
-	from wx_icons_hicolor import test_random_icons, test
+	from wx_icons_hicolor import test_random_icons, test  # type: ignore
 	# test_random_icons(theme)
 	test.test_icon_theme(theme, show_success=False)
