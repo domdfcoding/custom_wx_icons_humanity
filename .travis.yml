@@ -10,10 +10,8 @@ python:
 
 install:
 
-  - pip install pip lxml dummy_wx --upgrade
-  - pip install -r requirements.txt
+  - pip install pip  --upgrade
   - pip install tox tox-travis
-
 
 
 script:
@@ -30,8 +28,7 @@ jobs:
   include:
     - stage: deploy_pypi
       python: "3.6"
-      script:
-        - python3 make_importable.py
+      script: skip
       deploy:
         on:
           tags: true
