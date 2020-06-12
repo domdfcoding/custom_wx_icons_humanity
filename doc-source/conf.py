@@ -21,12 +21,12 @@ sys.path.append(os.path.abspath('..'))
 from __pkginfo__ import __version__
 
 
+
 github_url = f"https://github.com/domdfcoding/custom_wx_icons_humanity"
 
 rst_prolog = f""".. |pkgname| replace:: wx_icons_humanity
 .. |pkgname2| replace:: ``wx_icons_humanity``
 .. |browse_github| replace:: `Browse the GitHub Repository <{github_url}>`__
-.. |ghurl| replace:: {github_url}
 """
 
 author = "Dominic Davis-Foster"
@@ -50,6 +50,7 @@ extensions = [
 		"sphinx_tabs.tabs",
 		"sphinx-prompt",
 		"sphinx_autodoc_typehints",
+		"sphinx.ext.autosummary",
 		]
 
 sphinxemoji_style = 'twemoji'

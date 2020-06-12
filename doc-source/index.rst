@@ -25,7 +25,7 @@ This package provides wxPython wxArtProvider classes with icons from the Humanit
 	* - Other
 	  - |license| |language| |commits-since| |commits-latest| |maintained| 
 
-.. |docs| image:: https://readthedocs.org/projects/custom_wx_icons_humanity/badge/?version=latest
+.. |docs| image:: https://img.shields.io/readthedocs/custom_wx_icons_humanity/latest?logo=read-the-docs
 	:target: https://custom_wx_icons_humanity.readthedocs.io/en/latest/?badge=latest
 	:alt: Documentation Status
 
@@ -37,15 +37,15 @@ This package provides wxPython wxArtProvider classes with icons from the Humanit
 	:target: https://requires.io/github/domdfcoding/custom_wx_icons_humanity/requirements/?branch=master
 	:alt: Requirements Status
 
-.. |codefactor| image:: https://img.shields.io/codefactor/grade/github/domdfcoding/custom_wx_icons_humanity
+.. |codefactor| image:: https://img.shields.io/codefactor/grade/github/domdfcoding/custom_wx_icons_humanity?logo=codefactor
 	:target: https://www.codefactor.io/repository/github/domdfcoding/custom_wx_icons_humanity
 	:alt: CodeFactor Grade
 
-.. |pypi-version| image:: https://img.shields.io/pypi/v/wx_icons_humanity.svg
+.. |pypi-version| image:: https://img.shields.io/pypi/v/wx_icons_humanity
 	:target: https://pypi.org/project/wx_icons_humanity/
 	:alt: PyPI - Package Version
 
-.. |supported-versions| image:: https://img.shields.io/pypi/pyversions/wx_icons_humanity.svg
+.. |supported-versions| image:: https://img.shields.io/pypi/pyversions/wx_icons_humanity
 	:target: https://pypi.org/project/wx_icons_humanity/
 	:alt: PyPI - Supported Python Versions
 

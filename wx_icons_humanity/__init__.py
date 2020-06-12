@@ -163,7 +163,8 @@ if __name__ == '__main__':
 
 	# icon = theme.find_icon("appointment-new", 48, None)
 	# print(icon, icon.path)
+	# 3rd party
+	from wx_icons_hicolor import test, test_random_icons  # type: ignore
 
-	from wx_icons_hicolor import test_random_icons, test  # type: ignore
 	# test_random_icons(theme)
 	test.test_icon_theme(theme, show_success=False)
