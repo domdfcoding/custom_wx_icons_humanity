@@ -95,7 +95,7 @@ Installation
 
 		.. prompt:: bash
 
-			pip install git+https://github.com//custom_wx_icons_humanity@master
+			pip install git+https://github.com/domdfcoding/custom_wx_icons_humanity@master
 
 .. end installation
 
