@@ -92,4 +92,4 @@ classifiers = [
 
 		]
 
-keywords = ""
+keywords = "wxpython icons iconset humanity"
