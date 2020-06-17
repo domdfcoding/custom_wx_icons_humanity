@@ -19,7 +19,7 @@ This package provides wxPython wxArtProvider classes with icons from the Humanit
 	* - Docs
 	  - |docs| |docs_check|
 	* - Tests
-	  - |travis| |codefactor|
+	  - |travis| |actions_windows| |actions_macos| |codefactor|
 	* - PyPI
 	  - |pypi-version| |supported-versions| |supported-implementations| |wheel|
 	* - Activity
@@ -38,6 +38,14 @@ This package provides wxPython wxArtProvider classes with icons from the Humanit
 .. |travis| image:: https://img.shields.io/travis/com/domdfcoding/custom_wx_icons_humanity/master?logo=travis
 	:target: https://travis-ci.com/domdfcoding/custom_wx_icons_humanity
 	:alt: Travis Build Status
+
+.. |actions_windows| image:: https://github.com/domdfcoding/custom_wx_icons_humanity/workflows/Windows%20Tests/badge.svg
+	:target: https://github.com/domdfcoding/custom_wx_icons_humanity/actions?query=workflow%3A%22Windows+Tests%22
+	:alt: Windows Tests Status
+
+.. |actions_macos| image:: https://github.com/domdfcoding/custom_wx_icons_humanity/workflows/macOS%20Tests/badge.svg
+	:target: https://github.com/domdfcoding/custom_wx_icons_humanity/actions?query=workflow%3A%22macOS+Tests%22
+	:alt: macOS Tests Status
 
 .. |requires| image:: https://requires.io/github/domdfcoding/custom_wx_icons_humanity/requirements.svg?branch=master
 	:target: https://requires.io/github/domdfcoding/custom_wx_icons_humanity/requirements/?branch=master
