@@ -17,7 +17,7 @@ This package provides wxPython wxArtProvider classes with icons from the Humanit
 	:widths: 10 90
 
 	* - Docs
-	  - |docs|
+	  - |docs| |docs_check|
 	* - Tests
 	  - |travis| |actions_windows| |actions_macos|
 	    |codefactor|
@@ -31,6 +31,10 @@ This package provides wxPython wxArtProvider classes with icons from the Humanit
 .. |docs| image:: https://img.shields.io/readthedocs/custom_wx_icons_humanity/latest?logo=read-the-docs
 	:target: https://custom_wx_icons_humanity.readthedocs.io/en/latest/?badge=latest
 	:alt: Documentation Status
+	
+.. |docs| image:: [Docs Check](https://github.com/domdfcoding/custom_wx_icons_humanity/workflows/Docs%20Check/badge.svg
+	:target: https://github.com/domdfcoding/custom_wx_icons_humanity/actions?query=workflow%3A%22Docs+Check%22
+	:alt: Docs Check Status
 
 .. |travis| image:: https://img.shields.io/travis/com/domdfcoding/custom_wx_icons_humanity/master?logo=travis
 	:target: https://travis-ci.com/domdfcoding/custom_wx_icons_humanity
