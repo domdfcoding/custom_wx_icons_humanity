@@ -76,21 +76,21 @@ install_requires = (repo_root / "requirements.txt").read_text(encoding="utf-8").
 extras_require = {'all': []}
 
 classifiers = [
-		'Operating System :: POSIX :: Linux',
-		'Topic :: Desktop Environment :: Gnome',
+		'Development Status :: 3 - Alpha',
 		'Environment :: X11 Applications :: GTK',
 		'Intended Audience :: Developers',
-		'Development Status :: 3 - Alpha',
-		'Topic :: Software Development :: Libraries :: Python Modules',
-		'Topic :: Software Development :: User Interfaces',
-		'Programming Language :: Python :: 3.6',
-		'Programming Language :: Python :: Implementation :: CPython',
-		'Programming Language :: Python :: 3.7',
-		'Programming Language :: Python :: 3.8',
-		'Programming Language :: Python',
-		'Programming Language :: Python :: 3 :: Only',
 		'License :: OSI Approved :: GNU General Public License v2 (GPLv2)',
 		'Operating System :: OS Independent',
+		'Operating System :: POSIX :: Linux',
+		'Programming Language :: Python',
+		'Programming Language :: Python :: 3 :: Only',
+		'Programming Language :: Python :: 3.6',
+		'Programming Language :: Python :: 3.7',
+		'Programming Language :: Python :: 3.8',
+		'Programming Language :: Python :: Implementation :: CPython',
+		'Topic :: Desktop Environment :: Gnome',
+		'Topic :: Software Development :: Libraries :: Python Modules',
+		'Topic :: Software Development :: User Interfaces',
 
 		]
 
