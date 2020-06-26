@@ -59,3 +59,7 @@ keywords:
   - icons
   - iconset
   - humanity
+
+
+imgbot_ignore:
+  - "wx_icons_humanity/*"
