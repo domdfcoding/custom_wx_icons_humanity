@@ -133,7 +133,7 @@ class wxHumanityIconTheme(wxAdwaitaIconTheme):
 	_humanity_theme = HumanityIconTheme.create()
 
 	def CreateBitmap(self, id: Any, client: Any, size: Union[Tuple[int], wx.Size]) -> wx.Bitmap:
-		icon = self._tango_theme.find_icon(id, size.x, None)
+		icon = self._humanity_theme.find_icon(id, size.x, None)
 		if icon:
 			print(icon, icon.path)
 			return self.icon2bitmap(icon, size.x)
