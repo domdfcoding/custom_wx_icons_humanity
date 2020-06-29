@@ -62,7 +62,12 @@ class HumanityIconTheme(AdwaitaIconTheme):
 
 		return cls.from_configparser(theme_index_path)
 
-	def find_icon(self, icon_name, size, scale, prefer_this_theme=True):
+	def find_icon(
+			self,
+			icon_name: str,
+			size: int,
+			scale: Any,
+			prefer_this_theme: bool = True,) -> Optional[Icon]:
 		"""
 
 		:param icon_name:
@@ -127,8 +132,8 @@ class HumanityDarkIconTheme(HumanityIconTheme):
 class wxHumanityIconTheme(wxAdwaitaIconTheme):
 	_humanity_theme = HumanityIconTheme.create()
 
-	def CreateBitmap(self, id, client, size):
-		icon = self._humanity_theme.find_icon(id, size.x, None)
+	def CreateBitmap(self, id: Any, client: Any, size: Union[Tuple[int], wx.Size]) -> wx.Bitmap:
+		icon = self._tango_theme.find_icon(id, size.x, None)
 		if icon:
 			print(icon, icon.path)
 			return self.icon2bitmap(icon, size.x)
