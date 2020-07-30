@@ -28,7 +28,9 @@
 # 3rd party
 import importlib_resources  # type: ignore
 from wx_icons_adwaita import AdwaitaIconTheme, wxAdwaitaIconTheme  # type: ignore
-
+from typing import Any, Tuple, Union, Optional
+import wx  # type: ignore
+from wx_icons_hicolor import Icon
 # this package
 from wx_icons_humanity import Humanity, Humanity_Dark
 
@@ -62,7 +64,12 @@ class HumanityIconTheme(AdwaitaIconTheme):
 
 		return cls.from_configparser(theme_index_path)
 
-	def find_icon(self, icon_name, size, scale, prefer_this_theme=True):
+	def find_icon(
+			self,
+			icon_name: str,
+			size: int,
+			scale: Any,
+			prefer_this_theme: bool = True,) -> Optional[Icon]:
 		"""
 
 		:param icon_name:
@@ -127,11 +134,11 @@ class HumanityDarkIconTheme(HumanityIconTheme):
 class wxHumanityIconTheme(wxAdwaitaIconTheme):
 	_humanity_theme = HumanityIconTheme.create()
 
-	def CreateBitmap(self, id, client, size):
-		icon = self._humanity_theme.find_icon(id, size.x, None)
+	def CreateBitmap(self, id: Any, client: Any, size: Union[Tuple[int], wx.Size]) -> wx.Bitmap:
+		icon = self._humanity_theme.find_icon(id, size[0], None)
 		if icon:
 			print(icon, icon.path)
-			return self.icon2bitmap(icon, size.x)
+			return self.icon2bitmap(icon, size[0])
 		else:
 			# return self._humanity_theme.find_icon("image-missing", size.x, None).as_bitmap()
 			print("Icon not found in Humanity theme")
@@ -143,10 +150,10 @@ class wxHumanityDarkIconTheme(wxHumanityIconTheme):
 	_humanity_dark_theme = HumanityDarkIconTheme.create()
 
 	def CreateBitmap(self, id, client, size):
-		icon = self._humanity_dark_theme.find_icon(id, size.x, None)
+		icon = self._humanity_dark_theme.find_icon(id, size[0], None)
 		if icon:
 			print(icon, icon.path)
-			return self.icon2bitmap(icon, size.x)
+			return self.icon2bitmap(icon, size[0])
 		else:
 			# return self._humanity_dark_theme.find_icon("image-missing", size.x, None).as_bitmap()
 			print("Icon not found in Humanity Dark theme")
