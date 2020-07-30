@@ -1,4 +1,4 @@
-#  This file is managed by `git_helper`. Don't edit it directly
+#  This file is managed by 'repo_helper'. Don't edit it directly.
 #  Copyright (C) 2020 Dominic Davis-Foster <dominic@davis-foster.co.uk>
 #
 #  This file is distributed under the same license terms as the program it came with.
@@ -19,8 +19,6 @@ __all__ = [
 		"__version__",
 		"modname",
 		"pypi_name",
-		"py_modules",
-		"entry_points",
 		"__license__",
 		"__author__",
 		"short_desc",
@@ -29,13 +27,11 @@ __all__ = [
 		"github_username",
 		"web",
 		"github_url",
-		"project_urls",
 		"repo_root",
-		"long_description",
 		"install_requires",
 		"extras_require",
-		"classifiers",
-		"keywords",
+		"project_urls",
+
 		"import_name",
 		]
 
@@ -44,54 +40,23 @@ __copyright__ = """
 """
 
 __version__ = "0.1.1"
-
 modname = "wx_icons_humanity"
 pypi_name = "wx_icons_humanity"
 import_name = "wx_icons_humanity"
-py_modules = []
-entry_points = {
-		"console_scripts": []
-		}
-
 __license__ = "GNU General Public License v2 (GPLv2)"
-
-short_desc = "Humanity and Humanity Dark icon themes for wxPython 🐍"
-
-__author__ = author = "Dominic Davis-Foster"
-author_email = "dominic@davis-foster.co.uk"
+short_desc = 'Humanity and Humanity Dark icon themes for wxPython\u2002🐍'
+__author__ = author = 'Dominic Davis-Foster'
+author_email = 'dominic@davis-foster.co.uk'
 github_username = "domdfcoding"
-web = github_url = f"https://github.com/domdfcoding/custom_wx_icons_humanity"
-project_urls = {
-		"Documentation": f"https://custom_wx_icons_humanity.readthedocs.io",
-		"Issue Tracker": f"{github_url}/issues",
-		"Source Code": github_url,
-		}
-
+web = github_url = "https://github.com/domdfcoding/custom_wx_icons_humanity"
 repo_root = pathlib.Path(__file__).parent
-
-# Get info from files; set: long_description
-long_description = (repo_root / "README.rst").read_text(encoding="utf-8").replace("0.1.1", __version__) + '\n'
-
 install_requires = (repo_root / "requirements.txt").read_text(encoding="utf-8").split('\n')
 extras_require = {'all': []}
 
-classifiers = [
-		'Development Status :: 3 - Alpha',
-		'Environment :: X11 Applications :: GTK',
-		'Intended Audience :: Developers',
-		'License :: OSI Approved :: GNU General Public License v2 (GPLv2)',
-		'Operating System :: OS Independent',
-		'Operating System :: POSIX :: Linux',
-		'Programming Language :: Python',
-		'Programming Language :: Python :: 3 :: Only',
-		'Programming Language :: Python :: 3.6',
-		'Programming Language :: Python :: 3.7',
-		'Programming Language :: Python :: 3.8',
-		'Programming Language :: Python :: Implementation :: CPython',
-		'Topic :: Desktop Environment :: Gnome',
-		'Topic :: Software Development :: Libraries :: Python Modules',
-		'Topic :: Software Development :: User Interfaces',
 
-		]
 
-keywords = "wxpython icons iconset humanity"
+project_urls = {
+		"Documentation": "https://custom_wx_icons_humanity.readthedocs.io",
+		"Issue Tracker": f"{github_url}/issues",
+		"Source Code": github_url,
+		}

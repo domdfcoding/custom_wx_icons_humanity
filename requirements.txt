@@ -1,2 +1,2 @@
-wx_icons_adwaita
 importlib_resources>=1.0.2
+wx_icons_adwaita

@@ -10,7 +10,7 @@ wx_icons_humanity
 
 This package provides wxPython wxArtProvider classes with icons from the Humanity and Humanity Dark Icon Themes.
 
-.. start shields 
+.. start shields
 
 .. list-table::
 	:stub-columns: 1
@@ -25,12 +25,12 @@ This package provides wxPython wxArtProvider classes with icons from the Humanit
 	* - Activity
 	  - |commits-latest| |commits-since| |maintained|
 	* - Other
-	  - |license| |language| |requires|
+	  - |license| |language| |requires| |pre_commit|
 
 .. |docs| image:: https://img.shields.io/readthedocs/custom_wx_icons_humanity/latest?logo=read-the-docs
 	:target: https://custom_wx_icons_humanity.readthedocs.io/en/latest/?badge=latest
 	:alt: Documentation Status
-	
+
 .. |docs_check| image:: https://github.com/domdfcoding/custom_wx_icons_humanity/workflows/Docs%20Check/badge.svg
 	:target: https://github.com/domdfcoding/custom_wx_icons_humanity/actions?query=workflow%3A%22Docs+Check%22
 	:alt: Docs Check Status
@@ -59,7 +59,7 @@ This package provides wxPython wxArtProvider classes with icons from the Humanit
 	:target: https://pypi.org/project/wx_icons_humanity/
 	:alt: PyPI - Package Version
 
-.. |supported-versions| image:: https://img.shields.io/pypi/pyversions/wx_icons_humanity
+.. |supported-versions| image:: https://img.shields.io/pypi/pyversions/wx_icons_humanity?logo=python&logoColor=white
 	:target: https://pypi.org/project/wx_icons_humanity/
 	:alt: PyPI - Supported Python Versions
 
@@ -72,8 +72,8 @@ This package provides wxPython wxArtProvider classes with icons from the Humanit
 	:alt: PyPI - Wheel
 
 .. |license| image:: https://img.shields.io/github/license/domdfcoding/custom_wx_icons_humanity
-	:alt: License
 	:target: https://github.com/domdfcoding/custom_wx_icons_humanity/blob/master/LICENSE
+	:alt: License
 
 .. |language| image:: https://img.shields.io/github/languages/top/domdfcoding/custom_wx_icons_humanity
 	:alt: GitHub top language
@@ -88,6 +88,10 @@ This package provides wxPython wxArtProvider classes with icons from the Humanit
 
 .. |maintained| image:: https://img.shields.io/maintenance/yes/2020
 	:alt: Maintenance
+
+.. |pre_commit| image:: https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white
+	:target: https://github.com/pre-commit/pre-commit
+	:alt: pre-commit
 
 .. end shields
 

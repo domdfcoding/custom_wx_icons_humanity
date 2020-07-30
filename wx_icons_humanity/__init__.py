@@ -25,20 +25,23 @@
 # Humanity Colours
 # https://drive.google.com/u/0/uc?id=0B7iDWdwgu9QAcDhUVXVvMVlLbEE&export=download
 
+# stdlib
+from typing import Any, Optional, Tuple, Union
+
 # 3rd party
 import importlib_resources  # type: ignore
-from wx_icons_adwaita import AdwaitaIconTheme, wxAdwaitaIconTheme  # type: ignore
-from typing import Any, Tuple, Union, Optional
 import wx  # type: ignore
+from wx_icons_adwaita import AdwaitaIconTheme, wxAdwaitaIconTheme  # type: ignore
 from wx_icons_hicolor import Icon
+
 # this package
 from wx_icons_humanity import Humanity, Humanity_Dark
 
-with importlib_resources.path(Humanity, "index.theme") as theme_index_path:
-	theme_index_path = str(theme_index_path)
+with importlib_resources.path(Humanity, "index.theme") as theme_index_path_:
+	theme_index_path = str(theme_index_path_)
 
-with importlib_resources.path(Humanity_Dark, "index.theme") as dark_theme_index_path:
-	dark_theme_index_path = str(dark_theme_index_path)
+with importlib_resources.path(Humanity_Dark, "index.theme") as dark_theme_index_path_:
+	dark_theme_index_path = str(dark_theme_index_path_)
 
 __version__ = "0.1.1"
 
@@ -69,7 +72,8 @@ class HumanityIconTheme(AdwaitaIconTheme):
 			icon_name: str,
 			size: int,
 			scale: Any,
-			prefer_this_theme: bool = True,) -> Optional[Icon]:
+			prefer_this_theme: bool = True,
+			) -> Optional[Icon]:
 		"""
 
 		:param icon_name:
