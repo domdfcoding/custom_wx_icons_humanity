@@ -20,12 +20,14 @@ python_versions:
   - '3.8'
 
 # travis secure password for PyPI
-#travis_pypi_secure:
+travis_pypi_secure: "Fd2Yy9arjjZ+cftxVDRqX9FudLrjlSOu0nsyCfX6j8mzSsPRvdWM4nPdHchAo/RSE1nC2TcBaopHVQsEZIuDMXExAZIJpczsBzfnHAhMWDLxsElc9xxB/j+qbearPgBO8qH7ukdcKxuRJ5pN9waAvUIQeTLLwi5Aphhjgiroc9MVnlZ9ReEYTvL34MIS6NMEjBzZHhYBhBwKMu6BkWJ9G2UztifNXeNwqc+bJT9FsOadf3TpBmPLNBbI9ayaWRNYvFu0P0LwBty8Do0j4G0bJmxaKYzTbTHEwjYe6sAnqv3U0OsXmDGCaehcLGtAiFQStM5DMccFpdM0qX23v1+9LP4DxPZESelm3u2qXx+7UzPlRoj/EhlqN+siH+GpQPv2EvlQYQM8V4YYk2pDiyF3RL06N22R5bJKVH522soqb6tW7wk9G7wedCNXkau7wzfs1jKufZD6nHEciYsYUBOL6MCyUpS1LpyhMMlNbbon4lj/0ruSg2Y57b4JKjf4NT7BEhzkigxffhGrIAE3pGwGhR8FM6FW3kKNtBqLKwxvm/7e48+e5D7BVkIY1m4auKrpAc9b44ijFz/lBPkw5Z0BEHR/iUBo0xpD7ldN0Y5+gqHzRmmUdbDw7h+wl+sJsO2OSLawJeVVBlvEtxHQhKZTkk/Io+5GajKgCyUv9KnrWH4="
 
 # additional lines for MANIFEST.in
 manifest_additional:
   - "recursive-include wx_icons_humanity *"
 
+exclude_files:
+  - travis
 
 classifiers:
   # "Environment :: MacOS X"
