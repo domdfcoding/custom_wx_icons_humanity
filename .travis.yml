@@ -4,25 +4,33 @@
 language: python
 dist: xenial
 cache: pip
-python:
-  - '3.6'
-  - '3.7'
-  - '3.8'
+
+matrix:
+  fast_finish: false
+  include:
+    - python: 3.6
+      env: TOXENV=py36
+    - python: 3.6
+      env: TOXENV=build
+    - python: 3.7
+      env: TOXENV=py37
+    - python: 3.7
+      env: TOXENV=build
+    - python: 3.8
+      env: TOXENV=py38
+    - python: 3.8
+      env: TOXENV=build
 
 install:
-
   - pip install pip  --upgrade
   - pip install tox tox-travis
 
-
 script:
-  - tox
-
+  - tox -v
 
 stages:
   - test
   - deploy_pypi
-
 
 
 jobs:
