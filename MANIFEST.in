@@ -2,6 +2,6 @@ include __pkginfo__.py
 include LICENSE
 include requirements.txt
 prune **/__pycache__
-recursive-include wx_icons_humanity *.svg *.png *.theme *.icon
+recursive-include wx_icons_humanity *.svg *.png *.theme *.icon *.xpm AUTHORS COPYING CONTRIBUTORS
 recursive-include wx_icons_humanity *.pyi
 include wx_icons_humanity/py.typed
