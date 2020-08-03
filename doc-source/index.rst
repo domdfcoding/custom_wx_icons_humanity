@@ -123,8 +123,8 @@ Installation
 
 	usage
 	docs
+	contributing
 	Source
-	Building
 
 .. start links
 
