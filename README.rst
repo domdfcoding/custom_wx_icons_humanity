@@ -78,7 +78,7 @@ This package provides wxPython wxArtProvider classes with icons from the Humanit
 .. |language| image:: https://img.shields.io/github/languages/top/domdfcoding/custom_wx_icons_humanity
 	:alt: GitHub top language
 
-.. |commits-since| image:: https://img.shields.io/github/commits-since/domdfcoding/custom_wx_icons_humanity/v0.1.2
+.. |commits-since| image:: https://img.shields.io/github/commits-since/domdfcoding/custom_wx_icons_humanity/v0.1.3
 	:target: https://github.com/domdfcoding/custom_wx_icons_humanity/pulse
 	:alt: GitHub commits since tagged version
 

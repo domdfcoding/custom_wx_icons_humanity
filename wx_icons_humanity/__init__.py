@@ -43,7 +43,7 @@ with importlib_resources.path(Humanity, "index.theme") as theme_index_path_:
 with importlib_resources.path(Humanity_Dark, "index.theme") as dark_theme_index_path_:
 	dark_theme_index_path = str(dark_theme_index_path_)
 
-__version__ = "0.1.2"
+__version__ = "0.1.3"
 
 
 def version():
