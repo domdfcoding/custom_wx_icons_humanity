@@ -31,7 +31,7 @@ from typing import Any, Optional, Tuple, Union
 # 3rd party
 import importlib_resources  # type: ignore
 import wx  # type: ignore
-from wx_icons_adwaita import AdwaitaIconTheme, wxAdwaitaIconTheme  # type: ignore
+from wx_icons_adwaita import AdwaitaIconTheme, wxAdwaitaIconTheme
 from wx_icons_hicolor import Icon
 
 # this package

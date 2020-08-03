@@ -24,7 +24,7 @@ travis_pypi_secure: "Fd2Yy9arjjZ+cftxVDRqX9FudLrjlSOu0nsyCfX6j8mzSsPRvdWM4nPdHch
 
 # additional lines for MANIFEST.in
 manifest_additional:
-  - "recursive-include wx_icons_humanity *"
+  - "recursive-include wx_icons_humanity *.svg *.png *.theme"
 
 exclude_files:
   - travis
