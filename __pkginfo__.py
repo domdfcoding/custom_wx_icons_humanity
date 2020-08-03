@@ -39,7 +39,7 @@ __copyright__ = """
 2020 Dominic Davis-Foster <dominic@davis-foster.co.uk>
 """
 
-__version__ = "0.1.1"
+__version__ = "0.1.2"
 modname = "wx_icons_humanity"
 pypi_name = "wx_icons_humanity"
 import_name = "wx_icons_humanity"
