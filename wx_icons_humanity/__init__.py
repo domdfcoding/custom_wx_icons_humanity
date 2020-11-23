@@ -37,6 +37,10 @@ from wx_icons_hicolor import Icon
 # this package
 from wx_icons_humanity import Humanity, Humanity_Dark
 
+__all__ = [
+		"HumanityDarkIconTheme", "HumanityIconTheme", "version", "wxHumanityDarkIconTheme", "wxHumanityIconTheme"
+		]
+
 with importlib_resources.path(Humanity, "index.theme") as theme_index_path_:
 	theme_index_path = str(theme_index_path_)
 
@@ -165,7 +169,7 @@ class wxHumanityDarkIconTheme(wxHumanityIconTheme):
 			return super().CreateBitmap(id, client, size)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
 
 	theme = HumanityIconTheme.create()
 
