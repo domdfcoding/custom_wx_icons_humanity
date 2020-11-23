@@ -3,7 +3,7 @@ Downloading source code
 =========================
 
 The ``wx_icons_humanity`` source code is available on GitHub,
-and can be accessed from the following URL: https://github.com/domdfcoding/custom_wx_icons_humanity"
+and can be accessed from the following URL: https://github.com/domdfcoding/custom_wx_icons_humanity
 
 If you have ``git`` installed, you can clone the repository with the following command:
 

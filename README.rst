@@ -19,7 +19,7 @@ This package provides wxPython wxArtProvider classes with icons from the Humanit
 	* - Docs
 	  - |docs| |docs_check|
 	* - Tests
-	  - |travis| |actions_windows| |actions_macos| |codefactor|
+	  - |travis| |actions_windows| |actions_macos| |codefactor| |pre_commit_ci|
 	* - PyPI
 	  - |pypi-version| |supported-versions| |supported-implementations| |wheel|
 	* - Activity
@@ -29,23 +29,23 @@ This package provides wxPython wxArtProvider classes with icons from the Humanit
 
 .. |docs| image:: https://img.shields.io/readthedocs/custom_wx_icons_humanity/latest?logo=read-the-docs
 	:target: https://custom_wx_icons_humanity.readthedocs.io/en/latest/?badge=latest
-	:alt: Documentation Status
+	:alt: Documentation Build Status
 
 .. |docs_check| image:: https://github.com/domdfcoding/custom_wx_icons_humanity/workflows/Docs%20Check/badge.svg
 	:target: https://github.com/domdfcoding/custom_wx_icons_humanity/actions?query=workflow%3A%22Docs+Check%22
 	:alt: Docs Check Status
 
-.. |travis| image:: https://img.shields.io/travis/com/domdfcoding/custom_wx_icons_humanity/master?logo=travis
-	:target: https://travis-ci.com/domdfcoding/custom_wx_icons_humanity
-	:alt: Travis Build Status
+.. |travis| image:: https://github.com/domdfcoding/custom_wx_icons_humanity/workflows/Linux%20Tests/badge.svg
+	:target: https://github.com/domdfcoding/custom_wx_icons_humanity/actions?query=workflow%3A%22Linux+Tests%22
+	:alt: Linux Test Status
 
 .. |actions_windows| image:: https://github.com/domdfcoding/custom_wx_icons_humanity/workflows/Windows%20Tests/badge.svg
 	:target: https://github.com/domdfcoding/custom_wx_icons_humanity/actions?query=workflow%3A%22Windows+Tests%22
-	:alt: Windows Tests Status
+	:alt: Windows Test Status
 
 .. |actions_macos| image:: https://github.com/domdfcoding/custom_wx_icons_humanity/workflows/macOS%20Tests/badge.svg
 	:target: https://github.com/domdfcoding/custom_wx_icons_humanity/actions?query=workflow%3A%22macOS+Tests%22
-	:alt: macOS Tests Status
+	:alt: macOS Test Status
 
 .. |requires| image:: https://requires.io/github/domdfcoding/custom_wx_icons_humanity/requirements.svg?branch=master
 	:target: https://requires.io/github/domdfcoding/custom_wx_icons_humanity/requirements/?branch=master
@@ -92,6 +92,10 @@ This package provides wxPython wxArtProvider classes with icons from the Humanit
 .. |pre_commit| image:: https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white
 	:target: https://github.com/pre-commit/pre-commit
 	:alt: pre-commit
+
+.. |pre_commit_ci| image:: https://results.pre-commit.ci/badge/github/domdfcoding/custom_wx_icons_humanity/master.svg
+	:target: https://results.pre-commit.ci/latest/github/domdfcoding/custom_wx_icons_humanity/master
+	:alt: pre-commit.ci status
 
 .. end shields
 
