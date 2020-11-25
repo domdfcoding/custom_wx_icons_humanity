@@ -29,7 +29,7 @@
 from typing import Any, Optional, Tuple, Union
 
 # 3rd party
-import importlib_resources  # type: ignore
+import importlib_resources
 import wx  # type: ignore
 from wx_icons_adwaita import AdwaitaIconTheme, wxAdwaitaIconTheme
 from wx_icons_hicolor import Icon
@@ -66,8 +66,8 @@ class HumanityIconTheme(AdwaitaIconTheme):
 		Create an instance of the Humanity Icon Theme
 		"""
 
-		with importlib_resources.path(Humanity, "index.theme") as theme_index_path:
-			theme_index_path = str(theme_index_path)
+		with importlib_resources.path(Humanity, "index.theme") as theme_index_path_:
+			theme_index_path = str(theme_index_path_)
 
 		return cls.from_configparser(theme_index_path)
 
@@ -110,8 +110,8 @@ class HumanityDarkIconTheme(HumanityIconTheme):
 		Create an instance of the Humanity Dark Icon Theme
 		"""
 
-		with importlib_resources.path(Humanity_Dark, "index.theme") as theme_index_path:
-			theme_index_path = str(theme_index_path)
+		with importlib_resources.path(Humanity_Dark, "index.theme") as theme_index_path_:
+			theme_index_path = str(theme_index_path_)
 
 		return cls.from_configparser(theme_index_path)
 
@@ -179,7 +179,7 @@ if __name__ == "__main__":
 	# icon = theme.find_icon("appointment-new", 48, None)
 	# print(icon, icon.path)
 	# 3rd party
-	from wx_icons_hicolor import test, test_random_icons  # type: ignore
+	from wx_icons_hicolor import test, test_random_icons
 
 	# test_random_icons(theme)
 	test.test_icon_theme(theme, show_success=False)
