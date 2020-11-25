@@ -25,9 +25,6 @@ python_versions:
 manifest_additional:
   - recursive-include wx_icons_humanity *.svg *.png *.theme *.icon *.xpm AUTHORS COPYING CONTRIBUTORS
 
-exclude_files:
-  - travis
-
 classifiers:
   # "Environment :: MacOS X"
   # "Operating System :: MacOS :: MacOS X"
@@ -47,20 +44,14 @@ classifiers:
   - "Intended Audience :: Developers"
 
   - "Development Status :: 3 - Alpha"
-#  - 'Development Status :: 4 - Beta'
-#  - "Development Status :: 5 - Production/Stable"
-#  - "Development Status :: 6 - Mature"
-#  - "Development Status :: 7 - Inactive"
   - "Topic :: Software Development :: Libraries :: Python Modules"
   - "Topic :: Software Development :: User Interfaces"
-
 
 keywords:
   - wxpython
   - icons
   - iconset
   - humanity
-
 
 imgbot_ignore:
   - "wx_icons_humanity/*"
