@@ -19,13 +19,15 @@ This package provides wxPython wxArtProvider classes with icons from the Humanit
 	* - Docs
 	  - |docs| |docs_check|
 	* - Tests
-	  - |travis| |actions_windows| |actions_macos| |codefactor| |pre_commit_ci|
+	  - |actions_linux| |actions_windows| |actions_macos|
 	* - PyPI
 	  - |pypi-version| |supported-versions| |supported-implementations| |wheel|
 	* - Activity
-	  - |commits-latest| |commits-since| |maintained|
+	  - |commits-latest| |commits-since| |maintained| |pypi-downloads|
+	* - QA
+	  - |codefactor| |actions_flake8| |actions_mypy| |pre_commit_ci|
 	* - Other
-	  - |license| |language| |requires| |pre_commit|
+	  - |license| |language| |requires|
 
 .. |docs| rtfd-shield::
 	:project: custom_wx_icons_humanity
@@ -35,17 +37,25 @@ This package provides wxPython wxArtProvider classes with icons from the Humanit
 	:workflow: Docs Check
 	:alt: Docs Check Status
 
-.. |travis| actions-shield::
-	:workflow: Linux Tests
+.. |actions_linux| actions-shield::
+	:workflow: Linux
 	:alt: Linux Test Status
 
 .. |actions_windows| actions-shield::
-	:workflow: Windows Tests
+	:workflow: Windows
 	:alt: Windows Test Status
 
 .. |actions_macos| actions-shield::
-	:workflow: macOS Tests
+	:workflow: macOS
 	:alt: macOS Test Status
+
+.. |actions_flake8| actions-shield::
+	:workflow: Flake8
+	:alt: Flake8 Status
+
+.. |actions_mypy| actions-shield::
+	:workflow: mypy
+	:alt: mypy status
 
 .. |requires| requires-io-shield::
 	:alt: Requirements Status
@@ -89,11 +99,13 @@ This package provides wxPython wxArtProvider classes with icons from the Humanit
 	:last-commit:
 	:alt: GitHub last commit
 
-.. |maintained| maintained-shield:: 2020
+.. |maintained| maintained-shield:: 2021
 	:alt: Maintenance
 
-.. |pre_commit| pre-commit-shield::
-	:alt: pre-commit
+.. |pypi-downloads| pypi-shield::
+	:project: wx_icons_humanity
+	:downloads: month
+	:alt: PyPI - Downloads
 
 .. |pre_commit_ci| pre-commit-ci-shield::
 	:alt: pre-commit.ci status
