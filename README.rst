@@ -57,8 +57,8 @@ This package provides wxPython wxArtProvider classes with icons from the Humanit
 	:target: https://github.com/domdfcoding/custom_wx_icons_humanity/actions?query=workflow%3A%22mypy%22
 	:alt: mypy status
 
-.. |requires| image:: https://dependency-dash.herokuapp.com/github/domdfcoding/custom_wx_icons_humanity/badge.svg
-	:target: https://dependency-dash.herokuapp.com/github/domdfcoding/custom_wx_icons_humanity/
+.. |requires| image:: https://dependency-dash.repo-helper.uk/github/domdfcoding/custom_wx_icons_humanity/badge.svg
+	:target: https://dependency-dash.repo-helper.uk/github/domdfcoding/custom_wx_icons_humanity/
 	:alt: Requirements Status
 
 .. |codefactor| image:: https://img.shields.io/codefactor/grade/github/domdfcoding/custom_wx_icons_humanity?logo=codefactor
