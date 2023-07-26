@@ -4,7 +4,8 @@ wx_icons_humanity
 
 .. start short_desc
 
-**Humanity and Humanity Dark icon themes for wxPython 🐍**
+.. documentation-summary::
+	:meta:
 
 .. end short_desc
 
@@ -12,91 +13,103 @@ This package provides wxPython wxArtProvider classes with icons from the Humanit
 
 .. start shields
 
-.. list-table::
-	:stub-columns: 1
-	:widths: 10 90
+.. only:: html
 
-	* - Docs
-	  - |docs| |docs_check|
-	* - Tests
-	  - |travis| |actions_windows| |actions_macos| |codefactor| |pre_commit_ci|
-	* - PyPI
-	  - |pypi-version| |supported-versions| |supported-implementations| |wheel|
-	* - Activity
-	  - |commits-latest| |commits-since| |maintained|
-	* - Other
-	  - |license| |language| |requires| |pre_commit|
+	.. list-table::
+		:stub-columns: 1
+		:widths: 10 90
 
-.. |docs| rtfd-shield::
-	:project: custom_wx_icons_humanity
-	:alt: Documentation Build Status
+		* - Docs
+		  - |docs| |docs_check|
+		* - Tests
+		  - |actions_linux| |actions_windows| |actions_macos|
+		* - PyPI
+		  - |pypi-version| |supported-versions| |supported-implementations| |wheel|
+		* - Activity
+		  - |commits-latest| |commits-since| |maintained| |pypi-downloads|
+		* - QA
+		  - |codefactor| |actions_flake8| |actions_mypy|
+		* - Other
+		  - |license| |language| |requires|
 
-.. |docs_check| actions-shield::
-	:workflow: Docs Check
-	:alt: Docs Check Status
+	.. |docs| rtfd-shield::
+		:project: custom_wx_icons_humanity
+		:alt: Documentation Build Status
 
-.. |travis| actions-shield::
-	:workflow: Linux Tests
-	:alt: Linux Test Status
+	.. |docs_check| actions-shield::
+		:workflow: Docs Check
+		:alt: Docs Check Status
 
-.. |actions_windows| actions-shield::
-	:workflow: Windows Tests
-	:alt: Windows Test Status
+	.. |actions_linux| actions-shield::
+		:workflow: Linux
+		:alt: Linux Test Status
 
-.. |actions_macos| actions-shield::
-	:workflow: macOS Tests
-	:alt: macOS Test Status
+	.. |actions_windows| actions-shield::
+		:workflow: Windows
+		:alt: Windows Test Status
 
-.. |requires| requires-io-shield::
-	:alt: Requirements Status
+	.. |actions_macos| actions-shield::
+		:workflow: macOS
+		:alt: macOS Test Status
 
-.. |codefactor| codefactor-shield::
-	:alt: CodeFactor Grade
+	.. |actions_flake8| actions-shield::
+		:workflow: Flake8
+		:alt: Flake8 Status
 
-.. |pypi-version| pypi-shield::
-	:project: wx_icons_humanity
-	:version:
-	:alt: PyPI - Package Version
+	.. |actions_mypy| actions-shield::
+		:workflow: mypy
+		:alt: mypy status
 
-.. |supported-versions| pypi-shield::
-	:project: wx_icons_humanity
-	:py-versions:
-	:alt: PyPI - Supported Python Versions
+	.. |requires| image:: https://dependency-dash.repo-helper.uk/github/domdfcoding/custom_wx_icons_humanity/badge.svg
+		:target: https://dependency-dash.repo-helper.uk/github/domdfcoding/custom_wx_icons_humanity/
+		:alt: Requirements Status
 
-.. |supported-implementations| pypi-shield::
-	:project: wx_icons_humanity
-	:implementations:
-	:alt: PyPI - Supported Implementations
+	.. |codefactor| codefactor-shield::
+		:alt: CodeFactor Grade
 
-.. |wheel| pypi-shield::
-	:project: wx_icons_humanity
-	:wheel:
-	:alt: PyPI - Wheel
+	.. |pypi-version| pypi-shield::
+		:project: wx_icons_humanity
+		:version:
+		:alt: PyPI - Package Version
 
-.. |license| github-shield::
-	:license:
-	:alt: License
+	.. |supported-versions| pypi-shield::
+		:project: wx_icons_humanity
+		:py-versions:
+		:alt: PyPI - Supported Python Versions
 
-.. |language| github-shield::
-	:top-language:
-	:alt: GitHub top language
+	.. |supported-implementations| pypi-shield::
+		:project: wx_icons_humanity
+		:implementations:
+		:alt: PyPI - Supported Implementations
 
-.. |commits-since| github-shield::
-	:commits-since: v0.1.3
-	:alt: GitHub commits since tagged version
+	.. |wheel| pypi-shield::
+		:project: wx_icons_humanity
+		:wheel:
+		:alt: PyPI - Wheel
 
-.. |commits-latest| github-shield::
-	:last-commit:
-	:alt: GitHub last commit
+	.. |license| github-shield::
+		:license:
+		:alt: License
 
-.. |maintained| maintained-shield:: 2020
-	:alt: Maintenance
+	.. |language| github-shield::
+		:top-language:
+		:alt: GitHub top language
 
-.. |pre_commit| pre-commit-shield::
-	:alt: pre-commit
+	.. |commits-since| github-shield::
+		:commits-since: v0.1.3
+		:alt: GitHub commits since tagged version
 
-.. |pre_commit_ci| pre-commit-ci-shield::
-	:alt: pre-commit.ci status
+	.. |commits-latest| github-shield::
+		:last-commit:
+		:alt: GitHub last commit
+
+	.. |maintained| maintained-shield:: 2022
+		:alt: Maintenance
+
+	.. |pypi-downloads| pypi-shield::
+		:project: wx_icons_humanity
+		:downloads: month
+		:alt: PyPI - Downloads
 
 .. end shields
 
@@ -120,10 +133,18 @@ Installation
 	contributing
 	Source
 
+.. sidebar-links::
+	:caption: Links
+	:github:
+	:pypi: wx_icons_humanity
+
+
 .. start links
 
-View the :ref:`Function Index <genindex>` or browse the `Source Code <_modules/index.html>`__.
+.. only:: html
 
-`Browse the GitHub Repository <https://github.com/domdfcoding/custom_wx_icons_humanity>`__
+	View the :ref:`Function Index <genindex>` or browse the `Source Code <_modules/index.html>`__.
+
+	:github:repo:`Browse the GitHub Repository <domdfcoding/custom_wx_icons_humanity>`
 
 .. end links
