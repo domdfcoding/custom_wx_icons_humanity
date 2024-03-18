@@ -41,7 +41,7 @@ file = "LICENSE"
 Homepage = "https://github.com/domdfcoding/custom_wx_icons_humanity"
 "Issue Tracker" = "https://github.com/domdfcoding/custom_wx_icons_humanity/issues"
 "Source Code" = "https://github.com/domdfcoding/custom_wx_icons_humanity"
-Documentation = "https://custom_wx_icons_humanity.readthedocs.io/en/latest"
+Documentation = "https://custom-wx-icons-humanity.readthedocs.io/en/latest"
 
 [tool.setuptools]
 zip-safe = false

@@ -33,7 +33,7 @@ This package provides wxPython wxArtProvider classes with icons from the Humanit
 		  - |license| |language| |requires|
 
 	.. |docs| rtfd-shield::
-		:project: custom_wx_icons_humanity
+		:project: custom-wx-icons-humanity
 		:alt: Documentation Build Status
 
 	.. |docs_check| actions-shield::
@@ -103,7 +103,7 @@ This package provides wxPython wxArtProvider classes with icons from the Humanit
 		:last-commit:
 		:alt: GitHub last commit
 
-	.. |maintained| maintained-shield:: 2022
+	.. |maintained| maintained-shield:: 2024
 		:alt: Maintenance
 
 	.. |pypi-downloads| pypi-shield::
