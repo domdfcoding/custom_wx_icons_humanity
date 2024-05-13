@@ -29,8 +29,8 @@ This package provides wxPython wxArtProvider classes with icons from the Humanit
 	* - Other
 	  - |license| |language| |requires|
 
-.. |docs| image:: https://img.shields.io/readthedocs/custom_wx_icons_humanity/latest?logo=read-the-docs
-	:target: https://custom_wx_icons_humanity.readthedocs.io/en/latest
+.. |docs| image:: https://img.shields.io/readthedocs/custom-wx-icons-humanity/latest?logo=read-the-docs
+	:target: https://custom-wx-icons-humanity.readthedocs.io/en/latest
 	:alt: Documentation Build Status
 
 .. |docs_check| image:: https://github.com/domdfcoding/custom_wx_icons_humanity/workflows/Docs%20Check/badge.svg
@@ -96,7 +96,7 @@ This package provides wxPython wxArtProvider classes with icons from the Humanit
 	:target: https://github.com/domdfcoding/custom_wx_icons_humanity/commit/master
 	:alt: GitHub last commit
 
-.. |maintained| image:: https://img.shields.io/maintenance/yes/2022
+.. |maintained| image:: https://img.shields.io/maintenance/yes/2024
 	:alt: Maintenance
 
 .. |pypi-downloads| image:: https://img.shields.io/pypi/dm/wx_icons_humanity
