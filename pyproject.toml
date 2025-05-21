@@ -7,7 +7,7 @@ name = "wx_icons_humanity"
 version = "0.1.3"
 description = "Humanity and Humanity Dark icon themes for wxPython 🐍"
 readme = "README.rst"
-requires-python = ">=3.6.1"
+requires-python = ">=3.7"
 keywords = [ "humanity", "icons", "iconset", "wxpython",]
 classifiers = [
     "Development Status :: 3 - Alpha",
@@ -18,7 +18,6 @@ classifiers = [
     "Operating System :: POSIX :: Linux",
     "Programming Language :: Python",
     "Programming Language :: Python :: 3 :: Only",
-    "Programming Language :: Python :: 3.6",
     "Programming Language :: Python :: 3.7",
     "Programming Language :: Python :: 3.8",
     "Programming Language :: Python :: Implementation :: CPython",
@@ -58,7 +57,7 @@ base-classifiers = [
     "Topic :: Software Development :: User Interfaces",
     "Typing :: Typed",
 ]
-python-versions = [ "3.6", "3.7", "3.8",]
+python-versions = [ "3.7", "3.8",]
 python-implementations = [ "CPython",]
 platforms = [ "Windows", "macOS", "Linux",]
 license-key = "GPL-2.0-only"
@@ -146,7 +145,7 @@ autodoc_exclude_members = [
 ]
 
 [tool.mypy]
-python_version = "3.6"
+python_version = "3.8"
 namespace_packages = true
 check_untyped_defs = true
 warn_unused_ignores = true

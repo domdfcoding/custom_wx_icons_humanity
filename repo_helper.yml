@@ -11,11 +11,8 @@ short_desc: 'Humanity and Humanity Dark icon themes for wxPython 🐍'
 enable_tests: False
 enable_conda: False
 
-python_deploy_version: 3.6
-
 # Versions to run tests for
 python_versions:
-  - '3.6'
   - '3.7'
   - '3.8'
 
