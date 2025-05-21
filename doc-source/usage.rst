@@ -27,4 +27,4 @@ And then the icons can be accessed through wx.ArtProvider:
 
 Any `FreeDesktop Icon Theme Specification <https://specifications.freedesktop.org/icon-naming-spec/icon-naming-spec-latest.html>`_ name can be used.
 
-Currently the `Client ID` is not used, so just pass `wx.ART_OTHER`.
+Currently the ``Client ID`` is not used, so just pass ``wx.ART_OTHER``.

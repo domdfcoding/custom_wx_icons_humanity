@@ -1,6 +1,9 @@
 #!/usr/bin/python3
 #
 #  __init__.py
+"""
+Humanity icon theme for wxPython.
+"""
 #
 #  Copyright (C) 2020 Dominic Davis-Foster <dominic@davis-foster.co.uk>
 #
@@ -30,7 +33,7 @@ from typing import Any, Optional, Tuple, Union
 
 # 3rd party
 import importlib_resources
-import wx  # type: ignore
+import wx  # type: ignore[import]
 from wx_icons_adwaita import AdwaitaIconTheme, wxAdwaitaIconTheme
 from wx_icons_hicolor import Icon
 
@@ -50,20 +53,24 @@ with importlib_resources.path(Humanity_Dark, "index.theme") as dark_theme_index_
 __version__ = "0.1.3"
 
 
-def version():
+def version() -> str:
+	"""
+	Returns the version of this package and the icon theme, formatted for printing.
+	"""
+
 	return f"""wx_icons_humanity
 Version {__version__}
 Humanity Icon Theme Version 0.6.15
 """
 
 
-class HumanityIconTheme(AdwaitaIconTheme):
+class HumanityIconTheme(AdwaitaIconTheme):  # noqa: D101
 	_adwaita_theme = AdwaitaIconTheme.create()
 
 	@classmethod
-	def create(cls):
+	def create(cls) -> "HumanityIconTheme":
 		"""
-		Create an instance of the Humanity Icon Theme
+		Create an instance of the Humanity Icon Theme.
 		"""
 
 		with importlib_resources.path(Humanity, "index.theme") as theme_index_path_:
@@ -71,27 +78,13 @@ class HumanityIconTheme(AdwaitaIconTheme):
 
 		return cls.from_configparser(theme_index_path)
 
-	def find_icon(
+	def find_icon(  # noqa: D102
 			self,
 			icon_name: str,
 			size: int,
 			scale: Any,
 			prefer_this_theme: bool = True,
 			) -> Optional[Icon]:
-		"""
-
-		:param icon_name:
-		:type icon_name:
-		:param size:
-		:type size:
-		:param scale:
-		:type scale:
-		:param prefer_this_theme: Return an icon from this theme even if it has to be resized,
-			rather than a correctly sized icon from the parent theme.
-		:type prefer_this_theme:
-		:return:
-		:rtype:
-		"""
 
 		icon = self._do_find_icon(icon_name, size, scale, prefer_this_theme)
 		if icon:
@@ -101,13 +94,13 @@ class HumanityIconTheme(AdwaitaIconTheme):
 			return self._adwaita_theme.find_icon(icon_name, size, scale)
 
 
-class HumanityDarkIconTheme(HumanityIconTheme):
+class HumanityDarkIconTheme(HumanityIconTheme):  # noqa: D101
 	_humanity_theme = HumanityIconTheme.create()
 
 	@classmethod
-	def create(cls):
+	def create(cls) -> "HumanityDarkIconTheme":
 		"""
-		Create an instance of the Humanity Dark Icon Theme
+		Create an instance of the Humanity Dark Icon Theme.
 		"""
 
 		with importlib_resources.path(Humanity_Dark, "index.theme") as theme_index_path_:
@@ -115,21 +108,13 @@ class HumanityDarkIconTheme(HumanityIconTheme):
 
 		return cls.from_configparser(theme_index_path)
 
-	def find_icon(self, icon_name, size, scale, prefer_this_theme=True):
-		"""
-
-		:param icon_name:
-		:type icon_name:
-		:param size:
-		:type size:
-		:param scale:
-		:type scale:
-		:param prefer_this_theme: Return an icon from this theme even if it has to be resized,
-			rather than a correctly sized icon from the parent theme.
-		:type prefer_this_theme:
-		:return:
-		:rtype:
-		"""
+	def find_icon(  # noqa: D102
+			self,
+			icon_name: str,
+			size: int,
+			scale: Any,
+			prefer_this_theme: bool = True,
+			) -> Optional[Icon]:
 
 		icon = self._do_find_icon(icon_name, size, scale, prefer_this_theme)
 		if icon:
@@ -139,10 +124,10 @@ class HumanityDarkIconTheme(HumanityIconTheme):
 			return self._humanity_theme.find_icon(icon_name, size, scale)
 
 
-class wxHumanityIconTheme(wxAdwaitaIconTheme):
+class wxHumanityIconTheme(wxAdwaitaIconTheme):  # noqa: D101
 	_humanity_theme = HumanityIconTheme.create()
 
-	def CreateBitmap(self, id: Any, client: Any, size: Union[Tuple[int], wx.Size]) -> wx.Bitmap:
+	def CreateBitmap(self, id: Any, client: Any, size: Union[Tuple[int], wx.Size]) -> wx.Bitmap:  # noqa: D102,A002  # pylint: disable=redefined-builtin
 		icon = self._humanity_theme.find_icon(id, size[0], None)
 		if icon:
 			print(icon, icon.path)
@@ -154,10 +139,10 @@ class wxHumanityIconTheme(wxAdwaitaIconTheme):
 			return super().CreateBitmap(id, client, size)
 
 
-class wxHumanityDarkIconTheme(wxHumanityIconTheme):
+class wxHumanityDarkIconTheme(wxHumanityIconTheme):  # noqa: D101
 	_humanity_dark_theme = HumanityDarkIconTheme.create()
 
-	def CreateBitmap(self, id, client, size):
+	def CreateBitmap(self, id: Any, client: Any, size: Union[Tuple[int], wx.Size]) -> wx.Bitmap:  # noqa: A002,D102  # pylint: disable=redefined-builtin
 		icon = self._humanity_dark_theme.find_icon(id, size[0], None)
 		if icon:
 			print(icon, icon.path)
@@ -179,7 +164,8 @@ if __name__ == "__main__":
 	# icon = theme.find_icon("appointment-new", 48, None)
 	# print(icon, icon.path)
 	# 3rd party
-	from wx_icons_hicolor import test, test_random_icons
+	# from wx_icons_hicolor import test, test_random_icons
+	from wx_icons_hicolor import test
 
 	# test_random_icons(theme)
 	test.test_icon_theme(theme, show_success=False)
