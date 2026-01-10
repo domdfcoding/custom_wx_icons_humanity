@@ -33,7 +33,7 @@ from typing import Any, Optional, Tuple, Union
 
 # 3rd party
 import importlib_resources
-import wx  # type: ignore[import]
+import wx  # type: ignore[import-not-found]
 from wx_icons_adwaita import AdwaitaIconTheme, wxAdwaitaIconTheme
 from wx_icons_hicolor import Icon
 
@@ -41,7 +41,11 @@ from wx_icons_hicolor import Icon
 from wx_icons_humanity import Humanity, Humanity_Dark
 
 __all__ = [
-		"HumanityDarkIconTheme", "HumanityIconTheme", "version", "wxHumanityDarkIconTheme", "wxHumanityIconTheme"
+		"HumanityDarkIconTheme",
+		"HumanityIconTheme",
+		"version",
+		"wxHumanityDarkIconTheme",
+		"wxHumanityIconTheme",
 		]
 
 with importlib_resources.path(Humanity, "index.theme") as theme_index_path_:
