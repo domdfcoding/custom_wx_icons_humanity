@@ -96,11 +96,11 @@ This package provides wxPython wxArtProvider classes with icons from the Humanit
 	:target: https://github.com/domdfcoding/custom_wx_icons_humanity/commit/master
 	:alt: GitHub last commit
 
-.. |maintained| image:: https://img.shields.io/maintenance/yes/2025
+.. |maintained| image:: https://img.shields.io/maintenance/yes/2026
 	:alt: Maintenance
 
 .. |pypi-downloads| image:: https://img.shields.io/pypi/dm/wx_icons_humanity
-	:target: https://pypi.org/project/wx_icons_humanity/
+	:target: https://pypistats.org/packages/wx_icons_humanity
 	:alt: PyPI - Downloads
 
 .. end shields
