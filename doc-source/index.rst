@@ -68,22 +68,22 @@ This package provides wxPython wxArtProvider classes with icons from the Humanit
 		:alt: CodeFactor Grade
 
 	.. |pypi-version| pypi-shield::
-		:project: wx_icons_humanity
+		:project: wx-icons-humanity
 		:version:
 		:alt: PyPI - Package Version
 
 	.. |supported-versions| pypi-shield::
-		:project: wx_icons_humanity
+		:project: wx-icons-humanity
 		:py-versions:
 		:alt: PyPI - Supported Python Versions
 
 	.. |supported-implementations| pypi-shield::
-		:project: wx_icons_humanity
+		:project: wx-icons-humanity
 		:implementations:
 		:alt: PyPI - Supported Implementations
 
 	.. |wheel| pypi-shield::
-		:project: wx_icons_humanity
+		:project: wx-icons-humanity
 		:wheel:
 		:alt: PyPI - Wheel
 
@@ -107,7 +107,7 @@ This package provides wxPython wxArtProvider classes with icons from the Humanit
 		:alt: Maintenance
 
 	.. |pypi-downloads| pypi-shield::
-		:project: wx_icons_humanity
+		:project: wx-icons-humanity
 		:downloads: month
 		:alt: PyPI - Downloads
 
