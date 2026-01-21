@@ -65,20 +65,20 @@ This package provides wxPython wxArtProvider classes with icons from the Humanit
 	:target: https://www.codefactor.io/repository/github/domdfcoding/custom_wx_icons_humanity
 	:alt: CodeFactor Grade
 
-.. |pypi-version| image:: https://img.shields.io/pypi/v/wx_icons_humanity
-	:target: https://pypi.org/project/wx_icons_humanity/
+.. |pypi-version| image:: https://img.shields.io/pypi/v/wx-icons-humanity
+	:target: https://pypi.org/project/wx-icons-humanity/
 	:alt: PyPI - Package Version
 
-.. |supported-versions| image:: https://img.shields.io/pypi/pyversions/wx_icons_humanity?logo=python&logoColor=white
-	:target: https://pypi.org/project/wx_icons_humanity/
+.. |supported-versions| image:: https://img.shields.io/pypi/pyversions/wx-icons-humanity?logo=python&logoColor=white
+	:target: https://pypi.org/project/wx-icons-humanity/
 	:alt: PyPI - Supported Python Versions
 
-.. |supported-implementations| image:: https://img.shields.io/pypi/implementation/wx_icons_humanity
-	:target: https://pypi.org/project/wx_icons_humanity/
+.. |supported-implementations| image:: https://img.shields.io/pypi/implementation/wx-icons-humanity
+	:target: https://pypi.org/project/wx-icons-humanity/
 	:alt: PyPI - Supported Implementations
 
-.. |wheel| image:: https://img.shields.io/pypi/wheel/wx_icons_humanity
-	:target: https://pypi.org/project/wx_icons_humanity/
+.. |wheel| image:: https://img.shields.io/pypi/wheel/wx-icons-humanity
+	:target: https://pypi.org/project/wx-icons-humanity/
 	:alt: PyPI - Wheel
 
 .. |license| image:: https://img.shields.io/github/license/domdfcoding/custom_wx_icons_humanity
@@ -99,8 +99,8 @@ This package provides wxPython wxArtProvider classes with icons from the Humanit
 .. |maintained| image:: https://img.shields.io/maintenance/yes/2026
 	:alt: Maintenance
 
-.. |pypi-downloads| image:: https://img.shields.io/pypi/dm/wx_icons_humanity
-	:target: https://pypistats.org/packages/wx_icons_humanity
+.. |pypi-downloads| image:: https://img.shields.io/pypi/dm/wx-icons-humanity
+	:target: https://pypistats.org/packages/wx-icons-humanity
 	:alt: PyPI - Downloads
 
 .. end shields

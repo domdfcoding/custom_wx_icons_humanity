@@ -3,7 +3,7 @@ requires = [ "setuptools!=61.*,<=67.1.0,>=40.6.0", "wheel>=0.34.2",]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "wx_icons_humanity"
+name = "wx-icons-humanity"
 version = "0.2.0"
 description = "Humanity and Humanity Dark icon themes for wxPython 🐍"
 readme = "README.rst"
@@ -69,6 +69,7 @@ license-key = "GPL-2.0-only"
 additional-files = [
     "recursive-include wx_icons_humanity *.svg *.png *.theme *.icon *.xpm AUTHORS COPYING CONTRIBUTORS",
 ]
+package = "wx_icons_humanity"
 
 [tool.importcheck]
 

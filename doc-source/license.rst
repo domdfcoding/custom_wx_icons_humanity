@@ -7,4 +7,4 @@ License
 .. license-info:: GPL-2.0-only
 
 .. license::
-	:py: wx_icons_humanity
+	:py: wx-icons-humanity
