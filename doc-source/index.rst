@@ -118,8 +118,9 @@ Installation
 
 .. start installation
 
-.. installation:: wx_icons_humanity
+.. installation:: custom_wx_icons_humanity
 	:pypi:
+	:pypi-name: wx-icons-humanity
 	:github:
 
 .. end installation
